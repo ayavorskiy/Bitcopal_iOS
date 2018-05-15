@@ -1,0 +1,65 @@
+//
+//  Created by Ilya Kostyukevich. All rights reserved.
+//
+
+NS_ASSUME_NONNULL_BEGIN
+
+@class OWSQuotedReplyModel;
+@class SignalAttachment;
+
+@protocol ConversationInputToolbarDelegate <NSObject>
+
+- (void)sendButtonPressed;
+
+- (void)attachmentButtonPressed;
+
+#pragma mark - Voice Memo
+
+- (void)voiceMemoGestureDidStart;
+
+- (void)voiceMemoGestureDidEnd;
+
+- (void)voiceMemoGestureDidCancel;
+
+- (void)voiceMemoGestureDidChange:(CGFloat)cancelAlpha;
+
+@end
+
+#pragma mark -
+
+@class ConversationInputTextView;
+
+@protocol ConversationInputTextViewDelegate;
+
+@interface ConversationInputToolbar : UIView
+
+@property (nonatomic, weak) id<ConversationInputToolbarDelegate> inputToolbarDelegate;
+
+- (void)beginEditingTextMessage;
+- (void)endEditingTextMessage;
+- (BOOL)isInputTextViewFirstResponder;
+
+- (void)setInputTextViewDelegate:(id<ConversationInputTextViewDelegate>)value;
+
+- (NSString *)messageText;
+- (void)setMessageText:(NSString *_Nullable)value;
+- (void)clearTextMessage;
+- (void)toggleDefaultKeyboard;
+
+- (void)updateFontSizes;
+
+#pragma mark - Voice Memo
+
+- (void)showVoiceMemoUI;
+
+- (void)hideVoiceMemoUI:(BOOL)animated;
+
+- (void)setVoiceMemoUICancelAlpha:(CGFloat)cancelAlpha;
+
+- (void)cancelVoiceMemoIfNecessary;
+
+@property (nonatomic, nullable) OWSQuotedReplyModel *quotedReply;
+
+@end
+
+NS_ASSUME_NONNULL_END
