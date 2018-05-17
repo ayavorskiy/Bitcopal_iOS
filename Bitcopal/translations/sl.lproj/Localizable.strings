@@ -5,7 +5,7 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Sprejmi novo varnostno število";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Klic Signal";
+"ACTION_AUDIO_CALL" = "Klic Bitcopal";
 
 /* Label for 'invite' button in contact view. */
 "ACTION_INVITE" = "Povabi k uporabi";
@@ -68,7 +68,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ v skupini %@: %@";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Aplikacija Signal se ne more zagnati. Za odpravo napake prosimo pošljite sistemsko zabeležbo razvijalcem.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Aplikacija Bitcopal se ne more zagnati. Za odpravo napake prosimo pošljite sistemsko zabeležbo razvijalcem.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Napaka";
@@ -80,13 +80,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Različica %@ je odslej na voljo v trgovini App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Na voljo je nova različica aplikacije Signal";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Na voljo je nova različica aplikacije Bitcopal";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Posodobitev";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "Bitcopal";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Premakni v arhiv";
@@ -164,7 +164,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Izbira dokumenta ni bila uspešna.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Aplikacija Signal ne prepozna te vrste datotek. Pred pošiljanjem jih zapakirajte v .zip format.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Aplikacija Bitcopal ne prepozna te vrste datotek. Pred pošiljanjem jih zapakirajte v .zip format.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Nepodprta datoteka";
@@ -284,7 +284,7 @@
 "BUTTON_SELECT" = "Izberi";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Za klicanje in glasovna sporočila zahteva aplikacija Signal dovoljenje za dostop do mikrofona na vaši napravi. Dovoljenje lahko date v aplikaciji Nastavitve.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Za klicanje in glasovna sporočila zahteva aplikacija Bitcopal dovoljenje za dostop do mikrofona na vaši napravi. Dovoljenje lahko date v aplikaciji Nastavitve.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Aplikacija potrebuje dostop do mikrofona";
@@ -296,7 +296,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Neodgovorjeno.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "Bitcopal %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Kliči";
@@ -350,7 +350,7 @@
 "CALLBACK_BUTTON_TITLE" = "Pokliči nazaj";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uporabnik aplikacije Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uporabnik aplikacije Bitcopal";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Istovetnosti uporabnika ne morete preveriti, dokler z njim ne izmenjate sporočila.";
@@ -368,7 +368,7 @@
 "CLOUDKIT_STATUS_NO_ACCOUNT" = "Nimate ustvarjenega računa iCloud za varnostno kopiranje.";
 
 /* Error indicating that the app was prevented from accessing the user's CloudKit account. */
-"CLOUDKIT_STATUS_RESTRICTED" = "Aplikacija Signal ni dobila dovoljenja za dostop do strežnika iCloud.";
+"CLOUDKIT_STATUS_RESTRICTED" = "Aplikacija Bitcopal ni dobila dovoljenja za dostop do strežnika iCloud.";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Primerjaj z odložiščem";
@@ -383,7 +383,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Povabi";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Da bi ugotovili kdo od vaših stikov uporablja Signal, morate aplikaciji omogočiti dostop do stikov v sistemskih nastavitvah.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Da bi ugotovili kdo od vaših stikov uporablja Bitcopal, morate aplikaciji omogočiti dostop do stikov v sistemskih nastavitvah.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "To bo ponastavilo aplikacijo - vsa vaša sporočila bodo izbrisana, odjavljeni boste s strežnika, aplikacija pa se bo zaprla.";
@@ -647,7 +647,7 @@
 /* Title of the alert before redirecting to GitHub Issues. */
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "Preusmeritev na GitHub";
 
-/* {{Short Date}} when device last communicated with Signal Server. */
+/* {{Short Date}} when device last communicated with Bitcopal Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Nazadnje aktivna: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -674,11 +674,11 @@
 /* Section title for the 'domain fronting country' view. */
 "DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER" = "Lokacija za zaščito pred cenzuro";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Dostop lahko omogočite v sistemskih nastavitvah.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Za urejanje potrebuje aplikacija Signal dostop do vaših stikov";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Za urejanje potrebuje aplikacija Bitcopal dostop do vaših stikov";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Uredi skupino";
@@ -722,17 +722,17 @@
 /* No comment provided by engineer. */
 "EDIT_TXT" = "Uredi";
 
-/* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to the Signal home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nže nekaj časa uporabljam Signal, aplikacijo za varno sporočanje. Namesti si jo tudi ti! Tako bova lahko sigurna, da stvari, ki si jih poveva, ostajajo samo med nama.\n\nAplikacija je na voljo za IPhone ali Android, dobiš pa jo lahko tukaj: %@\n\nSignal deluje tako kot druge aplikacije za sporočanje. Z njim lahko pošiljamo fotografije, video, opravljamo glasovne in skupinske pogovore. Njegova posebnost pa je, da nihče ne more prisluškovati naši komunikaciji, niti ljudje, ki so ga ustvarili.\n\nTu si lahko prebereš več o Open Whisper Systems; ljudeh, ki ustvarjajo aplikacijo Signal: %@";
+/* body of email sent to contacts when inviting to install Bitcopal. Embeds {{link to install Bitcopal}} and {{link to the Bitcopal home page}} */
+"EMAIL_INVITE_BODY" = "Hej,\n\nže nekaj časa uporabljam Bitcopal, aplikacijo za varno sporočanje. Namesti si jo tudi ti! Tako bova lahko sigurna, da stvari, ki si jih poveva, ostajajo samo med nama.\n\nAplikacija je na voljo za IPhone ali Android, dobiš pa jo lahko tukaj: %@\n\nBitcopal deluje tako kot druge aplikacije za sporočanje. Z njim lahko pošiljamo fotografije, video, opravljamo glasovne in skupinske pogovore. Njegova posebnost pa je, da nihče ne more prisluškovati naši komunikaciji, niti ljudje, ki so ga ustvarili.\n\nTu si lahko prebereš več o Open Whisper Systems; ljudeh, ki ustvarjajo aplikacijo Bitcopal: %@";
 
-/* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Preklopite na Signal!";
+/* subject of email sent to contacts when inviting to install Bitcopal */
+"EMAIL_INVITE_SUBJECT" = "Preklopite na Bitcopal!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Tapnite na gumb Ustvari.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Začnite s svojim prvim pogovorom Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Začnite s svojim prvim pogovorom Bitcopal!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Neaktivne pogovore lahko shranite/arhivitrate za kasnejšo uporabo.";
@@ -741,7 +741,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Počistite svoje pogovore.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Noben izmed vaših stikov ne uporablja aplikacije Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Noben izmed vaših stikov ne uporablja aplikacije Bitcopal.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Zakaj ne bi koga povabili?";
@@ -780,13 +780,13 @@
 "ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH" = "Koda PIN se ne ujema.";
 
 /* Indicates that user should select a 'two factor auth pin'. */
-"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Vnesite PIN za prijavo v omrežje Signal. Kodo boste morali vnesti vsakič, ko se boste ponovno prijavljali v omrežje Signal s to številko.";
+"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Vnesite PIN za prijavo v omrežje Bitcopal. Kodo boste morali vnesti vsakič, ko se boste ponovno prijavljali v omrežje Bitcopal s to številko.";
 
 /* Indicates that user has 'two factor auth pin' disabled. */
-"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Za dodatno varnost lahko vklopite PIN za prijavo v omrežje Signal. Vnesti ga boste morali vsakič, ko se boste ponovno prijavljali v omrežje Signal s to številko.";
+"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Za dodatno varnost lahko vklopite PIN za prijavo v omrežje Bitcopal. Vnesti ga boste morali vsakič, ko se boste ponovno prijavljali v omrežje Bitcopal s to številko.";
 
 /* Indicates that user has 'two factor auth pin' enabled. */
-"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "Vklopljen je PIN za prijavo v omrežje Signal. Izbrano kodo boste morali vnseti ob vsaki novi prijavi s to telefonsko številko.";
+"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "Vklopljen je PIN za prijavo v omrežje Bitcopal. Izbrano kodo boste morali vnseti ob vsaki novi prijavi s to telefonsko številko.";
 
 /* Title for the 'enable two factor auth PIN' views. */
 "ENABLE_2FA_VIEW_TITLE" = "PIN za prijavo v omrežje";
@@ -809,14 +809,14 @@
 /* Error message indicating that message send failed due to failed attachment write */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Pošiljanje neuspešno zaradi napake v zvezi s priponko.";
 
-/* Generic error used whenever Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Aplikacija Signal nima dostopa do interneta. Poskusite znova iz drugega omrežja WiFi ali preko podatkovne povezave.";
+/* Generic error used whenever Bitcopal can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Aplikacija Bitcopal nima dostopa do interneta. Poskusite znova iz drugega omrežja WiFi ali preko podatkovne povezave.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Pošiljanje sporočila ni uspelo zaradi pomanjkanja veljavnih prejemnikov.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Naprava ni več registrirana z vašo telefonsko številko. Za ponovno registracijo morate odstraniti in ponovno namestiti aplikacijo Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Naprava ni več registrirana z vašo telefonsko številko. Za ponovno registracijo morate odstraniti in ponovno namestiti aplikacijo Bitcopal.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Napaka strežnika. Poskusite znova kasneje.";
@@ -825,10 +825,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Prišlo je do neznane napake.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Oseba ni uporabnik aplikacije Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Oseba ni uporabnik aplikacije Bitcopal.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Napaka: prosite pošiljatelja naj posodobi aplikacijo Signal in nato znova pošlje sporočilo.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Napaka: prosite pošiljatelja naj posodobi aplikacijo Bitcopal in nato znova pošlje sporočilo.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Prejeto je bilo podvojeno sporočilo.";
@@ -845,10 +845,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Za ta stik ni na voljo nobena seja.";
 
-/* Shown when signal users safety numbers changed */
+/* Shown when Bitcopal users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Varnostno število je bilo spremenjeno.";
 
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Bitcopal users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Varnostno število z uporabikom %@ je bilo spremenjeno.";
 
 /* No comment provided by engineer. */
@@ -857,7 +857,7 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Varnostno število je bilo spremenjeno. Tapnite za pregled in potrditev.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcopal id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Unregistered User: %@";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
@@ -981,7 +981,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Arhiv";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Signal";
+"HOME_VIEW_TITLE_INBOX" = "Bitcopal";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "Povezujem...";
@@ -1002,7 +1002,7 @@
 "INBOX_VIEW_ARCHIVE_MODE_REMINDER" = "Ti pogovori so arhivirani. Ob prejemu novega sporočila bodo zopet premaknjeni v Poštni predal.";
 
 /* Multi-line label explaining how to show names instead of phone numbers in your inbox */
-"INBOX_VIEW_MISSING_CONTACTS_PERMISSION" = "Da bi videli imena vaših stikov, morate aplikaciji Signal dovoliti dostop do njih v nastavitvah.";
+"INBOX_VIEW_MISSING_CONTACTS_PERMISSION" = "Da bi videli imena vaših stikov, morate aplikaciji Bitcopal dovoliti dostop do njih v nastavitvah.";
 
 /* notification body */
 "INCOMING_CALL" = "Dohodni klic";
@@ -1022,14 +1022,14 @@
 /* Message for the alert indicating that an audio file is invalid. */
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Neveljavna zvočna datoteka";
 
-/* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Za povabila stikom morate aplikaciji Signal najprej dovoliti dostop do vaših stikov v nastavitvah.";
+/* Alert body when contacts disabled while trying to invite contacts to Bitcopal */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Za povabila stikom morate aplikaciji Bitcopal najprej dovoliti dostop do vaših stikov v nastavitvah.";
 
-/* Alert title when contacts disabled while trying to invite contacts to signal */
+/* Alert title when contacts disabled while trying to invite contacts to Bitcopal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Dovoli dostop do stikov";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Povabite svoje prijatelje k uporabi aplikacije Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Povabite svoje prijatelje k uporabi aplikacije Bitcopal";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Iskanje";
@@ -1181,7 +1181,7 @@
 /* message footer for read messages */
 "MESSAGE_STATUS_READ" = "Prebrano";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Signal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcopal account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Izpuščeno";
 
 /* message status while message is sending. */
@@ -1243,17 +1243,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Aplikacija Signal za nemoteno delovanje zahteva dovoljenje za dostop do kamere na vaši napravi. Dovoljenje lahko date v aplikaciji Meni >> Zasebnost >> Kamera >> Signal.";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Aplikacija Bitcopal za nemoteno delovanje zahteva dovoljenje za dostop do kamere na vaši napravi. Dovoljenje lahko date v aplikaciji Meni >> Zasebnost >> Kamera >> Bitcopal.";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Aplikacija Signal potrebuje dostop do vaše kamere";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Aplikacija Bitcopal potrebuje dostop do vaše kamere";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Dovoljenje za to lahko date v aplikaciji Nastavitve.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Za uspešno dokončanje naloge potrebuje aplikacija Signal dostop do medijske zbirke.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Za uspešno dokončanje naloge potrebuje aplikacija Bitcopal dostop do medijske zbirke.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Zgrešen klic osebe %@.";
@@ -1339,7 +1339,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Ne pošiljatelj, ne sporočilo";
 
-/* Table cell switch label. When disabled, Signal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Bitcopal will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Predvajanje, kadar je aplikacija odprta";
 
 /* Label for settings UI that allows user to change the notification sound. */
@@ -1445,16 +1445,16 @@
 "PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "V vašem odložišču ni bilo zaznati varnostnega števila. Ste ga pravilno prekopirali?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Vsak par uporabnikov aplikacije Signal ima skupno varnostno število. Preverite, če oseba %@ prikazuje 'vajino' skupno varnostno število.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Vsak par uporabnikov aplikacije Bitcopal ima skupno varnostno število. Preverite, če oseba %@ prikazuje 'vajino' skupno varnostno število.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Nameščeno imate zastarelo različico aplikacije Signal. Za pregled in potrditev jo je potrebno nadgraditi.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Nameščeno imate zastarelo različico aplikacije Bitcopal. Za pregled in potrditev jo je potrebno nadgraditi.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner ima nameščeno zastarelo različico aplikacije Signal. Za pregled in potrditev jo je potrebno nadgraditi.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner ima nameščeno zastarelo različico aplikacije Bitcopal. Za pregled in potrditev jo je potrebno nadgraditi.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirana koda ne izgleda kot koda z varnostnimi števili. Je na obeh napravah nameščena zadnja različica aplikacije Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirana koda ne izgleda kot koda z varnostnimi števili. Je na obeh napravah nameščena zadnja različica aplikacije Bitcopal?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Če želite potrditi istovetnost uporabnika %@ pri od konca do konca šifrirani komunikaciji, primerjajte gornja števila s števili na napravi te osebe.\n\nNamesto tega lahko tudi skenirate kodo na napravi partnerja, ali njega prosite, naj skenira vašo.";
@@ -1493,7 +1493,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Vaš Profil Signal bo viden stikom na vaši napravi kadar boste pričeli z novim pogovorom, lahko pa ge delite tudi z drugimi uporabniki in skupinami.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Vaš Profil Bitcopal bo viden stikom na vaši napravi kadar boste pričeli z novim pogovorom, lahko pa ge delite tudi z drugimi uporabniki in skupinami.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Za več informacij tapnite tukaj.";
@@ -1550,22 +1550,22 @@
 "QUOTED_REPLY_TYPE_VIDEO" = "Video";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Če ste z uporabo aplikacije Signal zadovoljni, jo lahko podprete s svojo oceno. To vam ne bo vzelo več kot minuto in bo v pomoč drugim pri iskanju varne in zasebne komunikacije.";
+"RATING_MSG" = "Če ste z uporabo aplikacije Bitcopal zadovoljni, jo lahko podprete s svojo oceno. To vam ne bo vzelo več kot minuto in bo v pomoč drugim pri iskanju varne in zasebne komunikacije.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Oceni Signal!";
+"RATING_RATE" = "Oceni Bitcopal!";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Podpri Signal!";
+"RATING_TITLE" = "Podpri Bitcopal!";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Pozabil sem svoj PIN.";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin'. */
-"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Prijava s to telefonsko številko brez kode PIN bo mogoča šele po sedmih dneh odkar je bila številka nazadnje aktivna v omrežju Signal.";
+"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Prijava s to telefonsko številko brez kode PIN bo mogoča šele po sedmih dneh odkar je bila številka nazadnje aktivna v omrežju Bitcopal.";
 
 /* Instructions to enter the 'two-factor auth pin' in the 2FA registration view. */
-"REGISTER_2FA_INSTRUCTIONS" = "Telefonska številka ima vklopljen PIN za prijavo v omrežje Signal. Za odklep prosimo vnesite svoj PIN.\n\nPIN za prijavo v omrežje Signal ni enak kodi za verifikacijo ki vam je bila pravkar posredovana preko sporočila SMS, temveč gre za kodo, ki ste jo določili sami.";
+"REGISTER_2FA_INSTRUCTIONS" = "Telefonska številka ima vklopljen PIN za prijavo v omrežje Bitcopal. Za odklep prosimo vnesite svoj PIN.\n\nPIN za prijavo v omrežje Bitcopal ni enak kodi za verifikacijo ki vam je bila pravkar posredovana preko sporočila SMS, temveč gre za kodo, ki ste jo določili sami.";
 
 /* Title for alert indicating that attempt to register with 'two-factor auth' failed. */
 "REGISTER_2FA_REGISTRATION_FAILED_ALERT_TITLE" = "Prijava ni uspela";
@@ -1643,16 +1643,16 @@
 "RELAY_REGISTERED_ERROR_RECOVERY" = "Telefonska številka, s katero se želite registrirati, je že bila ragistrirana na drugem strežniku. Prosimo, da se najprej odjavite od tam in nato poskusite znova.";
 
 /* Body text for when user is periodically prompted to enter their registration lock PIN */
-"REMINDER_2FA_BODY" = "Za to telefonsko številko je vklujčen PIN za prijavo v omrežje Signal. Da ne bi pozabili kode za prijavo, vas bomo občasno opomnili na njen vnos.";
+"REMINDER_2FA_BODY" = "Za to telefonsko številko je vklujčen PIN za prijavo v omrežje Bitcopal. Da ne bi pozabili kode za prijavo, vas bomo občasno opomnili na njen vnos.";
 
 /* Body header for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_BODY_HEADER" = "Opomnik:";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin' */
-"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "PIN za prijavo v omrežje vas ščiti pred nepooblaščeno prijavo v omrežje Signal z vašo telefonsko številko s strani tretjih oseb. Storitev lahko kadarkoli izklopite v nastavitvah zasebnosti aplikacije Signal.";
+"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "PIN za prijavo v omrežje vas ščiti pred nepooblaščeno prijavo v omrežje Bitcopal z vašo telefonsko številko s strani tretjih oseb. Storitev lahko kadarkoli izklopite v nastavitvah zasebnosti aplikacije Bitcopal.";
 
 /* Navbar title for when user is periodically prompted to enter their registration lock PIN */
-"REMINDER_2FA_NAV_TITLE" = "Vnesite PIN za prijavo v omrežje Signal";
+"REMINDER_2FA_NAV_TITLE" = "Vnesite PIN za prijavo v omrežje Bitcopal";
 
 /* Alert body after wrong guess for 'two-factor auth pin' reminder activity */
 "REMINDER_2FA_WRONG_PIN_ALERT_BODY" = "V nastavitvah zasebnosti lahko določite novi PIN.";
@@ -1711,14 +1711,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Pred uporabo Zaklepa zaslona morate nastaviti geslo v meniju iOS Nastavitve.";
 
-/* Description of how and why Signal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+/* Description of how and why Bitcopal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Za vstop potrdite svojo istovetnost.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Preverjanje istovetnosti ni bilo uspešno";
 
-/* Label for button on lock screen that lets users unlock Signal. */
-"SCREEN_LOCK_UNLOCK_SIGNAL" = "Odkleni Signal";
+/* Label for button on lock screen that lets users unlock Bitcopal. */
+"SCREEN_LOCK_UNLOCK_Bitcopal" = "Odkleni Bitcopal";
 
 /* No comment provided by engineer. */
 "SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "Iskanje po imenu ali številki";
@@ -1745,9 +1745,9 @@
 "SEND_INVITE_FAILURE" = "Pošiljanje vabila ni uspelo. Poskusite znova kasneje.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Prijatelja ste povabili k uporabi aplikacije Signal!";
+"SEND_INVITE_SUCCESS" = "Prijatelja ste povabili k uporabi aplikacije Bitcopal!";
 
-/* Text for button to send a Signal invite via SMS. %@ is placeholder for the recipient's phone number. */
+/* Text for button to send a Bitcopal invite via SMS. %@ is placeholder for the recipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Povabi preko sporočila SMS: %@";
 
 /* No comment provided by engineer. */
@@ -1775,7 +1775,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Lokacija: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ob vklopu bo aplikacija Signal skušala zaobiti cenzuro. Ne vklapljajte, če niste na lokaciji, kjer je aplikacija Signal blokirana.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ob vklopu bo aplikacija Bitcopal skušala zaobiti cenzuro. Ne vklapljajte, če niste na lokaciji, kjer je aplikacija Bitcopal blokirana.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Zaščita pred cenzuro je bila vklopljena v povezavi s telefonsko številko vašega računa.";
@@ -1783,8 +1783,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Zaščito pred cenzuro je mogoče vklopiti le kadar ste povezani z internetom.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Zaščita pred cenzuro ni potrebna, saj je naprava že uspešno povezana s strežniki Signal";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcopal service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Zaščita pred cenzuro ni potrebna, saj je naprava že uspešno povezana s strežniki Bitcopal";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Zaščita pred cenzuro";
@@ -1837,8 +1837,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Dodaj...";
 
-/* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nimate stikov, ki uporabljajo aplikacijo Signal.";
+/* A label that indicates the user has no Bitcopal contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nimate stikov, ki uporabljajo aplikacijo Bitcopal.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Ni rezultatov";
@@ -1853,7 +1853,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vedno posreduj klice";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vsi klici bodo posredovani preko strežnika SIgnal. S tem boste preprečili vašemu sogovorniku, da bi izvedel za vaš naslov IP, vendar pa bo zato kvaliteta klica slabša.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vsi klici bodo posredovani preko strežnika Bitcopal. S tem boste preprečili vašemu sogovorniku, da bi izvedel za vaš naslov IP, vendar pa bo zato kvaliteta klica slabša.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Izbriši zgodovino pogovorov";
@@ -1883,7 +1883,7 @@
 "SETTINGS_INVITE_TITLE" = "Povabite svoje prijatelje";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Dobiš me na @signalapp. Namesti si aplikacijo zdaj! https://signal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Dobiš me na @Bitcopalapp. Namesti si aplikacijo zdaj! https://Bitcopal.org/download/";
 
 /* Label for settings view that allows user to change the notification sound. */
 "SETTINGS_ITEM_NOTIFICATION_SOUND" = "Zvok sporočila";
@@ -1925,7 +1925,7 @@
 "SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT" = "Časovni interval pred zaklepom aplikacije";
 
 /* Footer for the 'screen lock' section of the privacy settings. */
-"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Odklepajte Signal s pomočjo Touch ID, Face ID ali gesla vaše naprave. Z vklopljenim Zaklepom zaslona boste še zmerom lahko odgovarjali na klice in prejemali sporočila. V nastavitvah obvestil za Signal lahko določite kaj vse bo vidno v obvestilih o novem sporočilu.";
+"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Odklepajte Bitcopal s pomočjo Touch ID, Face ID ali gesla vaše naprave. Z vklopljenim Zaklepom zaslona boste še zmerom lahko odgovarjali na klice in prejemali sporočila. V nastavitvah obvestil za Bitcopal lahko določite kaj vse bo vidno v obvestilih o novem sporočilu.";
 
 /* Title for the 'screen lock' section of the privacy settings. */
 "SETTINGS_SCREEN_LOCK_SECTION_TITLE" = "Zaklep zaslona";
@@ -1937,10 +1937,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Vklopi zaščito zaslona";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prepreči aplikaciji Signal, da bi bila prikazana v preklopniku med aplikacijami.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prepreči aplikaciji Bitcopal, da bi bila prikazana v preklopniku med aplikacijami.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integracija klicev iOS omogoča prikaz klicev Signal na zaslonu za zaklepanje in v sistemski zgodovini klicev. Izberete lahko tudi prikaz imena in številke klicočega. Če imate vklopljeno storitev iCloud, bo zgodovina vaših klicev prenešena tudi na strežnike Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integracija klicev iOS omogoča prikaz klicev Bitcopal na zaslonu za zaklepanje in v sistemski zgodovini klicev. Izberete lahko tudi prikaz imena in številke klicočega. Če imate vklopljeno storitev iCloud, bo zgodovina vaših klicev prenešena tudi na strežnike Apple.";
 
 /* Label for the notifications section of conversation settings view. */
 "SETTINGS_SECTION_NOTIFICATIONS" = "Obvestila";
@@ -1988,13 +1988,13 @@
 "SHARE_EXTENSION_LOADING" = "Nalagam...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Zaženi aplikacijo Signal za prijavo.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Zaženi aplikacijo Bitcopal za prijavo.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Neprijavljen";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Za nadgradnjo ali registracijo zaženite aplikacijo Signal.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Za nadgradnjo ali registracijo zaženite aplikacijo Bitcopal.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nepripravljen";
@@ -2005,11 +2005,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Prenašam...";
 
-/* Shown when trying to share content to a Signal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Bitcopal user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Ne morem pripraviti priponke";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Deli preko Signala";
+"SHARE_EXTENSION_VIEW_TITLE" = "Deli preko Bitcopala";
 
 /* Action sheet item */
 "SHOW_SAFETY_NUMBER_ACTION" = "Prikaži novo varnostno število";
@@ -2017,8 +2017,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Prikaži pogovor";
 
-/* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Vabim te, da si namestiš aplikacijo Signal. Tu je povezava:";
+/* body sent to contacts when inviting to Install Bitcopal */
+"SMS_INVITE_BODY" = "Vabim te, da si namestiš aplikacijo Bitcopal. Tu je povezava:";
 
 /* Label for the 'no sound' option that allows users to disable sounds for notifications, etc. */
 "SOUNDS_NONE" = "Brez";
@@ -2102,13 +2102,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Prekinem povezavo z napravo \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Aplikaciji Signal ni uspelo odstraniti vaše naprave.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Aplikaciji Bitcopal ni uspelo odstraniti vaše naprave.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nepoimenovana naprava";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Odjava iz storitve Signal ni bila uspešna.";
+"UNREGISTER_Bitcopal_FAIL" = "Odjava iz storitve Bitcopal ni bila uspešna.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Prejeta je bila nepodprta priponka.";
@@ -2144,7 +2144,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Nastavite svoj profil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Odslej lahko delte svojo predstavitveno fotografijo in ime profila s svojimi prijatelji na Signalu.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Odslej lahko delte svojo predstavitveno fotografijo in ime profila s svojimi prijatelji na Bitcopalu.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Ste pripravljeni za fotografiranje?";
@@ -2159,19 +2159,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Predstavljamo vam Potrdila o ogledu";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Aplikacija Signal zdaj omogoča tudi varne video klice. Za uporabo začnite z običajnim glasovnim klicem in nato tapnite na gumb s kamero.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Aplikacija Bitcopal zdaj omogoča tudi varne video klice. Za uporabo začnite z običajnim glasovnim klicem in nato tapnite na gumb s kamero.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "NOVO: varni video klici!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Aplikacija Signal zahteva operacijski sistem iOS 9 ali več. Prosimo nadgradite vaš sistem na Nastavitve >> Splošno >> Nadgradnja programske opreme";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Aplikacija Bitcopal zahteva operacijski sistem iOS 9 ali več. Prosimo nadgradite vaš sistem na Nastavitve >> Splošno >> Nadgradnja programske opreme";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Nadrgradnja iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Posodabljam Signal...";
+"Upgrading Bitcopal ..." = "Posodabljam Bitcopal...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Nazaj";
@@ -2225,7 +2225,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Glasovno sporočilo";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončajte nastavitev na aplikaciji Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončajte nastavitev na aplikaciji Bitcopal Desktop.";
 
 /* Info Message when you disable disappearing messages */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Izklopili ste izginjajoča sporočila.";
