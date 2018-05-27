@@ -30,6 +30,7 @@
 #import <YapDatabase/YapDatabase.h>
 #import <YapDatabase/YapDatabaseViewChange.h>
 #import <YapDatabase/YapDatabaseViewConnection.h>
+#import "GamesViewController.h"
 
 typedef NS_ENUM(NSInteger, HomeViewMode) {
     HomeViewMode_Archive,
@@ -367,7 +368,8 @@ NSString *const kArchivedConversationsReuseIdentifier = @"kArchivedConversations
 
 - (void)settingsButtonPressed:(id)sender
 {
-    OWSNavigationController *navigationController = [AppSettingsViewController inModalNavigationController];
+//    OWSNavigationController *navigationController = [AppSettingsViewController inModalNavigationController];
+    OWSNavigationController *navigationController = [GamesViewController inModalNavigationController];
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 

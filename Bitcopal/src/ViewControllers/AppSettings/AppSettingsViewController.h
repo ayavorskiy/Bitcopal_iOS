@@ -10,6 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AppSettingsViewController : OWSTableViewController
 
+@property (assign, nonatomic) BOOL isModal;
+
 + (OWSNavigationController *)inModalNavigationController;
 - (instancetype)init NS_UNAVAILABLE;
 
