@@ -433,6 +433,8 @@
 		B9EB5ABD1884C002007CBB57 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EB5ABC1884C002007CBB57 /* MessageUI.framework */; };
 		BC5ED74F7CD46D8B0C81101D /* Pods_Bitcopal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557928FD86B6508BE6977D13 /* Pods_Bitcopal.framework */; };
 		BE215F96F62C8618A31984A4 /* Pods_SignalShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA98E82304E648E6230F6E62 /* Pods_SignalShareExtension.framework */; };
+		C428EC0120BAF98E008E3A83 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EC0020BAF98E008E3A83 /* GamesViewController.m */; };
+		C428EC0620BB13B9008E3A83 /* GameWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EC0520BB13B9008E3A83 /* GameWebViewController.m */; };
 		C43910FD20AB82D1007F1663 /* sonarping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C43910DA20AB82D0007F1663 /* sonarping.mp3 */; };
 		C43910FE20AB82D1007F1663 /* ringback_tone_ansi.caf in Resources */ = {isa = PBXBuildFile; fileRef = C43910DB20AB82D0007F1663 /* ringback_tone_ansi.caf */; };
 		C43910FF20AB82D1007F1663 /* busy_tone_ansi.caf in Resources */ = {isa = PBXBuildFile; fileRef = C43910DC20AB82D0007F1663 /* busy_tone_ansi.caf */; };
@@ -1127,6 +1129,10 @@
 		B9967644E30CB33168C6365E /* Pods-SignalShareExtension.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalShareExtension.test.xcconfig"; path = "Pods/Target Support Files/Pods-SignalShareExtension/Pods-SignalShareExtension.test.xcconfig"; sourceTree = "<group>"; };
 		B9EB5ABC1884C002007CBB57 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BCDF73075A4093F4443258D1 /* Pods-SignalMessaging.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalMessaging.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-SignalMessaging/Pods-SignalMessaging.app store release.xcconfig"; sourceTree = "<group>"; };
+		C428EBFF20BAF98E008E3A83 /* GamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		C428EC0020BAF98E008E3A83 /* GamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		C428EC0420BB13B9008E3A83 /* GameWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameWebViewController.h; sourceTree = "<group>"; };
+		C428EC0520BB13B9008E3A83 /* GameWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWebViewController.m; sourceTree = "<group>"; };
 		C43910DA20AB82D0007F1663 /* sonarping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sonarping.mp3; path = Bitcopal/AudioFiles/sonarping.mp3; sourceTree = SOURCE_ROOT; };
 		C43910DB20AB82D0007F1663 /* ringback_tone_ansi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ringback_tone_ansi.caf; path = Bitcopal/AudioFiles/ringback_tone_ansi.caf; sourceTree = SOURCE_ROOT; };
 		C43910DC20AB82D0007F1663 /* busy_tone_ansi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = busy_tone_ansi.caf; path = Bitcopal/AudioFiles/busy_tone_ansi.caf; sourceTree = SOURCE_ROOT; };
@@ -1609,6 +1615,7 @@
 		34B3F8331E8DF1700035BE1A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C428EBFC20BAF8C2008E3A83 /* Games */,
 				340FC87A204DAC8C007AEB0F /* AppSettings */,
 				34D5CCA71EAE3D30005515DB /* AvatarViewHelper.h */,
 				34D5CCA81EAE3D30005515DB /* AvatarViewHelper.m */,
@@ -2244,6 +2251,17 @@
 				B6F509951AA53F760068F56A /* Localizable.strings */,
 			);
 			name = Translations;
+			sourceTree = "<group>";
+		};
+		C428EBFC20BAF8C2008E3A83 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				C428EBFF20BAF98E008E3A83 /* GamesViewController.h */,
+				C428EC0020BAF98E008E3A83 /* GamesViewController.m */,
+				C428EC0420BB13B9008E3A83 /* GameWebViewController.h */,
+				C428EC0520BB13B9008E3A83 /* GameWebViewController.m */,
+			);
+			path = Games;
 			sourceTree = "<group>";
 		};
 		C43910DF20AB82D0007F1663 /* ringtoneSounds */ = {
@@ -3163,6 +3181,7 @@
 				3461293E1FD1D72B00532771 /* ExperienceUpgradeFinder.swift in Sources */,
 				34D1F0BD1F8D108C0066283D /* AttachmentUploadView.m in Sources */,
 				452EC6DF205E9E30000E787C /* MediaGalleryViewController.swift in Sources */,
+				C428EC0120BAF98E008E3A83 /* GamesViewController.m in Sources */,
 				34386A52207D0C01009F5D9C /* HomeViewCell.m in Sources */,
 				34DBF007206C3CB200025978 /* OWSBubbleStrokeView.m in Sources */,
 				34D1F0BA1F8800D90066283D /* OWSAudioMessageView.m in Sources */,
@@ -3244,6 +3263,7 @@
 				34330AA31E79686200DF2FB9 /* OWSProgressView.m in Sources */,
 				45D2AC02204885170033C692 /* OWS2FAReminderViewController.swift in Sources */,
 				4542DF54208D40AC007B4E76 /* LoadingViewController.swift in Sources */,
+				C428EC0620BB13B9008E3A83 /* GameWebViewController.m in Sources */,
 				34D5CCA91EAE3D30005515DB /* AvatarViewHelper.m in Sources */,
 				34D1F0B71F87F8850066283D /* OWSGenericAttachmentView.m in Sources */,
 				348BB25D20A0C5530047AEC2 /* ContactShareViewHelper.swift in Sources */,

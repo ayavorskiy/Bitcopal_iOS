@@ -51,6 +51,8 @@
     }
 
     _contactsManager = [Environment current].contactsManager;
+    
+    self.isModal = YES;
 
     return self;
 }
@@ -63,6 +65,8 @@
     }
 
     _contactsManager = [Environment current].contactsManager;
+    
+    self.isModal = YES;
 
     return self;
 }
@@ -76,15 +80,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.navigationItem setHidesBackButton:YES];
 
-    OWSAssert([self.navigationController isKindOfClass:[OWSNavigationController class]]);
-
-    [self.navigationController.navigationBar setTranslucent:NO];
-    self.navigationItem.leftBarButtonItem =
-        [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
-                                                      target:self
-                                                      action:@selector(dismissWasPressed:)];
+    if (self.isModal) {
+        [self.navigationItem setHidesBackButton:YES];
+    
+        OWSAssert([self.navigationController isKindOfClass:[OWSNavigationController class]]);
+    
+        [self.navigationController.navigationBar setTranslucent:NO];
+        self.navigationItem.leftBarButtonItem =
+            [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
+                                                          target:self
+                                                          action:@selector(dismissWasPressed:)];
+    }
 
     [self observeNotifications];
 
