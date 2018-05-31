@@ -57,8 +57,12 @@
 			<dict>
 				<key>NSIncludesSubdomains</key>
 				<true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
+                <key>NSAllowsArbitraryLoads</key>
+                <true/>
 			</dict>
 			<key>signal.org</key>
 			<dict>
@@ -67,6 +71,15 @@
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
+            <key>ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSAllowsArbitraryLoads</key>
+                <true/>
+            </dict>
 			<key>whispersystems.org</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
