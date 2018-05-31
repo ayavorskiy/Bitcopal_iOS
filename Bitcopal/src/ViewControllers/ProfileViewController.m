@@ -187,14 +187,14 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
                                                         @"Description of the user profile.")
                                          attributes:@{}]];
     [text appendAttributedString:[[NSAttributedString alloc] initWithString:@" " attributes:@{}]];
-    [text appendAttributedString:[[NSAttributedString alloc]
-                                     initWithString:NSLocalizedString(@"PROFILE_VIEW_PROFILE_DESCRIPTION_LINK",
-                                                        @"Link to more information about the user profile.")
-                                         attributes:@{
-                                             NSUnderlineStyleAttributeName :
-                                                 @(NSUnderlineStyleSingle | NSUnderlinePatternSolid),
-                                             NSForegroundColorAttributeName : [UIColor ows_materialBlueColor],
-                                         }]];
+//    [text appendAttributedString:[[NSAttributedString alloc]
+//                                     initWithString:NSLocalizedString(@"PROFILE_VIEW_PROFILE_DESCRIPTION_LINK",
+//                                                        @"Link to more information about the user profile.")
+//                                         attributes:@{
+//                                             NSUnderlineStyleAttributeName :
+//                                                 @(NSUnderlineStyleSingle | NSUnderlinePatternSolid),
+//                                             NSForegroundColorAttributeName : [UIColor ows_materialBlueColor],
+//                                         }]];
     infoLabel.attributedText = text;
     infoLabel.numberOfLines = 0;
     infoLabel.lineBreakMode = NSLineBreakByWordWrapping;
@@ -507,8 +507,8 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
 - (void)infoRowTapped:(UIGestureRecognizer *)sender
 {
     if (sender.state == UIGestureRecognizerStateRecognized) {
-        [UIApplication.sharedApplication
-            openURL:[NSURL URLWithString:@"https://support.signal.org/hc/en-us/articles/115001110511"]];
+//        [UIApplication.sharedApplication
+//            openURL:[NSURL URLWithString:@"https://support.signal.org/hc/en-us/articles/115001110511"]];
     }
 }
 
