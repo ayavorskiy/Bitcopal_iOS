@@ -22,7 +22,8 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 // Production
 //#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
 //#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
-#define textSecureWebSocketAPI @"wss://ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com:8080/v1/websocket/"
+//#define textSecureCDNServerURL @"https://cdn.signal.org"
+#define textSecureWebSocketAPI @"ws://ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com:8080/v1/websocket/"
 #define textSecureServerURL @"http://ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com:8080/"
 #define textSecureCDNServerURL @"https://cdn.signal.org"
 // Use same reflector for service and CDN

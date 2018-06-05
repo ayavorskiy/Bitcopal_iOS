@@ -33,12 +33,12 @@
 			<string>org.whispersystems.signal</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sgnl</string>
+				<string>bitcopal</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.7</string>
+	<string>1.9</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LOGS_EMAIL</key>
@@ -53,16 +53,32 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>amazonaws.com</key>
+			<key>52.79.219.74</key>
 			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
+			</dict>
+			<key>amazonaws.com</key>
+			<dict>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
 				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
-                <key>NSAllowsArbitraryLoads</key>
-                <true/>
+			</dict>
+			<key>ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com</key>
+			<dict>
+				<key>NSAllowsArbitraryLoads</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
 			</dict>
 			<key>signal.org</key>
 			<dict>
@@ -71,15 +87,6 @@
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
-            <key>ec2-13-125-101-33.ap-northeast-2.compute.amazonaws.com</key>
-            <dict>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
-                <key>NSIncludesSubdomains</key>
-                <true/>
-                <key>NSAllowsArbitraryLoads</key>
-                <true/>
-            </dict>
 			<key>whispersystems.org</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
@@ -87,13 +94,6 @@
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
-            <key>52.79.219.74</key>
-            <dict>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
-                <key>NSIncludesSubdomains</key>
-                <true/>
-            </dict>
 		</dict>
 	</dict>
 	<key>NSAppleMusicUsageDescription</key>

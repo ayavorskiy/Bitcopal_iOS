@@ -59,7 +59,7 @@
 NSString *const AppDelegateStoryboardMain = @"Main";
 
 static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
-static NSString *const kURLSchemeSGNLKey                = @"sgnl";
+static NSString *const kURLSchemeSGNLKey                = @"bitcopal";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
 
 static NSTimeInterval launchStartedAt;
