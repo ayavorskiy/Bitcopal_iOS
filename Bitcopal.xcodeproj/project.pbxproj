@@ -152,7 +152,6 @@
 		347850311FD7494A007B8332 /* dripicons-v2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34330A5B1E787A9800DF2FB9 /* dripicons-v2.ttf */; };
 		347850321FD7494A007B8332 /* ElegantIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34330A5D1E787BD800DF2FB9 /* ElegantIcons.ttf */; };
 		347850331FD7494A007B8332 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34330A591E7875FB00DF2FB9 /* fontawesome-webfont.ttf */; };
-		3478504C1FD7496D007B8332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66DBF4919D5BBC8006EA940 /* Images.xcassets */; };
 		347850551FD749C0007B8332 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6F509951AA53F760068F56A /* Localizable.strings */; };
 		347850571FD86544007B8332 /* SAEFailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347850561FD86544007B8332 /* SAEFailedViewController.swift */; };
 		347850591FD9972E007B8332 /* SwiftSingletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347850581FD9972E007B8332 /* SwiftSingletons.swift */; };
@@ -468,6 +467,7 @@
 		C439111B20AB82D1007F1663 /* complete.aifc in Resources */ = {isa = PBXBuildFile; fileRef = C43910FA20AB82D0007F1663 /* complete.aifc */; };
 		C439111C20AB82D1007F1663 /* aurora.aifc in Resources */ = {isa = PBXBuildFile; fileRef = C43910FB20AB82D0007F1663 /* aurora.aifc */; };
 		C439111D20AB82D1007F1663 /* synth-quiet.aifc in Resources */ = {isa = PBXBuildFile; fileRef = C43910FC20AB82D0007F1663 /* synth-quiet.aifc */; };
+		C4BAC3F420C726820067355E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66DBF4919D5BBC8006EA940 /* Images.xcassets */; };
 		C5AC3319361DBF5A0450B88A /* Pods_SignalMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D73B8F42C82D4DBDD8545DA /* Pods_SignalMessaging.framework */; };
 		D202868116DBE0E7009068E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AEACDB16C426DA00C364C0 /* CFNetwork.framework */; };
 		D202868216DBE0F4009068E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2179CFD16BB0B480006F3AB /* SystemConfiguration.framework */; };
@@ -2730,8 +2730,8 @@
 				347850321FD7494A007B8332 /* ElegantIcons.ttf in Resources */,
 				4535186E1FC635DD00210559 /* MainInterface.storyboard in Resources */,
 				347850551FD749C0007B8332 /* Localizable.strings in Resources */,
+				C4BAC3F420C726820067355E /* Images.xcassets in Resources */,
 				347850331FD7494A007B8332 /* fontawesome-webfont.ttf in Resources */,
-				3478504C1FD7496D007B8332 /* Images.xcassets in Resources */,
 				347850311FD7494A007B8332 /* dripicons-v2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
