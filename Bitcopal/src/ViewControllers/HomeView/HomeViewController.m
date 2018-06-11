@@ -368,8 +368,8 @@ NSString *const kArchivedConversationsReuseIdentifier = @"kArchivedConversations
 
 - (void)settingsButtonPressed:(id)sender
 {
-//    OWSNavigationController *navigationController = [AppSettingsViewController inModalNavigationController];
-    OWSNavigationController *navigationController = [GamesViewController inModalNavigationController];
+    OWSNavigationController *navigationController = [AppSettingsViewController inModalNavigationController];
+//    OWSNavigationController *navigationController = [GamesViewController inModalNavigationController];
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 

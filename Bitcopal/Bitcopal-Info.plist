@@ -38,7 +38,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.14</string>
+	<string>1.16</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LOGS_EMAIL</key>
@@ -53,18 +53,16 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-            <key>amazonaws.com</key>
-            <dict>
+			<key>d1kopcq685v1uo.cloudfront.net</key>
+			<dict>
                 <key>NSAllowsArbitraryLoads</key>
                 <true/>
-                <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                <true/>
-                <key>NSIncludesSubdomains</key>
-                <true/>
-                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-                <false/>
-            </dict>
-			<key>d1kopcq685v1uo.cloudfront.net</key>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>amazonaws.com</key>
 			<dict>
 				<key>NSAllowsArbitraryLoads</key>
 				<true/>
