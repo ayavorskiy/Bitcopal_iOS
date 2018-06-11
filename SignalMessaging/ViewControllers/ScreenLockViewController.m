@@ -99,7 +99,6 @@ NSString *NSStringForScreenLockUIState(ScreenLockUIState value)
     BOOL shouldHaveScreenLock = uiState == ScreenLockUIStateScreenLock;
 
     self.screenBlockingImageView.hidden = !shouldShowBlockWindow;
-    [self.screenBlockingImageView setHidden:YES];
 
     NSString *signature = [NSString stringWithFormat:@"%d %d", shouldHaveScreenLock, isLogoAtTop];
     if ([NSObject isNullableObject:self.screenBlockingSignature equalTo:signature]) {
