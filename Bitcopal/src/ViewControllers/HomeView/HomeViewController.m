@@ -271,7 +271,7 @@ NSString *const kArchivedConversationsReuseIdentifier = @"kArchivedConversations
     switch (self.homeViewMode) {
         case HomeViewMode_Inbox:
             // TODO: Should our app name be translated?  Probably not.
-            self.title = NSLocalizedString(@"HOME_VIEW_TITLE_INBOX", @"Title for the home view's default mode.");
+//            self.title = NSLocalizedString(@"HOME_VIEW_TITLE_INBOX", @"Title for the home view's default mode.");
             break;
         case HomeViewMode_Archive:
             self.title = NSLocalizedString(@"HOME_VIEW_TITLE_ARCHIVE", @"Title for the home view's 'archive' mode.");
