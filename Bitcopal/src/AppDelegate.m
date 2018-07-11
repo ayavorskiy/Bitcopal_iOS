@@ -1147,9 +1147,19 @@ static NSTimeInterval launchStartedAt;
 
     if ([TSAccountManager isRegistered]) {
         HomeViewController *homeView = [HomeViewController new];
-        SignalsNavigationController *navigationController =
-            [[SignalsNavigationController alloc] initWithRootViewController:homeView];
-        self.window.rootViewController = navigationController;
+        SignalsNavigationController *navigationController = [[SignalsNavigationController alloc] initWithRootViewController:homeView];
+        navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Chat" image:[UIImage imageNamed:@"chat_tab_icon"] tag:0];
+        
+        UIViewController *wallet = [UIViewController new];
+        wallet.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Wallet" image:[UIImage imageNamed:@"wallet_tab_icon"] tag:1];
+            
+        UITabBarController *tabBarController = [UITabBarController new];
+        tabBarController.viewControllers = @[navigationController,wallet];
+        tabBarController.tabBar.tintColor = [UIColor whiteColor];
+        tabBarController.tabBar.barTintColor = [UIColor ows_signalBrandBlueColor];
+        tabBarController.tabBar.translucent = NO;
+        
+        self.window.rootViewController = tabBarController;
     } else {
         RegistrationViewController *viewController = [RegistrationViewController new];
         OWSNavigationController *navigationController =
