@@ -6,7 +6,7 @@
 #import "AddToGroupViewController.h"
 #import "AvatarViewHelper.h"
 #import "OWSNavigationController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "ViewControllerUtils.h"
 #import <SignalMessaging/BlockListUIUtils.h>
 #import <SignalMessaging/ContactTableViewCell.h>

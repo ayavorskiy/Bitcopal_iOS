@@ -4,7 +4,7 @@
 
 #import "DebugUIDiskUsage.h"
 #import "OWSTableViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalServiceKit/NSDate+OWS.h>
 #import <SignalServiceKit/OWSOrphanedDataCleaner.h>
 #import <SignalServiceKit/OWSPrimaryStorage.h>

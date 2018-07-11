@@ -4,7 +4,7 @@
 
 #import "DebugUISessionState.h"
 #import "OWSTableViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalServiceKit/OWSIdentityManager.h>
 #import <SignalServiceKit/OWSPrimaryStorage+SessionStore.h>
 #import <SignalServiceKit/TSContactThread.h>

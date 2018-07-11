@@ -3,7 +3,7 @@
 //
 
 #import "ConversationInputTextView.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalMessaging/NSString+OWS.h>
 
 NS_ASSUME_NONNULL_BEGIN

@@ -38,7 +38,7 @@ class SAEFailedViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
                                                                 target: self,
                                                                 action: #selector(cancelPressed))
-        self.navigationItem.title = "Bitcopal"
+        self.navigationItem.title = "Bitcostar"
 
         self.view.backgroundColor = UIColor.ows_signalBrandBlue
 

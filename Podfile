@@ -33,7 +33,7 @@ def shared_pods
   pod 'YYImage', :inhibit_warnings => true
 end
 
-target 'Bitcopal' do
+target 'Bitcostar' do
   shared_pods
   pod 'ATAppUpdater', :inhibit_warnings => true
   pod 'SSZipArchive', :inhibit_warnings => true

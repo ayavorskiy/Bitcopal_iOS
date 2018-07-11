@@ -5,7 +5,7 @@
 #import "SignalApp.h"
 #import "ConversationViewController.h"
 #import "HomeViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalMessaging/DebugLogger.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalServiceKit/OWSPrimaryStorage.h>

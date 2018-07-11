@@ -6,7 +6,7 @@
 #import "OWSBackupExportJob.h"
 #import "OWSBackupIO.h"
 #import "OWSBackupImportJob.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <Curve25519Kit/Randomness.h>
 #import <SignalServiceKit/YapDatabaseConnection+OWS.h>
 

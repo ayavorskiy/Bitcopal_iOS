@@ -5,7 +5,7 @@
 #import "PrivacySettingsTableViewController.h"
 #import "BlockListViewController.h"
 #import "OWS2FASettingsViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSPreferences.h>
 #import <SignalMessaging/ThreadUtil.h>

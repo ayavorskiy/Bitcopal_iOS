@@ -11,7 +11,7 @@
 #import "OWSSoundSettingsViewController.h"
 #import "PhoneNumber.h"
 #import "ShowGroupMembersViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"
 #import "UpdateGroupViewController.h"

@@ -4,7 +4,7 @@
 
 #import "OWSAudioMessageView.h"
 #import "ConversationViewItem.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIColor+JSQMessages.h"
 #import "UIColor+OWS.h"
 #import "ViewControllerUtils.h"

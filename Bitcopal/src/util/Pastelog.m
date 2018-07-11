@@ -3,7 +3,7 @@
 //
 
 #import "Pastelog.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "ThreadUtil.h"
 #import "zlib.h"
 #import <AFNetworking/AFNetworking.h>

@@ -3,7 +3,7 @@
 //
 
 #import "ShowGroupMembersViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalApp.h"
 #import "ViewControllerUtils.h"
 #import <SignalMessaging/BlockListUIUtils.h>

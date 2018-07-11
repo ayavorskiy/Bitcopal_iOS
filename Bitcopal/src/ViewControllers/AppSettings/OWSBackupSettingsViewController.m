@@ -5,7 +5,7 @@
 #import "OWSBackupSettingsViewController.h"
 #import "OWSBackup.h"
 #import "OWSProgressView.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "ThreadUtil.h"
 #import <SignalMessaging/AttachmentSharing.h>
 #import <SignalMessaging/Environment.h>

@@ -5,7 +5,7 @@
 #import "OWSMessageCell.h"
 #import "OWSExpirationTimerView.h"
 #import "OWSMessageBubbleView.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

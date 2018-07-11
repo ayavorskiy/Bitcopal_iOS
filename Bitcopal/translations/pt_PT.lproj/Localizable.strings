@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Aceitar Novo Número de Segurança ";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Bitcopal Call";
+"ACTION_AUDIO_CALL" = "Bitcostar Call";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Invite to Bitcopal";
+"ACTION_INVITE" = "Invite to Bitcostar";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Send Message";
@@ -68,7 +68,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ no grupo %@: %@";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcopal não pode iniciar. Por favor envie os seus relatórios de errors para a nossa equipa para que consigamos resolver o problema.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcostar não pode iniciar. Por favor envie os seus relatórios de errors para a nossa equipa para que consigamos resolver o problema.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Erro";
@@ -80,13 +80,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "A versão %@ está disponível na App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Está disponível uma nova versão do Bitcopal ";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Está disponível uma nova versão do Bitcostar ";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Actualizar";
 
 /* Name of application */
-"APPLICATION_NAME" = "Bitcopal";
+"APPLICATION_NAME" = "Bitcostar";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arquivar";
@@ -164,7 +164,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Falha a escolher documento. ";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "O Bitcopal não consegue tratar deste ficheiro no seu estado actual. Tente comprimir o ficheiro e depois envia-lo.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "O Bitcostar não consegue tratar deste ficheiro no seu estado actual. Tente comprimir o ficheiro e depois envia-lo.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Ficheiro Não Suportado";
@@ -284,7 +284,7 @@
 "BUTTON_SELECT" = "Select";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "O Bitcopal necessita de acesso ao seu microfone para poder realizar chamadas e gravar mensagens de voz. Pode dar acesso nas Definições.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "O Bitcostar necessita de acesso ao seu microfone para poder realizar chamadas e gravar mensagens de voz. Pode dar acesso nas Definições.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Requer Acesso ao Microfone";
@@ -296,7 +296,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Sem resposta.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Bitcopal %@";
+"CALL_STATUS_FORMAT" = "Bitcostar %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Chamar";
@@ -350,7 +350,7 @@
 "CALLBACK_BUTTON_TITLE" = "Chamar Novamente";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizador Bitcopal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizador Bitcostar";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Não pode ser verificado até ter trocado mensagens.";
@@ -368,7 +368,7 @@
 "CLOUDKIT_STATUS_NO_ACCOUNT" = "You do not have an iCloud Account for backups.";
 
 /* Error indicating that the app was prevented from accessing the user's CloudKit account. */
-"CLOUDKIT_STATUS_RESTRICTED" = "Bitcopal was not allowed to access your iCloud account for backups.";
+"CLOUDKIT_STATUS_RESTRICTED" = "Bitcostar was not allowed to access your iCloud account for backups.";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Comparar com o copiado";
@@ -383,7 +383,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Convidar";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Para ver quais dos seus contactos são utilizadores Bitcopal, permita o acesso aos Contactos nas Definições do Sistema.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Para ver quais dos seus contactos são utilizadores Bitcostar, permita o acesso aos Contactos nas Definições do Sistema.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Isto irá repôr as definições de origem da aplicação, apagando todas as mensagens e desregistando-se do servidor. A aplicaçāo fechar-se-á após os dados terem sido removidos.";
@@ -647,7 +647,7 @@
 /* Title of the alert before redirecting to GitHub Issues. */
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "Redireccionar para GitHub";
 
-/* {{Short Date}} when device last communicated with Bitcopal Server. */
+/* {{Short Date}} when device last communicated with Bitcostar Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Activo pela última vez: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -674,11 +674,11 @@
 /* Section title for the 'domain fronting country' view. */
 "DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER" = "Localização da Circunscrição de Censura ";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Pode dar acesso nas Definições.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "O Bitcopal necessita de acesso aos Contactos para Editar a Informação dos Contactos.";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "O Bitcostar necessita de acesso aos Contactos para Editar a Informação dos Contactos.";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Editar Grupo";
@@ -722,11 +722,11 @@
 /* No comment provided by engineer. */
 "EDIT_TXT" = "Editar";
 
-/* body of email sent to contacts when inviting to install Bitcopal. Embeds {{link to install Bitcopal}} and {{link to the Bitcopal home page}} */
-"EMAIL_INVITE_BODY" = "Olá,\n\nUltimamente tenho usado o Bitcopal para manter as minhas conversas no meu iPhone privadas. Gostaria que tu também o instalasses, para podermos estar confiantes que mais ninguém pode ler as nossas mensagens nem ouvir as nossas chamadas.\n\nO Bitcopal está disponível para iPhone e Android. Faz download aqui: %@\n\nO Bitcopal funciona como qualquer outra App de mensagens, podes enviar fotos e video, fazer chamadas e criar mensagens de grupo. A melhor parte é que mais ninguém poderá ve-las, nem os criadores do Bitcopal!\n\nPodes ler mais sobre a Open Whisper Systems, as pessoas por detrás do Bitcopal aqui: %@";
+/* body of email sent to contacts when inviting to install Bitcostar. Embeds {{link to install Bitcostar}} and {{link to the Bitcostar home page}} */
+"EMAIL_INVITE_BODY" = "Olá,\n\nUltimamente tenho usado o Bitcostar para manter as minhas conversas no meu iPhone privadas. Gostaria que tu também o instalasses, para podermos estar confiantes que mais ninguém pode ler as nossas mensagens nem ouvir as nossas chamadas.\n\nO Bitcostar está disponível para iPhone e Android. Faz download aqui: %@\n\nO Bitcostar funciona como qualquer outra App de mensagens, podes enviar fotos e video, fazer chamadas e criar mensagens de grupo. A melhor parte é que mais ninguém poderá ve-las, nem os criadores do Bitcostar!\n\nPodes ler mais sobre a Open Whisper Systems, as pessoas por detrás do Bitcostar aqui: %@";
 
-/* subject of email sent to contacts when inviting to install Bitcopal */
-"EMAIL_INVITE_SUBJECT" = "Vamos mudar para o Bitcopal";
+/* subject of email sent to contacts when inviting to install Bitcostar */
+"EMAIL_INVITE_SUBJECT" = "Vamos mudar para o Bitcostar";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Toque no botão compôr.";
@@ -741,7 +741,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Apagar Conversas.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nenhum dos seus contactos têm o Bitcopal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nenhum dos seus contactos têm o Bitcostar.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Por que não convidar alguém?";
@@ -780,13 +780,13 @@
 "ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH" = "PIN não corresponde.";
 
 /* Indicates that user should select a 'two factor auth pin'. */
-"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Introduzir um PIN para Bloqueio de Registo. Esta ir-lhe-á ser pedido da próxima vez que registe este número com o Bitcopal.";
+"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Introduzir um PIN para Bloqueio de Registo. Esta ir-lhe-á ser pedido da próxima vez que registe este número com o Bitcostar.";
 
 /* Indicates that user has 'two factor auth pin' disabled. */
-"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Para aumentar a sua segurança active o PIN de Bloqueio de Registo. Este ser-lhe-á pedido da próxima vez que registe este número com o Bitcopal.";
+"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Para aumentar a sua segurança active o PIN de Bloqueio de Registo. Este ser-lhe-á pedido da próxima vez que registe este número com o Bitcostar.";
 
 /* Indicates that user has 'two factor auth pin' enabled. */
-"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "O Bloqueio de Registo está activado. Precisa de introduzir um PIN quando registe este número com o Bitcopal.";
+"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "O Bloqueio de Registo está activado. Precisa de introduzir um PIN quando registe este número com o Bitcostar.";
 
 /* Title for the 'enable two factor auth PIN' views. */
 "ENABLE_2FA_VIEW_TITLE" = "Bloqueio de Registo";
@@ -809,14 +809,14 @@
 /* Error message indicating that message send failed due to failed attachment write */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Falha devido a falha a escrever o anexo.";
 
-/* Generic error used whenever Bitcopal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "O Bitcopal foi incapaz de se ligar à internet. Por favor tente desde outra rede Wifi ou utilizando a rede móvel.";
+/* Generic error used whenever Bitcostar can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "O Bitcostar foi incapaz de se ligar à internet. Por favor tente desde outra rede Wifi ou utilizando a rede móvel.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Falha no envio de mensagem visto não ter destinatários válidos.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "O seu dispositivo já não se encontra registado para o seu número de telefone. Deverá remover e reinstalar o Bitcopal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "O seu dispositivo já não se encontra registado para o seu número de telefone. Deverá remover e reinstalar o Bitcostar.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Falha no Servidor. Por favor tente mais tarde.";
@@ -825,10 +825,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ocorreu um erro desconhecido.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "O contacto não é um utilizador Bitcopal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "O contacto não é um utilizador Bitcostar.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Falha: Peça ao seu contacto para actualizar o Bitcopal e reenviar a mensagem.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Falha: Peça ao seu contacto para actualizar o Bitcostar e reenviar a mensagem.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Recebeu uma mensagem duplicada.";
@@ -845,10 +845,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Nenhuma sessão disponível para este contacto.";
 
-/* Shown when Bitcopal users safety numbers changed */
+/* Shown when Bitcostar users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Número de segurança alterado.";
 
-/* Shown when Bitcopal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Bitcostar users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "O seu número de segurança com %@ mudou.";
 
 /* No comment provided by engineer. */
@@ -857,7 +857,7 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Número de segurança alterado. Toque para verificar.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcopal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcostar id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Unregistered User: %@";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
@@ -981,7 +981,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archive";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Bitcopal";
+"HOME_VIEW_TITLE_INBOX" = "Bitcostar";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "A ligar...";
@@ -1022,14 +1022,14 @@
 /* Message for the alert indicating that an audio file is invalid. */
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Ficheiro áudio inválido.";
 
-/* Alert body when contacts disabled while trying to invite contacts to Bitcopal */
+/* Alert body when contacts disabled while trying to invite contacts to Bitcostar */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Para convidar os seus contactos necessita de permitir o acesso aos Contactos nas Definições do Sistema.";
 
-/* Alert title when contacts disabled while trying to invite contacts to Bitcopal */
+/* Alert title when contacts disabled while trying to invite contacts to Bitcostar */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Permitir Acesso aos Contactos";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Convidar amigos para o Bitcopal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Convidar amigos para o Bitcostar";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Procurar";
@@ -1181,7 +1181,7 @@
 /* message footer for read messages */
 "MESSAGE_STATUS_READ" = "Lida";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcopal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcostar account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Skipped";
 
 /* message status while message is sending. */
@@ -1243,17 +1243,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "O Bitcopal requer acesso à sua câmara para utilizar as video-chamadas. Pode alterar a permissão em Definições >> Privacidade >> Câmara >> Bitcopal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "O Bitcostar requer acesso à sua câmara para utilizar as video-chamadas. Pode alterar a permissão em Definições >> Privacidade >> Câmara >> Bitcostar";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "O Bitcopal necessita de acesso à sua câmara.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "O Bitcostar necessita de acesso à sua câmara.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Pode dar acesso nas Definições.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcopal Necessita de Acesso a sua Biblioteca de Media para fazer isto.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcostar Necessita de Acesso a sua Biblioteca de Media para fazer isto.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Chamada não atendida de %@.";
@@ -1339,7 +1339,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Sem nome ou Conteúdo";
 
-/* Table cell switch label. When disabled, Bitcopal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Bitcostar will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Tocar enquanto a App está aberta.";
 
 /* Label for settings UI that allows user to change the notification sound. */
@@ -1442,10 +1442,10 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "O número copiado não parece o número de segurança correcto para esta conversa.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "O Bitcopal não conseguiu encontrar um número de segurança no seu clipboard. Copiou-o correctamente?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "O Bitcostar não conseguiu encontrar um número de segurança no seu clipboard. Copiou-o correctamente?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Cada par de utilizadores Bitcopal partilha um número de segurança diferente. Verifique que %@ está a mostrar o *seu* número de segurança";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Cada par de utilizadores Bitcostar partilha um número de segurança diferente. Verifique que %@ está a mostrar o *seu* número de segurança";
 
 /* alert body */
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Está a usar uma verão antiga. Necessita de fazer update para verificar.";
@@ -1454,7 +1454,7 @@
 "PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "A pessoa com quem está a conversar está a utilizar uma versão antiga. Ela necessita de fazer update para a poder verificar.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "O código scaneado não parece um código de um número de segurança. Verifique que ambas as versões do Bitcopal estão actualizadas.";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "O código scaneado não parece um código de um número de segurança. Verifique que ambas as versões do Bitcostar estão actualizadas.";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Se deseja verificar a segurança da sua cifragem ponto-a-ponto com %@, compare os números acima com os do outro dispositivo.\n\nTambém poderá scanear directamente o código nos dispositivos.";
@@ -1493,7 +1493,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "O seu Perfil Bitcopal estará visível para todos os seus contactos, quando inicia novas conversas, e quando o partilha com outros utilizadores ou grupos. ";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "O seu Perfil Bitcostar estará visível para todos os seus contactos, quando inicia novas conversas, e quando o partilha com outros utilizadores ou grupos. ";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Toque para ver mais.";
@@ -1550,19 +1550,19 @@
 "QUOTED_REPLY_TYPE_VIDEO" = "Video";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Apoie Bitcopal avaliando este projecto. Demorará menos de 1 minuto e contribuirá para a privacidade de todos.";
+"RATING_MSG" = "Apoie Bitcostar avaliando este projecto. Demorará menos de 1 minuto e contribuirá para a privacidade de todos.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Avalie Bitcopal";
+"RATING_RATE" = "Avalie Bitcostar";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Coopere com Bitcopal!";
+"RATING_TITLE" = "Coopere com Bitcostar!";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Esqueci o meu PIN.";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin'. */
-"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "O Registo deste número de telefone será possível sem o seu PIN de Bloqueio de Registo depois de 7 dias sem que o número tenha estado activo no Bitcopal. ";
+"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "O Registo deste número de telefone será possível sem o seu PIN de Bloqueio de Registo depois de 7 dias sem que o número tenha estado activo no Bitcostar. ";
 
 /* Instructions to enter the 'two-factor auth pin' in the 2FA registration view. */
 "REGISTER_2FA_INSTRUCTIONS" = "Este número de telefone tem o Bloqueio de Registo activado. Por favor introduza o seu PIN de Bloqueio de Registo.\n\nO seu PIN de Bloqueio de Registo é distinto do código de verificação que lhe é enviado durante o último passo do registo.";
@@ -1643,7 +1643,7 @@
 "RELAY_REGISTERED_ERROR_RECOVERY" = "O número de telefone que pretende registar já se encontra registado noutro servidor, por favor desregiste-o e tente novamente.";
 
 /* Body text for when user is periodically prompted to enter their registration lock PIN */
-"REMINDER_2FA_BODY" = "O Bloqueio de Registo está activo para o seu número de telefone. Para ajudar a memorizar o seu PIN para o Bloqueio de Registo, o Bitcopal pedirá para confirma-lo periodicamente.";
+"REMINDER_2FA_BODY" = "O Bloqueio de Registo está activo para o seu número de telefone. Para ajudar a memorizar o seu PIN para o Bloqueio de Registo, o Bitcostar pedirá para confirma-lo periodicamente.";
 
 /* Body header for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_BODY_HEADER" = "Lembrete:";
@@ -1679,7 +1679,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Enviar ainda assim";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "O nosso Número de Segurança Bitcopal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "O nosso Número de Segurança Bitcostar:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "O número de segurança com %@ mudou. Poderá querer verificá-lo.";
@@ -1711,14 +1711,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "You must enable a passcode in your iOS Settings in order to use Screen Lock.";
 
-/* Description of how and why Bitcopal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Authenticate to open Bitcopal.";
+/* Description of how and why Bitcostar iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Authenticate to open Bitcostar.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Authentication Failed";
 
-/* Label for button on lock screen that lets users unlock Bitcopal. */
-"SCREEN_LOCK_UNLOCK_Bitcopal" = "Unlock Bitcopal";
+/* Label for button on lock screen that lets users unlock Bitcostar. */
+"SCREEN_LOCK_UNLOCK_Bitcostar" = "Unlock Bitcostar";
 
 /* No comment provided by engineer. */
 "SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "Procurar por nome ou número";
@@ -1745,16 +1745,16 @@
 "SEND_INVITE_FAILURE" = "Envio do convite falhou, por favor tente mais tarde.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Convidou o seu amigo para usar o Bitcopal!";
+"SEND_INVITE_SUCCESS" = "Convidou o seu amigo para usar o Bitcostar!";
 
-/* Text for button to send a Bitcopal invite via SMS. %@ is placeholder for the recipient's phone number. */
+/* Text for button to send a Bitcostar invite via SMS. %@ is placeholder for the recipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Enviar convite via SMS para: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Convidar um amigo por SMS inseguro?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Deseja convidar o seguinte número para usar Bitcopal:";
+"SEND_SMS_INVITE_TITLE" = "Deseja convidar o seguinte número para usar Bitcostar:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Acerca de";
@@ -1775,7 +1775,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Localização: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Se activada, o Bitcopal ira tentar circunscrever a censura. Apenas active esta opção em locais onde o Bitcopal é censurado.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Se activada, o Bitcostar ira tentar circunscrever a censura. Apenas active esta opção em locais onde o Bitcostar é censurado.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "A circunscrição de censura foi activada baseada no número de telefone da sua conta.";
@@ -1783,8 +1783,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Circunscrição de censura só pode ser activada enquanto existe ligação à internet.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcopal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "A circunscrição de censura não é necessária, já se encontra ligado ao serviço Bitcopal.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcostar service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "A circunscrição de censura não é necessária, já se encontra ligado ao serviço Bitcostar.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = " Circunscrição de Censura";
@@ -1837,8 +1837,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Adicionar";
 
-/* A label that indicates the user has no Bitcopal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Não possui contactos no Bitcopal.";
+/* A label that indicates the user has no Bitcostar contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Não possui contactos no Bitcostar.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Sem Resultados";
@@ -1850,10 +1850,10 @@
 "SETTINGS_BUTTON_ACCESSIBILITY" = "Definições";
 
 /* Table cell label */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Passar chamadas pelo Bitcopal";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Passar chamadas pelo Bitcostar";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Todas as suas chamadas passarão pelo servidor Bitcopal para evitar revelar o seu endereço IP ao seu contacto. Quando activada a chamada terá pior qualidade.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Todas as suas chamadas passarão pelo servidor Bitcostar para evitar revelar o seu endereço IP ao seu contacto. Quando activada a chamada terá pior qualidade.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Apagar Histórico";
@@ -1883,7 +1883,7 @@
 "SETTINGS_INVITE_TITLE" = "Convide os seus amigos";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "You can reach me using @Bitcopalapp. Get it now: https://Bitcopal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "You can reach me using @Bitcostarapp. Get it now: https://Bitcostar.org/download/";
 
 /* Label for settings view that allows user to change the notification sound. */
 "SETTINGS_ITEM_NOTIFICATION_SOUND" = "Som de Mensagem";
@@ -1925,7 +1925,7 @@
 "SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT" = "Screen Lock Timeout";
 
 /* Footer for the 'screen lock' section of the privacy settings. */
-"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Unlock Bitcopal's screen using Touch ID, Face ID, or your iOS device passcode. You can still answer incoming calls and receive message notifications while Screen Lock is enabled. Bitcopal's notification settings allow you to customize the information that is displayed.";
+"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Unlock Bitcostar's screen using Touch ID, Face ID, or your iOS device passcode. You can still answer incoming calls and receive message notifications while Screen Lock is enabled. Bitcostar's notification settings allow you to customize the information that is displayed.";
 
 /* Title for the 'screen lock' section of the privacy settings. */
 "SETTINGS_SCREEN_LOCK_SECTION_TITLE" = "Screen Lock";
@@ -1937,10 +1937,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Activar Segurança de Ecrã";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevenir pré-visualizações do Bitcopal no app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Prevenir pré-visualizações do Bitcostar no app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "A integração de chamadas iOS mostra as chamadas Bitcopal no seu lock screen e no seu histórico de chamadas. Se o iCloud estiver activado, o histórico de chamadas será partilhado com a Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "A integração de chamadas iOS mostra as chamadas Bitcostar no seu lock screen e no seu histórico de chamadas. Se o iCloud estiver activado, o histórico de chamadas será partilhado com a Apple.";
 
 /* Label for the notifications section of conversation settings view. */
 "SETTINGS_SECTION_NOTIFICATIONS" = "Notificações";
@@ -1988,13 +1988,13 @@
 "SHARE_EXTENSION_LOADING" = "A Carregar...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lançar Bitcopal para registar.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lançar Bitcostar para registar.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Não Registado";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lançar Bitcopal pra actualizar ou registar.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lançar Bitcostar pra actualizar ou registar.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Não Preparado";
@@ -2005,11 +2005,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "A enviar...";
 
-/* Shown when trying to share content to a Bitcopal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Bitcostar user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Incapaz de Preparar Anexo";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Partilhar pelo Bitcopal";
+"SHARE_EXTENSION_VIEW_TITLE" = "Partilhar pelo Bitcostar";
 
 /* Action sheet item */
 "SHOW_SAFETY_NUMBER_ACTION" = " Mostrar Novo Número de Segurança ";
@@ -2017,8 +2017,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Mostrar Conversa";
 
-/* body sent to contacts when inviting to Install Bitcopal */
-"SMS_INVITE_BODY" = "Estou a convidar-te para instalar o Bitcopal! Aqui está o link: ";
+/* body sent to contacts when inviting to Install Bitcostar */
+"SMS_INVITE_BODY" = "Estou a convidar-te para instalar o Bitcostar! Aqui está o link: ";
 
 /* Label for the 'no sound' option that allows users to disable sounds for notifications, etc. */
 "SOUNDS_NONE" = "Nenhum";
@@ -2102,13 +2102,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Desassociar \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Bitcopal foi incapaz de desassociar o dispositivo.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Bitcostar foi incapaz de desassociar o dispositivo.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dispositivo sem nome";
 
 /* No comment provided by engineer. */
-"UNREGISTER_Bitcopal_FAIL" = "Falha a desregistar-se ";
+"UNREGISTER_Bitcostar_FAIL" = "Falha a desregistar-se ";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Recebeu um ficheiro de tipo não suportado.";
@@ -2144,7 +2144,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Prepare o Seu Perfil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "A partir de agora pode partilhar uma foto de perfil e nome com os seus amigos no Bitcopal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "A partir de agora pode partilhar uma foto de perfil e nome com os seus amigos no Bitcostar.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Ready for Your Closeup?";
@@ -2159,19 +2159,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Apresentando Notificações de Leitura";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "O Bitcopal agora suporta videochamadas seguras. Simplesmente comece uma chamada, como sempre, e toque no botão da câmara.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "O Bitcostar agora suporta videochamadas seguras. Simplesmente comece uma chamada, como sempre, e toque no botão da câmara.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Olá Videochamadas seguras!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "O Bitcopal requer iOS 9 ou superior. Por favor actualize em Definições >> Geral >> Actualização de Software.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "O Bitcostar requer iOS 9 ou superior. Por favor actualize em Definições >> Geral >> Actualização de Software.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Actualizar iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Bitcopal ..." = "A actualizar o Bitcopal...";
+"Upgrading Bitcostar ..." = "A actualizar o Bitcostar...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Atrás";
@@ -2225,7 +2225,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Mensagem de voz";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete a instalação no Bitcopal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Complete a instalação no Bitcostar Desktop.";
 
 /* Info Message when you disable disappearing messages */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Desactivou a destruição de mensagens.";

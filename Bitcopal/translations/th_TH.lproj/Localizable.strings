@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "ยอมรับรหัสความปลอดภัยใหม่";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Bitcopal Call";
+"ACTION_AUDIO_CALL" = "Bitcostar Call";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Invite to Bitcopal";
+"ACTION_INVITE" = "Invite to Bitcostar";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Send Message";
@@ -68,7 +68,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ ในกลุ่ม %@: %@";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcopal ไม่สามารถเริ่มต้นใช้งานได้ กรุณาส่งบันทึกการดีบักให้กับเรา เพื่อที่เราจะได้ทำการแก้ไขข้อบกพร่องนี้ต่อไป";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcostar ไม่สามารถเริ่มต้นใช้งานได้ กรุณาส่งบันทึกการดีบักให้กับเรา เพื่อที่เราจะได้ทำการแก้ไขข้อบกพร่องนี้ต่อไป";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "ข้อผิดพลาด";
@@ -80,13 +80,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "พบกับรุ่น %@ ได้แล้วที่ App Store";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "มี Bitcopal รุ่นใหม่แล้ว";
+"APP_UPDATE_NAG_ALERT_TITLE" = "มี Bitcostar รุ่นใหม่แล้ว";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "อัปเดต";
 
 /* Name of application */
-"APPLICATION_NAME" = "Bitcopal";
+"APPLICATION_NAME" = "Bitcostar";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "ที่เก็บถาวร";
@@ -164,7 +164,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "เลือกเอกสารไม่สำเร็จ";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Bitcopal ไม่สามารถจัดการกับไฟล์ประเภทนี้ได้ ลองซิปไฟล์ก่อนที่จะส่ง";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Bitcostar ไม่สามารถจัดการกับไฟล์ประเภทนี้ได้ ลองซิปไฟล์ก่อนที่จะส่ง";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "ไฟล์ที่ไม่รองรับ";
@@ -284,7 +284,7 @@
 "BUTTON_SELECT" = "เลือก";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Bitcopal ต้องการเข้าถึงไมโครโฟนของคุณ เพื่อที่จะโทรและบันทึกข้อความเสียง คุณสามารถให้สิทธิการเข้าถึงได้ในแอป 'การตั้งค่า'";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Bitcostar ต้องการเข้าถึงไมโครโฟนของคุณ เพื่อที่จะโทรและบันทึกข้อความเสียง คุณสามารถให้สิทธิการเข้าถึงได้ในแอป 'การตั้งค่า'";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "ต้องการการเข้าถึงไมโครโฟน";
@@ -296,7 +296,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "ไม่มีการตอบรับ";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Bitcopal %@";
+"CALL_STATUS_FORMAT" = "Bitcostar %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "โทร";
@@ -350,7 +350,7 @@
 "CALLBACK_BUTTON_TITLE" = "โทรกลับ";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "ผู้ใช้ Bitcopal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "ผู้ใช้ Bitcostar";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "ไม่สามารถตรวจยืนยันผู้ใช้นี้ได้จนกว่าคุณจะมีการโต้ตอบข้อความกับเขา";
@@ -368,7 +368,7 @@
 "CLOUDKIT_STATUS_NO_ACCOUNT" = "คุณไม่มีบัญชี iCloud สำหรับการสำรองข้อมูล";
 
 /* Error indicating that the app was prevented from accessing the user's CloudKit account. */
-"CLOUDKIT_STATUS_RESTRICTED" = "Bitcopal ไม่ได้รับอนุญาตให้เข้าถึงบัญชี iCloud ของคุณสำหรับการสำรองข้อมูล";
+"CLOUDKIT_STATUS_RESTRICTED" = "Bitcostar ไม่ได้รับอนุญาตให้เข้าถึงบัญชี iCloud ของคุณสำหรับการสำรองข้อมูล";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "เปรียบเทียบกับคลิปบอร์ด";
@@ -383,7 +383,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "เชิญ";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "เพื่อที่จะดูว่าผู้ติดต่อของคุณคนไหนที่ใช้ Bitcopal กรุณาตั้งค่าระบบให้ Bitcopal เข้าถึงรายชื่อผู้ติดต่อของคุณได้";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "เพื่อที่จะดูว่าผู้ติดต่อของคุณคนไหนที่ใช้ Bitcostar กรุณาตั้งค่าระบบให้ Bitcostar เข้าถึงรายชื่อผู้ติดต่อของคุณได้";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "สิ่งนี้จะล้างแอปพลิเคชันใหม่ โดยลบข้อความของคุณและถอนทะเบียนคุณจากเซิร์ฟเวอร์ แอปจะปิดหลังจากการลบข้อมูล";
@@ -647,7 +647,7 @@
 /* Title of the alert before redirecting to GitHub Issues. */
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "เปลี่ยนเส้นทางไปยัง GitHub";
 
-/* {{Short Date}} when device last communicated with Bitcopal Server. */
+/* {{Short Date}} when device last communicated with Bitcostar Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "ใช้งานล่าสุด: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -674,11 +674,11 @@
 /* Section title for the 'domain fronting country' view. */
 "DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER" = "ตำแหน่งของการหลบเลี่ยงการปิดกั้นข้อมูล";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "คุณสามารถให้การเข้าถึงได้ในแอป 'การตั้งค่า'";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Bitcopal จำเป็นต้องเข้าถึงผู้ติดต่อ เพื่อที่จะแก้ไขข้อมูลผู้ติดต่อ";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Bitcostar จำเป็นต้องเข้าถึงผู้ติดต่อ เพื่อที่จะแก้ไขข้อมูลผู้ติดต่อ";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "แก้ไขกลุ่ม";
@@ -722,17 +722,17 @@
 /* No comment provided by engineer. */
 "EDIT_TXT" = "แก้ไข";
 
-/* body of email sent to contacts when inviting to install Bitcopal. Embeds {{link to install Bitcopal}} and {{link to the Bitcopal home page}} */
-"EMAIL_INVITE_BODY" = "สวัสดี\n\nเมื่อไม่นานนี้ ฉันได้ใช้ Bitcopal เพื่อรักษาการสนทนาบนไอโฟนของฉันให้เป็นส่วนตัว ฉันอยากให้คุณติดตั้งเหมือนกัน เพื่อให้เรามั่นใจได้ว่ามีแค่คุณและฉันที่สามารถอ่านข้อความของเราหรือได้ยินเสียงคุยของเรา\n\nBitcopal ใช้งานได้บนไอโฟนและแอนดรอยด์ โหลดเลยที่นี่: %@\n\nBitcopal ทำงานเหมือนแอปแชตที่คุณมีอยู่ เราสามารถส่งรูปและวิดีโอ โทรออก และเริ่มแชตกลุ่ม สิ่งที่ดีที่สุดคือไม่มีใครคนอื่นเห็นสิ่งเหล่านี้ แม้แต่ผู้คนที่สร้าง Bitcopal ก็จะไม่เห็น!\n\nคุณสามารถอ่านเพิ่มเติมเกี่ยวกับ Open Whisper Systems ผู้สร้าง Bitcopal ได้ที่นี่: %@";
+/* body of email sent to contacts when inviting to install Bitcostar. Embeds {{link to install Bitcostar}} and {{link to the Bitcostar home page}} */
+"EMAIL_INVITE_BODY" = "สวัสดี\n\nเมื่อไม่นานนี้ ฉันได้ใช้ Bitcostar เพื่อรักษาการสนทนาบนไอโฟนของฉันให้เป็นส่วนตัว ฉันอยากให้คุณติดตั้งเหมือนกัน เพื่อให้เรามั่นใจได้ว่ามีแค่คุณและฉันที่สามารถอ่านข้อความของเราหรือได้ยินเสียงคุยของเรา\n\nBitcostar ใช้งานได้บนไอโฟนและแอนดรอยด์ โหลดเลยที่นี่: %@\n\nBitcostar ทำงานเหมือนแอปแชตที่คุณมีอยู่ เราสามารถส่งรูปและวิดีโอ โทรออก และเริ่มแชตกลุ่ม สิ่งที่ดีที่สุดคือไม่มีใครคนอื่นเห็นสิ่งเหล่านี้ แม้แต่ผู้คนที่สร้าง Bitcostar ก็จะไม่เห็น!\n\nคุณสามารถอ่านเพิ่มเติมเกี่ยวกับ Open Whisper Systems ผู้สร้าง Bitcostar ได้ที่นี่: %@";
 
-/* subject of email sent to contacts when inviting to install Bitcopal */
-"EMAIL_INVITE_SUBJECT" = "เปลี่ยนมาใช้ Bitcopal กันเถอะ";
+/* subject of email sent to contacts when inviting to install Bitcostar */
+"EMAIL_INVITE_SUBJECT" = "เปลี่ยนมาใช้ Bitcostar กันเถอะ";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "แตะบนปุ่มเขียน";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "เริ่มการสนทนาแรกของคุณบน Bitcopal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "เริ่มการสนทนาแรกของคุณบน Bitcostar!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "คุณสามารถนำการสนทนาในกล่องขาเข้าที่ไม่ได้คุยแล้ว เข้าเก็บในที่เก็บถาวรไว้ดูภายหลังได้";
@@ -741,7 +741,7 @@
 "EMPTY_ARCHIVE_TITLE" = "ล้างการสนทนาของคุณ";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "ไม่มีใครในรายชื่อผู้ติดต่อของคุณที่ใช้ Bitcopal";
+"EMPTY_CONTACTS_LABEL_LINE1" = "ไม่มีใครในรายชื่อผู้ติดต่อของคุณที่ใช้ Bitcostar";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "ทำไมคุณไม่เชิญใครสักคนล่ะ";
@@ -780,13 +780,13 @@
 "ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH" = "PIN ไม่ตรงกัน";
 
 /* Indicates that user should select a 'two factor auth pin'. */
-"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "ป้อนรหัส PIN ล็อกการลงทะเบียน คุณจะถูกขอให้ป้อนรหัส PIN นี้เมื่อคุณมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcopal ในครั้งต่อไป";
+"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "ป้อนรหัส PIN ล็อกการลงทะเบียน คุณจะถูกขอให้ป้อนรหัส PIN นี้เมื่อคุณมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcostar ในครั้งต่อไป";
 
 /* Indicates that user has 'two factor auth pin' disabled. */
-"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "เพื่อความปลอดภัยที่มากขึ้น เปิดใช้งานรหัส PIN ล็อกการลงทะเบียน ซึ่งจะถูกใช้เมื่อมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcopal อีกครั้ง";
+"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "เพื่อความปลอดภัยที่มากขึ้น เปิดใช้งานรหัส PIN ล็อกการลงทะเบียน ซึ่งจะถูกใช้เมื่อมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcostar อีกครั้ง";
 
 /* Indicates that user has 'two factor auth pin' enabled. */
-"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "ล็อกการลงทะเบียนถูกเปิดใช้งานแล้ว คุณจะต้องป้อนรหัส PIN ของคุณเมื่อมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcopal อีกครั้ง";
+"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "ล็อกการลงทะเบียนถูกเปิดใช้งานแล้ว คุณจะต้องป้อนรหัส PIN ของคุณเมื่อมีการลงทะเบียนหมายเลขโทรศัพท์นี้กับ Bitcostar อีกครั้ง";
 
 /* Title for the 'enable two factor auth PIN' views. */
 "ENABLE_2FA_VIEW_TITLE" = "ล็อกการลงทะเบียน ";
@@ -809,14 +809,14 @@
 /* Error message indicating that message send failed due to failed attachment write */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "ไม่สำเร็จ เนื่องจากไม่สามารถเขียนไฟล์แนบได้";
 
-/* Generic error used whenever Bitcopal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Bitcopal ไม่สามารถเชื่อมต่ออินเทอร์เน็ต โปรดลองเชื่อมต่อเครือข่าย WiFi อื่นหรือใช้งานข้อมูลโทรศัพท์มือถือ";
+/* Generic error used whenever Bitcostar can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Bitcostar ไม่สามารถเชื่อมต่ออินเทอร์เน็ต โปรดลองเชื่อมต่อเครือข่าย WiFi อื่นหรือใช้งานข้อมูลโทรศัพท์มือถือ";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "การส่งข้อความไม่สำเร็จ เนื่องจากไม่มีชื่อผู้รับที่ถูกต้อง";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "อุปกรณ์ของคุณไม่ได้ลงทะเบียนสำหรับหมายเลขโทรศัพท์ของคุณอีกต่อไป คุณต้องลบและติดตั้ง Bitcopal ใหม่";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "อุปกรณ์ของคุณไม่ได้ลงทะเบียนสำหรับหมายเลขโทรศัพท์ของคุณอีกต่อไป คุณต้องลบและติดตั้ง Bitcostar ใหม่";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "เกิดข้อผิดพลาดที่เซิร์ฟเวอร์ โปรดลองอีกครั้งในภายหลัง";
@@ -825,10 +825,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "เกิดข้อผิดพลาดที่ไม่รู้จัก";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "ผู้ติดต่อนี้ไม่ได้เป็นผู้ใช้ Bitcopal";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "ผู้ติดต่อนี้ไม่ได้เป็นผู้ใช้ Bitcostar";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "ล้มเหลว: ขอผู้ส่งให้อัปเดต Bitcopal และส่งใหม่อีกครั้ง";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "ล้มเหลว: ขอผู้ส่งให้อัปเดต Bitcostar และส่งใหม่อีกครั้ง";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "ได้รับข้อความที่ซ้ำกัน";
@@ -845,10 +845,10 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "ไม่มีเซสชันที่ใช้งานได้สำหรับผู้ติดต่อ";
 
-/* Shown when Bitcopal users safety numbers changed */
+/* Shown when Bitcostar users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "รหัสความปลอดภัยถูกเปลี่ยนแล้ว";
 
-/* Shown when Bitcopal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Bitcostar users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "รหัสความปลอดภัยของคุณกับ %@ มีการเปลี่ยนแปลง";
 
 /* No comment provided by engineer. */
@@ -857,7 +857,7 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "รหัสความปลอดภัยถูกเปลี่ยนแล้ว แตะเพื่อตรวจยืนยัน";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcopal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcostar id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Unregistered User: %@";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
@@ -981,7 +981,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Archive";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Bitcopal";
+"HOME_VIEW_TITLE_INBOX" = "Bitcostar";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "กำลังเชื่อมต่อ…";
@@ -1022,14 +1022,14 @@
 /* Message for the alert indicating that an audio file is invalid. */
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "ไฟล์เสียงไม่ถูกต้อง";
 
-/* Alert body when contacts disabled while trying to invite contacts to Bitcopal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "ในการจะเชิญผู้ติดต่อของคุณ คุณจำเป็นต้องอนุญาตให้ Bitcopal เข้าถึงรายชื่อผู้ติดต่อของคุณในแอปการตั้งค่า";
+/* Alert body when contacts disabled while trying to invite contacts to Bitcostar */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "ในการจะเชิญผู้ติดต่อของคุณ คุณจำเป็นต้องอนุญาตให้ Bitcostar เข้าถึงรายชื่อผู้ติดต่อของคุณในแอปการตั้งค่า";
 
-/* Alert title when contacts disabled while trying to invite contacts to Bitcopal */
+/* Alert title when contacts disabled while trying to invite contacts to Bitcostar */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "อนุญาตให้เข้าถึงผู้ติดต่อ";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "ชวนเพื่อนมาใช้ Bitcopal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "ชวนเพื่อนมาใช้ Bitcostar";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "ค้นหา";
@@ -1181,7 +1181,7 @@
 /* message footer for read messages */
 "MESSAGE_STATUS_READ" = "อ่านแล้ว";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcopal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcostar account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Skipped";
 
 /* message status while message is sending. */
@@ -1243,17 +1243,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Bitcopal จำเป็นต้องเข้าถึงกล้องของคุณสำหรับการโทรด้วยวิดีโอ คุณสามารถให้การอนุญาตดังกล่าวได้ในแอป 'การตั้งค่า' >> ความเป็นส่วนตัว >> กล้อง >> Bitcopal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Bitcostar จำเป็นต้องเข้าถึงกล้องของคุณสำหรับการโทรด้วยวิดีโอ คุณสามารถให้การอนุญาตดังกล่าวได้ในแอป 'การตั้งค่า' >> ความเป็นส่วนตัว >> กล้อง >> Bitcostar";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Bitcopal จำเป็นต้องเข้าถึงกล้องของคุณ";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Bitcostar จำเป็นต้องเข้าถึงกล้องของคุณ";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "คุณสามารถให้การอนุญาตได้ในแอป 'การตั้งค่า' ";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcopal ต้องการเข้าถึงคลังสื่อข้อมูลของคุณเพื่อดำเนินการ";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcostar ต้องการเข้าถึงคลังสื่อข้อมูลของคุณเพื่อดำเนินการ";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "สายที่ไม่ได้รับจาก %@";
@@ -1339,7 +1339,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "ไม่มีทั้งชื่อและข้อความ";
 
-/* Table cell switch label. When disabled, Bitcopal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Bitcostar will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "เล่นขณะที่แอปเปิดอยู่";
 
 /* Label for settings UI that allows user to change the notification sound. */
@@ -1442,19 +1442,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "ตัวเลขในคลิปบอร์ดของคุณดูเหมือนจะไม่ใช่รหัสความปลอดภัยที่ถูกต้องสำหรับการสนทนานี้";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Bitcopal ไม่สามารถค้นหารหัสความปลอดภัยใดๆ ในคลิปบอร์ดของคุณ คุณได้คัดลอกมาถูกต้องหรือไม่";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Bitcostar ไม่สามารถค้นหารหัสความปลอดภัยใดๆ ในคลิปบอร์ดของคุณ คุณได้คัดลอกมาถูกต้องหรือไม่";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "ผู้ใช้ Bitcopal ทุกคู่จะแบ่งปันรหัสความปลอดภัยจำเพาะร่วมกัน ตรวจสอบอีกครั้งว่า %@ กำลังแสดงรหัสความปลอดภัย *ของคุณ*";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "ผู้ใช้ Bitcostar ทุกคู่จะแบ่งปันรหัสความปลอดภัยจำเพาะร่วมกัน ตรวจสอบอีกครั้งว่า %@ กำลังแสดงรหัสความปลอดภัย *ของคุณ*";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "คุณกำลังใช้ Bitcopal เวอร์ชันเก่า คุณจำเป็นต้องอัปเดตก่อนที่คุณจะสามารถตรวจยืนยัน";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "คุณกำลังใช้ Bitcostar เวอร์ชันเก่า คุณจำเป็นต้องอัปเดตก่อนที่คุณจะสามารถตรวจยืนยัน";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "คู่สนทนาของคุณกำลังใช้ Bitcopal เวอร์ชันเก่า เขาจำเป็นต้องอัปเดตก่อนที่คุณจะสามารถตรวจยืนยัน";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "คู่สนทนาของคุณกำลังใช้ Bitcostar เวอร์ชันเก่า เขาจำเป็นต้องอัปเดตก่อนที่คุณจะสามารถตรวจยืนยัน";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "รหัสที่สแกนดูไม่เหมือนกับรหัสความปลอดภัย คุณทั้งสองกำลังใช้ Bitcopal เวอร์ชันล่าสุดอยู่หรือไม่";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "รหัสที่สแกนดูไม่เหมือนกับรหัสความปลอดภัย คุณทั้งสองกำลังใช้ Bitcostar เวอร์ชันล่าสุดอยู่หรือไม่";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "หากคุณต้องการตรวจยืนยันความปลอดภัยในการเข้ารหัสจากต้นทางถึงปลายทางระหว่างคุณกับ %@ ให้เปรียบเทียบตัวเลขด้านบนกับตัวเลขบนอุปกรณ์ของเขา\n\nหรืออีกทางหนึ่ง คุณสามารถสแกนรหัสบนโทรศัพท์ของเขา หรือขอให้เขาสแกนรหัสของคุณ";
@@ -1493,7 +1493,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "อวตาร";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "บุคคลในรายชื่อผู้ติดต่อของคุณจะสามารถเห็นโปรไฟล์ Bitcopal ของคุณ เมื่อคุณเริ่มการสนทนาใหม่ และเมื่อคุณแบ่งปันโปรไฟล์กับผู้ใช้อื่นหรือกลุ่มอื่น";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "บุคคลในรายชื่อผู้ติดต่อของคุณจะสามารถเห็นโปรไฟล์ Bitcostar ของคุณ เมื่อคุณเริ่มการสนทนาใหม่ และเมื่อคุณแบ่งปันโปรไฟล์กับผู้ใช้อื่นหรือกลุ่มอื่น";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "แตะเพื่อเรียนรู้เพิ่มเติม";
@@ -1550,19 +1550,19 @@
 "QUOTED_REPLY_TYPE_VIDEO" = "วิดีโอ";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "หากคุณเพลิดเพลินกับการใช้ Bitcopal เพื่อสนทนาแบบส่วนตัว คุณสามารถสนับสนุนโครงการของเราโดยการให้คะแนน ใช้เวลาแค่ไม่ถึงนาทีและยังได้ช่วยให้ผู้อื่นพบความเป็นส่วนตัว";
+"RATING_MSG" = "หากคุณเพลิดเพลินกับการใช้ Bitcostar เพื่อสนทนาแบบส่วนตัว คุณสามารถสนับสนุนโครงการของเราโดยการให้คะแนน ใช้เวลาแค่ไม่ถึงนาทีและยังได้ช่วยให้ผู้อื่นพบความเป็นส่วนตัว";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "ให้คะแนน Bitcopal";
+"RATING_RATE" = "ให้คะแนน Bitcostar";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "สนับสนุน Bitcopal!";
+"RATING_TITLE" = "สนับสนุน Bitcostar!";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "ฉันลืมรหัส PIN";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin'. */
-"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "การลงทะเบียนหมายเลขโทรศัพท์นี้โดยไม่มีรหัส PIN ล็อกการลงทะเบียนของคุณสามารถทำได้หลังพ้นระยะเวลา 7 วันนับจากการใช้งานหมายเลขโทรศัพท์นี้บน Bitcopal ครั้งหลังสุด";
+"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "การลงทะเบียนหมายเลขโทรศัพท์นี้โดยไม่มีรหัส PIN ล็อกการลงทะเบียนของคุณสามารถทำได้หลังพ้นระยะเวลา 7 วันนับจากการใช้งานหมายเลขโทรศัพท์นี้บน Bitcostar ครั้งหลังสุด";
 
 /* Instructions to enter the 'two-factor auth pin' in the 2FA registration view. */
 "REGISTER_2FA_INSTRUCTIONS" = "เปิดใช้งานล็อกการลงทะเบียนสำหรับหมายเลขโทรศัพท์นี้แล้ว โปรดป้อนรหัส PIN ล็อกการลงทะเบียน\n\nรหัส PIN ล็อกการลงทะเบียนของคุณนั้นแตกต่างจากรหัสการตรวจยืนยันอัตโนมัติที่ถูกส่งไปที่โทรศัพท์ของคุณในระหว่างขั้นตอนสุดท้าย";
@@ -1643,13 +1643,13 @@
 "RELAY_REGISTERED_ERROR_RECOVERY" = "หมายเลขโทรศัพท์ที่คุณพยายามจะลงทะเบียน ได้ลงทะเบียนอยู่แล้วบนเซิร์ฟเวอร์อื่น โปรดถอนการลงทะเบียนจากที่นั่นและลองอีกครั้ง";
 
 /* Body text for when user is periodically prompted to enter their registration lock PIN */
-"REMINDER_2FA_BODY" = "หมายเลขโทรศัพท์ของคุณได้เปิดใช้งานล็อกการลงทะเบียนแล้ว เพื่อช่วยให้คุณจดจำรหัส PIN ล็อกการลงทะเบียนได้ Bitcopal จะสอบถามคุณเพื่อยืนยันรหัสเป็นระยะๆ";
+"REMINDER_2FA_BODY" = "หมายเลขโทรศัพท์ของคุณได้เปิดใช้งานล็อกการลงทะเบียนแล้ว เพื่อช่วยให้คุณจดจำรหัส PIN ล็อกการลงทะเบียนได้ Bitcostar จะสอบถามคุณเพื่อยืนยันรหัสเป็นระยะๆ";
 
 /* Body header for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_BODY_HEADER" = "การแจ้งเตือน:";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin' */
-"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "ล็อกการลงทะเบียนช่วยป้องกันหมายเลขโทรศัพท์ของคุณจากความพยายามลงทะเบียนที่ไม่ได้รับอนุญาต คุณสามารถปิดใช้งานคุณสมบัตินี้ได้ทุกเมื่อที่การตั้งค่าความเป็นส่วนตัวใน Bitcopal ของคุณ";
+"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "ล็อกการลงทะเบียนช่วยป้องกันหมายเลขโทรศัพท์ของคุณจากความพยายามลงทะเบียนที่ไม่ได้รับอนุญาต คุณสามารถปิดใช้งานคุณสมบัตินี้ได้ทุกเมื่อที่การตั้งค่าความเป็นส่วนตัวใน Bitcostar ของคุณ";
 
 /* Navbar title for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_NAV_TITLE" = "ป้อนรหัส PIN ล็อกการลงทะเบียน";
@@ -1679,7 +1679,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "ส่งเสมอ";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "รหัสความปลอดภัย Bitcopal ของเรา:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "รหัสความปลอดภัย Bitcostar ของเรา:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "รหัสความปลอดภัยระหว่างคุณกับ %@ มีการเปลี่ยนแปลง คุณอาจต้องการตรวจยืนยันอีกครั้ง";
@@ -1711,14 +1711,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "คุณต้องเปิดใช้งานรหัสในการตั้งค่า iOS ของคุณเพื่อใช้งานการล็อกหน้าจอ";
 
-/* Description of how and why Bitcopal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "การรับรองความถูกต้องเพื่อเปิด Bitcopal";
+/* Description of how and why Bitcostar iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "การรับรองความถูกต้องเพื่อเปิด Bitcostar";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "การรับรองความถูกต้องไม่สำเร็จ";
 
-/* Label for button on lock screen that lets users unlock Bitcopal. */
-"SCREEN_LOCK_UNLOCK_Bitcopal" = "ปลดล็อก Bitcopal";
+/* Label for button on lock screen that lets users unlock Bitcostar. */
+"SCREEN_LOCK_UNLOCK_Bitcostar" = "ปลดล็อก Bitcostar";
 
 /* No comment provided by engineer. */
 "SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "ค้นหาโดยชื่อหรือหมายเลข";
@@ -1745,16 +1745,16 @@
 "SEND_INVITE_FAILURE" = "ส่งคำเชิญไม่สำเร็จ โปรดลองอีกครั้งในภายหลัง";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "คุณได้ชวนเพื่อนของคุณให้มาใช้ Bitcopal!";
+"SEND_INVITE_SUCCESS" = "คุณได้ชวนเพื่อนของคุณให้มาใช้ Bitcostar!";
 
-/* Text for button to send a Bitcopal invite via SMS. %@ is placeholder for the recipient's phone number. */
+/* Text for button to send a Bitcostar invite via SMS. %@ is placeholder for the recipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "เชิญผ่านเอสเอ็มเอส: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "เชิญเพื่อนผ่านเอสเอ็มเอสที่ไม่ปลอดภัยหรือ";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "คุณต้องการเชิญหมายเลขดังต่อไปนี้มาใช้ Bitcopal หรือไม่:";
+"SEND_SMS_INVITE_TITLE" = "คุณต้องการเชิญหมายเลขดังต่อไปนี้มาใช้ Bitcostar หรือไม่:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "เกี่ยวกับ";
@@ -1775,7 +1775,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "ตำแหน่งที่ตั้ง: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "หากเปิดใช้ Bitcopal จะพยายามหลบเลี่ยงการปิดกั้นข้อมูล อย่าเปิดใช้ความสามารถนี้ เว้นแต่ว่าคุณอยู่ในที่ที่ Bitcopal ถูกปิดกั้น";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "หากเปิดใช้ Bitcostar จะพยายามหลบเลี่ยงการปิดกั้นข้อมูล อย่าเปิดใช้ความสามารถนี้ เว้นแต่ว่าคุณอยู่ในที่ที่ Bitcostar ถูกปิดกั้น";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "การหลบเลี่ยงการปิดกั้นข้อมูลถูกเปิดใช้ เนื่องจากหมายเลขโทรศัพท์ของบัญชีของคุณ";
@@ -1783,8 +1783,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "การหลบเลี่ยงการปิดกั้นข้อมูลจะใช้ได้ก็ต่อเมื่อเชื่อมต่อกับอินเทอร์เน็ต";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcopal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "ไม่จำเป็นต้องใช้การหลบเลี่ยงการปิดกั้นข้อมูล; คุณเชื่อมต่อกับเซิร์ฟเวอร์ Bitcopal อยู่แล้ว";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcostar service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "ไม่จำเป็นต้องใช้การหลบเลี่ยงการปิดกั้นข้อมูล; คุณเชื่อมต่อกับเซิร์ฟเวอร์ Bitcostar อยู่แล้ว";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "การหลบเลี่ยงการปิดกั้นข้อมูล";
@@ -1837,8 +1837,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "เพิ่ม…";
 
-/* A label that indicates the user has no Bitcopal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "คุณไม่มีผู้ติดต่อบน Bitcopal";
+/* A label that indicates the user has no Bitcostar contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "คุณไม่มีผู้ติดต่อบน Bitcostar";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "ค้นหาไม่พบ";
@@ -1853,7 +1853,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "ส่งต่อสายทุกครั้ง";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "ส่งต่อสายทุกสายไปสู่เซิร์ฟเวอร์ของ Bitcopal เพื่อหลีกเลี่ยงการเปิดเผยหมายเลขไอพีของคุณให้กับคนที่คุณติดต่อด้วย การเปิดใช้งานนี้จะลดคุณภาพการโทร";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "ส่งต่อสายทุกสายไปสู่เซิร์ฟเวอร์ของ Bitcostar เพื่อหลีกเลี่ยงการเปิดเผยหมายเลขไอพีของคุณให้กับคนที่คุณติดต่อด้วย การเปิดใช้งานนี้จะลดคุณภาพการโทร";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "ล้างประวัติการสนทนา";
@@ -1883,7 +1883,7 @@
 "SETTINGS_INVITE_TITLE" = "ชวนเพื่อนของคุณ";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "คุณสามารถติดต่อฉันได้ที่ @Bitcopalapp โหลดเลยที่: https://Bitcopal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "คุณสามารถติดต่อฉันได้ที่ @Bitcostarapp โหลดเลยที่: https://Bitcostar.org/download/";
 
 /* Label for settings view that allows user to change the notification sound. */
 "SETTINGS_ITEM_NOTIFICATION_SOUND" = "เสียงข้อความเรียกเข้า";
@@ -1925,7 +1925,7 @@
 "SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT" = "หมดเวลาการล็อกหน้าจอ";
 
 /* Footer for the 'screen lock' section of the privacy settings. */
-"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Unlock Bitcopal's screen using Touch ID, Face ID, or your iOS device passcode. You can still answer incoming calls and receive message notifications while Screen Lock is enabled. Bitcopal's notification settings allow you to customize the information that is displayed.";
+"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Unlock Bitcostar's screen using Touch ID, Face ID, or your iOS device passcode. You can still answer incoming calls and receive message notifications while Screen Lock is enabled. Bitcostar's notification settings allow you to customize the information that is displayed.";
 
 /* Title for the 'screen lock' section of the privacy settings. */
 "SETTINGS_SCREEN_LOCK_SECTION_TITLE" = "ล็อกหน้าจอ";
@@ -1937,10 +1937,10 @@
 "SETTINGS_SCREEN_SECURITY" = "เปิดใช้งานความปลอดภัยสำหรับหน้าจอ";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "ป้องกัน Bitcopal จากการแสดงตัวอย่างในหน้าสลับแอป";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "ป้องกัน Bitcostar จากการแสดงตัวอย่างในหน้าสลับแอป";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "การผสานกับการโทรกับระบบ iOS จะแสดงสาย Bitcopal บนหน้าจอที่ล็อกอยู่ของคุณและในประวัติการโทรของระบบ คุณอาจเลือกให้แสดงชื่อและหมายเลขของผู้ติดต่อ และถ้าเปิดใช้ iCloud อยู่ ประวัติการโทรจะถูกแบ่งปันให้กับแอปเปิลด้วย";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "การผสานกับการโทรกับระบบ iOS จะแสดงสาย Bitcostar บนหน้าจอที่ล็อกอยู่ของคุณและในประวัติการโทรของระบบ คุณอาจเลือกให้แสดงชื่อและหมายเลขของผู้ติดต่อ และถ้าเปิดใช้ iCloud อยู่ ประวัติการโทรจะถูกแบ่งปันให้กับแอปเปิลด้วย";
 
 /* Label for the notifications section of conversation settings view. */
 "SETTINGS_SECTION_NOTIFICATIONS" = "การแจ้งเตือน";
@@ -1988,13 +1988,13 @@
 "SHARE_EXTENSION_LOADING" = "กำลังโหลด...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "เปิดแอป Bitcopal เพื่อลงทะเบียน";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "เปิดแอป Bitcostar เพื่อลงทะเบียน";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "ยังไม่ได้ลงทะเบียน";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "เปิด Bitcopal แอปเพื่ออัปเดตหรือลงทะเบียน";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "เปิด Bitcostar แอปเพื่ออัปเดตหรือลงทะเบียน";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "ไม่พร้อม";
@@ -2005,11 +2005,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "กำลังส่งข้อมูล…";
 
-/* Shown when trying to share content to a Bitcopal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Bitcostar user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "ไม่สามารถเตรียมไฟล์แนบได้";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "แบ่งปันไปยัง Bitcopal";
+"SHARE_EXTENSION_VIEW_TITLE" = "แบ่งปันไปยัง Bitcostar";
 
 /* Action sheet item */
 "SHOW_SAFETY_NUMBER_ACTION" = "แสดงรหัสความปลอดภัยใหม่";
@@ -2017,8 +2017,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "แสดงการสนทนา";
 
-/* body sent to contacts when inviting to Install Bitcopal */
-"SMS_INVITE_BODY" = "ฉันกำลังชวนคุณให้ติดตั้ง Bitcopal! นี่คือลิงก์:";
+/* body sent to contacts when inviting to Install Bitcostar */
+"SMS_INVITE_BODY" = "ฉันกำลังชวนคุณให้ติดตั้ง Bitcostar! นี่คือลิงก์:";
 
 /* Label for the 'no sound' option that allows users to disable sounds for notifications, etc. */
 "SOUNDS_NONE" = "ไม่มี";
@@ -2102,13 +2102,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "เลิกเชื่อมโยง \"%@\" หรือไม่";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Bitcopal ไม่สามารถเลิกเชื่อมโยงอุปกรณ์ของคุณ";
+"UNLINKING_FAILED_ALERT_TITLE" = "Bitcostar ไม่สามารถเลิกเชื่อมโยงอุปกรณ์ของคุณ";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "อุปกรณ์ที่ไม่มีชื่อ";
 
 /* No comment provided by engineer. */
-"UNREGISTER_Bitcopal_FAIL" = "ยกเลิกการลงทะเบียนจาก Bitcopal ไม่สำเร็จ";
+"UNREGISTER_Bitcostar_FAIL" = "ยกเลิกการลงทะเบียนจาก Bitcostar ไม่สำเร็จ";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "ได้รับไฟล์แนบชนิดที่ไม่รองรับ";
@@ -2144,7 +2144,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "สร้างโปรไฟล์ของคุณ";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "ตอนนี้คุณสามารถแบ่งปันชื่อและรูปประจำตัวกับเพื่อนของคุณบน Bitcopal";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "ตอนนี้คุณสามารถแบ่งปันชื่อและรูปประจำตัวกับเพื่อนของคุณบน Bitcostar";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "พร้อมเข้ามาใกล้ๆ หรือยัง";
@@ -2159,19 +2159,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "ขอแนะนำการตอบรับเมื่ออ่าน";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Bitcopal รองรับการโทรด้วยวิดีโอได้อย่างปลอดภัยแล้ว เพียงโทรออกตามปกติ แตะปุ่มวิดีโอ แล้วโบกมือทักทาย";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Bitcostar รองรับการโทรด้วยวิดีโอได้อย่างปลอดภัยแล้ว เพียงโทรออกตามปกติ แตะปุ่มวิดีโอ แล้วโบกมือทักทาย";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "การโทรด้วยวิดีโออย่างปลอดภัย!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Bitcopal ต้องการ iOS 9 หรือใหม่กว่า โปรดอัปเกรด iOS ได้ใน การตั้งค่า >> ทั่วไป >> รายการอัปเดตซอฟต์แวร์ ";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Bitcostar ต้องการ iOS 9 หรือใหม่กว่า โปรดอัปเกรด iOS ได้ใน การตั้งค่า >> ทั่วไป >> รายการอัปเดตซอฟต์แวร์ ";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "อัปเกรด iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Bitcopal ..." = "กำลังอัปเกรด Bitcopal ...";
+"Upgrading Bitcostar ..." = "กำลังอัปเกรด Bitcostar ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "ย้อนกลับ";
@@ -2225,7 +2225,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "ข้อความเสียง";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "ตั้งค่าให้เสร็จสมบูรณ์บน Bitcopal Desktop";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "ตั้งค่าให้เสร็จสมบูรณ์บน Bitcostar Desktop";
 
 /* Info Message when you disable disappearing messages */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "คุณได้ปิดใช้ข้อความลบตัวเอง";

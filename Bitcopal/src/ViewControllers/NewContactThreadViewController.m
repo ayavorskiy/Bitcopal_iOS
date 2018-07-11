@@ -8,7 +8,7 @@
 #import "NewGroupViewController.h"
 #import "NewNonContactConversationViewController.h"
 #import "OWSTableViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalApp.h"
 #import "UIColor+OWS.h"
 #import "UIView+OWS.h"

@@ -5,10 +5,10 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Kinnita uus turvanumber";
 
 /* Label for 'audio call' button in contact view. */
-"ACTION_AUDIO_CALL" = "Bitcopali kõne";
+"ACTION_AUDIO_CALL" = "Bitcostari kõne";
 
 /* Label for 'invite' button in contact view. */
-"ACTION_INVITE" = "Kutsu Bitcopalisse";
+"ACTION_INVITE" = "Kutsu Bitcostarisse";
 
 /* Label for 'sent message' button in contact view. */
 "ACTION_SEND_MESSAGE" = "Saada sõnum";
@@ -68,7 +68,7 @@
 "APN_MESSAGE_IN_GROUP_DETAILED" = "%@ grupis %@:%@";
 
 /* Message for the 'app launch failed' alert. */
-"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcopal ei saa käivituda. Palun saada silumisandmed meie meeskonnale, et saaksime proovida seda olukorda lahendada.";
+"APP_LAUNCH_FAILURE_ALERT_MESSAGE" = "Bitcostar ei saa käivituda. Palun saada silumisandmed meie meeskonnale, et saaksime proovida seda olukorda lahendada.";
 
 /* Title for the 'app launch failed' alert. */
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Tõrge";
@@ -80,13 +80,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versioon %@ on nüüd App Store'is saadaval.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Bitcopali uus versioon on saadaval";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Bitcostari uus versioon on saadaval";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Uuenda";
 
 /* Name of application */
-"APPLICATION_NAME" = "Bitcopal";
+"APPLICATION_NAME" = "Bitcostar";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arhiveeri";
@@ -164,7 +164,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Dokumendi valimine ei õnnestunud.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Bitcopal ei saa seda faili sellisena kasutada. Proovi see enne saatmist kokku pakkida.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Bitcostar ei saa seda faili sellisena kasutada. Proovi see enne saatmist kokku pakkida.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Fail pole toetatud";
@@ -284,7 +284,7 @@
 "BUTTON_SELECT" = "Vali";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Bitcopal vajab kõnede ja häälsõnumite tegemiseks ligipääsu sinu mikrofonile. Seda õigust on võimalik anda rakenduses Settings.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Bitcostar vajab kõnede ja häälsõnumite tegemiseks ligipääsu sinu mikrofonile. Seda õigust on võimalik anda rakenduses Settings.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Ligipääs mikrofonile on vajalik";
@@ -296,7 +296,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Ei vasta.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Bitcopal %@";
+"CALL_STATUS_FORMAT" = "Bitcostar %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Helista";
@@ -350,7 +350,7 @@
 "CALLBACK_BUTTON_TITLE" = "Helista tagasi";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Bitcopali kasutaja";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Bitcostari kasutaja";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Seda kasutajat pole võimalik kinnitada kuni sa pole temaga sõnumeid vahetanud.";
@@ -368,7 +368,7 @@
 "CLOUDKIT_STATUS_NO_ACCOUNT" = "Sul pole iCloudi kontot varukoopiate tegemiseks.";
 
 /* Error indicating that the app was prevented from accessing the user's CloudKit account. */
-"CLOUDKIT_STATUS_RESTRICTED" = "Bitcopalile ei antud ligipääsu iCloudi kontole varukoopiate tegemiseks.";
+"CLOUDKIT_STATUS_RESTRICTED" = "Bitcostarile ei antud ligipääsu iCloudi kontole varukoopiate tegemiseks.";
 
 /* Activity Sheet label */
 "COMPARE_SAFETY_NUMBER_ACTION" = "Võrdle lõikepuhvriga";
@@ -383,7 +383,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Kutsu";
 
 /* Multi-line label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Anna süsteemi sätetes Bitcopalile ligipääs enda kontaktidele, et näha, millised sinu kontaktidest on Bitcopali kasutajad.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Anna süsteemi sätetes Bitcostarile ligipääs enda kontaktidele, et näha, millised sinu kontaktidest on Bitcostari kasutajad.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "See toiming lähtestab rakenduse, kustutades kõik sõnumid ja eemaldades su serverist. Pärast andmete kustutamist rakendus suletakse.";
@@ -647,7 +647,7 @@
 /* Title of the alert before redirecting to GitHub Issues. */
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "Ümbersuunamine GitHubi";
 
-/* {{Short Date}} when device last communicated with Bitcopal Server. */
+/* {{Short Date}} when device last communicated with Bitcostar Server. */
 "DEVICE_LAST_ACTIVE_AT_LABEL" = "Viimati aktiivne: %@";
 
 /* {{Short Date}} when device was linked. */
@@ -674,11 +674,11 @@
 /* Section title for the 'domain fronting country' view. */
 "DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER" = "Tsenseerimisest möödahiilimise asukoht";
 
-/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
+/* Alert body for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Sul on võimalik anda ligipääsu rakenduses Settings.";
 
-/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcopal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kontakti info muutmiseks vajab Bitcopal ligipääsu kontaktidele";
+/* Alert title for when the user has just tried to edit a contacts after declining to give Bitcostar contacts permissions */
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Kontakti info muutmiseks vajab Bitcostar ligipääsu kontaktidele";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Muuda gruppi";
@@ -722,17 +722,17 @@
 /* No comment provided by engineer. */
 "EDIT_TXT" = "Muuda";
 
-/* body of email sent to contacts when inviting to install Bitcopal. Embeds {{link to install Bitcopal}} and {{link to the Bitcopal home page}} */
-"EMAIL_INVITE_BODY" = "Tervist!\n\nOlen viimasel ajal kasutanud vestluste iPhone'is privaatsena hoidmiseks rakendust Bitcopal. Soovin, et sinagi paigaldaks selle, et saaksime kindlad olla, et ainult sina ja mina saame meie sõnumeid lugeda ning kõnesid kuulda.\n\nBitcopal on saadaval iPhone'ile ja Androidile. Paigalda saab siit: %@\n\nBitcopal töötab nagu teisedki sõnumirakendused: võimaldab saata pilte ja videosid, teha kõnesid ja alustada grupivestlusi. Parim selle juures on, et mitte keegi teine ei saa seda näha, isegi mitte Bitcopali loojad!\n\nLoe täpsemalt Bitcopali loojate Open Whisper Systemsi kohta siit: %@";
+/* body of email sent to contacts when inviting to install Bitcostar. Embeds {{link to install Bitcostar}} and {{link to the Bitcostar home page}} */
+"EMAIL_INVITE_BODY" = "Tervist!\n\nOlen viimasel ajal kasutanud vestluste iPhone'is privaatsena hoidmiseks rakendust Bitcostar. Soovin, et sinagi paigaldaks selle, et saaksime kindlad olla, et ainult sina ja mina saame meie sõnumeid lugeda ning kõnesid kuulda.\n\nBitcostar on saadaval iPhone'ile ja Androidile. Paigalda saab siit: %@\n\nBitcostar töötab nagu teisedki sõnumirakendused: võimaldab saata pilte ja videosid, teha kõnesid ja alustada grupivestlusi. Parim selle juures on, et mitte keegi teine ei saa seda näha, isegi mitte Bitcostari loojad!\n\nLoe täpsemalt Bitcostari loojate Open Whisper Systemsi kohta siit: %@";
 
-/* subject of email sent to contacts when inviting to install Bitcopal */
-"EMAIL_INVITE_SUBJECT" = "Lülitume Bitcopalile";
+/* subject of email sent to contacts when inviting to install Bitcostar */
+"EMAIL_INVITE_SUBJECT" = "Lülitume Bitcostarile";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Klõpsa koostamisnupul.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Alusta oma esimest Bitcopali vestlust!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Alusta oma esimest Bitcostari vestlust!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Mitteaktiivsed vestlused on võimalik postkastist arhiveerida hilisemaks kasutamiseks.";
@@ -741,7 +741,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Korista vestlusi.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ükski sinu kontaktidest ei kasuta Bitcopalit.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ükski sinu kontaktidest ei kasuta Bitcostarit.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Miks mitte kutsuda keegi?";
@@ -780,13 +780,13 @@
 "ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH" = "Vale PIN-kood.";
 
 /* Indicates that user should select a 'two factor auth pin'. */
-"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Sisesta registreerimisluku PIN-kood. Seda PIN-koodi küsitakse sinult järgmisel korral, kui registreerid seda telefoninumbrit Bitcopalis.";
+"ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS" = "Sisesta registreerimisluku PIN-kood. Seda PIN-koodi küsitakse sinult järgmisel korral, kui registreerid seda telefoninumbrit Bitcostaris.";
 
 /* Indicates that user has 'two factor auth pin' disabled. */
-"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Turvalisuse tõstmiseks luba registreerimisluku PIN-kood, mida nõutakse selle telefoninumbri Bitcopalis uuesti registreerimisel.";
+"ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS" = "Turvalisuse tõstmiseks luba registreerimisluku PIN-kood, mida nõutakse selle telefoninumbri Bitcostaris uuesti registreerimisel.";
 
 /* Indicates that user has 'two factor auth pin' enabled. */
-"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "Registreerimislukk on lubatud. Pead sisestama PIN-koodi, kui registreerid selle telefoninumbri Bitcopalis uuesti.";
+"ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS" = "Registreerimislukk on lubatud. Pead sisestama PIN-koodi, kui registreerid selle telefoninumbri Bitcostaris uuesti.";
 
 /* Title for the 'enable two factor auth PIN' views. */
 "ENABLE_2FA_VIEW_TITLE" = "Registreerimislukk";
@@ -809,14 +809,14 @@
 /* Error message indicating that message send failed due to failed attachment write */
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Ei õnnestunud manuse kirjutamise ebaõnnestumise tõttu.";
 
-/* Generic error used whenever Bitcopal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Bitcopalil ei õnnestunud Internetti ühenduda. Palun proovi mõnda teist WiFi-võrku või kasuta mobiilset andmesidet.";
+/* Generic error used whenever Bitcostar can't contact the server */
+"ERROR_DESCRIPTION_NO_INTERNET" = "Bitcostaril ei õnnestunud Internetti ühenduda. Palun proovi mõnda teist WiFi-võrku või kasuta mobiilset andmesidet.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Sõnumi saatmine ei õnnestunud kehtivate saajate puudumise tõttu.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "See seade ei ole enam sinu telefoninumbri jaoks registreeritud. Sa pead Bitcopali eemaldama ja uuesti paigaldama.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "See seade ei ole enam sinu telefoninumbri jaoks registreeritud. Sa pead Bitcostari eemaldama ja uuesti paigaldama.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serveri tõrge. Palun proovi hiljem uuesti.";
@@ -825,10 +825,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ilmnes tundmatu tõrge.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ei ole Bitcopali kasutaja.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ei ole Bitcostari kasutaja.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Tõrge: Palu saatjal Bitcopalit uuendada ja saada uuesti.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Tõrge: Palu saatjal Bitcostarit uuendada ja saada uuesti.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Saabus duplikaatsõnum.";
@@ -840,15 +840,15 @@
 "ERROR_MESSAGE_INVALID_MESSAGE" = "Saabunud sõnum oli sünkist väljas. Klõpsa turvasessiooni lähtestamiseks.";
 
 /* No comment provided by engineer. */
-"ERROR_MESSAGE_INVALID_VERSION" = "Saabunud sõnum ei ole Bitcopali selle versiooniga ühilduv.";
+"ERROR_MESSAGE_INVALID_VERSION" = "Saabunud sõnum ei ole Bitcostari selle versiooniga ühilduv.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Kontakti jaoks pole seanssi saadaval.";
 
-/* Shown when Bitcopal users safety numbers changed */
+/* Shown when Bitcostar users safety numbers changed */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE" = "Turvanumber on muutunud.";
 
-/* Shown when Bitcopal users safety numbers changed, embeds the user's {{name or phone number}} */
+/* Shown when Bitcostar users safety numbers changed, embeds the user's {{name or phone number}} */
 "ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT" = "Sinu turvanumber kasutajaga %@ on muutunud.";
 
 /* No comment provided by engineer. */
@@ -857,7 +857,7 @@
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY" = "Turvanumber muudetud. Klõpsa kinnitamiseks.";
 
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcopal id}}. */
+/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or Bitcostar id}}. */
 "ERROR_UNREGISTERED_USER_FORMAT" = "Unregistered User: %@";
 
 /* action sheet header when re-sending message which failed because of too many attempts */
@@ -981,7 +981,7 @@
 "HOME_VIEW_TITLE_ARCHIVE" = "Arhiiv";
 
 /* Title for the home view's default mode. */
-"HOME_VIEW_TITLE_INBOX" = "Bitcopal";
+"HOME_VIEW_TITLE_INBOX" = "Bitcostar";
 
 /* Call setup status label */
 "IN_CALL_CONNECTING" = "Ühendumine...";
@@ -1022,14 +1022,14 @@
 /* Message for the alert indicating that an audio file is invalid. */
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Vigane audiofail.";
 
-/* Alert body when contacts disabled while trying to invite contacts to Bitcopal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kontaktide kutsumiseks pead andma Settings rakenduses Bitcopalile ligipääsu enda kontaktidele.";
+/* Alert body when contacts disabled while trying to invite contacts to Bitcostar */
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kontaktide kutsumiseks pead andma Settings rakenduses Bitcostarile ligipääsu enda kontaktidele.";
 
-/* Alert title when contacts disabled while trying to invite contacts to Bitcopal */
+/* Alert title when contacts disabled while trying to invite contacts to Bitcostar */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Ligipääs kontaktidele";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu sõpru Bitcopalisse";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu sõpru Bitcostarisse";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Otsi";
@@ -1181,7 +1181,7 @@
 /* message footer for read messages */
 "MESSAGE_STATUS_READ" = "Loetud";
 
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcopal account. */
+/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or deactivated their Bitcostar account. */
 "MESSAGE_STATUS_RECIPIENT_SKIPPED" = "Vahele jäetud";
 
 /* message status while message is sending. */
@@ -1243,17 +1243,17 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Videokõnede tegemiseks vajab Bitcopal ligipääsu sinu kaamerale. Seda õigust on võimalik anda rakenduses Settings: Privacy >> Camera >> Bitcopal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Videokõnede tegemiseks vajab Bitcostar ligipääsu sinu kaamerale. Seda õigust on võimalik anda rakenduses Settings: Privacy >> Camera >> Bitcostar";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Bitcopal vajab ligipääsu sinu kaamerale.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Bitcostar vajab ligipääsu sinu kaamerale.";
 
 /* Alert body when user has previously denied media library access */
 "MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE" = "Sul on võimalik anda see õigus rakenduses Settings.";
 
 /* Alert title when user has previously denied media library access */
-"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcopal nõuab selle teostamiseks ligipääsu meedialoendile.";
+"MISSING_MEDIA_LIBRARY_PERMISSION_TITLE" = "Bitcostar nõuab selle teostamiseks ligipääsu meedialoendile.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Vastamata kõne kasutajalt %@.";
@@ -1339,7 +1339,7 @@
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Nimi või sisu puudub";
 
-/* Table cell switch label. When disabled, Bitcopal will not play notification sounds while the app is in the foreground. */
+/* Table cell switch label. When disabled, Bitcostar will not play notification sounds while the app is in the foreground. */
 "NOTIFICATIONS_SECTION_INAPP" = "Mängi, kui rakendus on avatud";
 
 /* Label for settings UI that allows user to change the notification sound. */
@@ -1442,19 +1442,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Lõikepuhvris olev number ei paista olema korrektne selle vestluse turvanumber.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Bitcopal ei leidnud sinu lõikepuhvrist ühtegi turvanumbrit. Kas sa kopeerisid selle korrektselt?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Bitcostar ei leidnud sinu lõikepuhvrist ühtegi turvanumbrit. Kas sa kopeerisid selle korrektselt?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Iga Bitcopali kasutajate paar omab eraldi turvanumbrit. Kontrolli üle, kas %@ näitab *sinu* kindlat turvanumbrit.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Iga Bitcostari kasutajate paar omab eraldi turvanumbrit. Kontrolli üle, kas %@ näitab *sinu* kindlat turvanumbrit.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sa kasutad Bitcopali vana versiooni. Kinnitamiseks pead kõigepealt rakendust uuendama.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sa kasutad Bitcostari vana versiooni. Kinnitamiseks pead kõigepealt rakendust uuendama.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Sinu kaaslane kasutab Bitcopali vana versiooni. Ta peab kinnitamiseks kõigepealt rakendust uuendama.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Sinu kaaslane kasutab Bitcostari vana versiooni. Ta peab kinnitamiseks kõigepealt rakendust uuendama.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannitud QR-kood ei paista olema turvanumber. Kas te mõlemad kasutate uusimat Bitcopali versiooni?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannitud QR-kood ei paista olema turvanumber. Kas te mõlemad kasutate uusimat Bitcostari versiooni?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Kui soovid kinnitada otspunktkrüpteerimist kasutajaga %@, siis võrdle ülalolevaid numbreid numbritega nende seadmes.\n\nTeise võimalusena saad skannida koodi tema telefonist või paluda tal sinu koodi skannida..";
@@ -1493,7 +1493,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Pilt";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Sinu Bitcopali profiil on sinu kontaktidele nähtav, kui alustad uusi vestlusi või kui jagad seda teiste kasutajate ja gruppidega.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Sinu Bitcostari profiil on sinu kontaktidele nähtav, kui alustad uusi vestlusi või kui jagad seda teiste kasutajate ja gruppidega.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Rohkema info saamiseks klõpsa siia.";
@@ -1550,19 +1550,19 @@
 "QUOTED_REPLY_TYPE_VIDEO" = "Video";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Kui sulle meeldib kasutada Bitcopalit privaatsete vestluste pidamiseks, siis saad toetada meie projekti, hinnangut andes. See ei võta rohkem kui minut ja aitab teistel leida privaatsust leida.";
+"RATING_MSG" = "Kui sulle meeldib kasutada Bitcostarit privaatsete vestluste pidamiseks, siis saad toetada meie projekti, hinnangut andes. See ei võta rohkem kui minut ja aitab teistel leida privaatsust leida.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Hinda Bitcopalit";
+"RATING_RATE" = "Hinda Bitcostarit";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Toeta Bitcopalit!";
+"RATING_TITLE" = "Toeta Bitcostarit!";
 
 /* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "REGISTER_2FA_FORGOT_PIN" = "Ma unustasin PIN-koodi.";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin'. */
-"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Selle telefoninumbri registreerimine ilma registreerimisluku PIN-koodita on võimalik pärast 7 päeva möödumist telefoninumbri viimasest aktiivsusest Bitcopalis.";
+"REGISTER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Selle telefoninumbri registreerimine ilma registreerimisluku PIN-koodita on võimalik pärast 7 päeva möödumist telefoninumbri viimasest aktiivsusest Bitcostaris.";
 
 /* Instructions to enter the 'two-factor auth pin' in the 2FA registration view. */
 "REGISTER_2FA_INSTRUCTIONS" = "Selle telefoninumbri registreerimislukk on lubatud. Palun sisesta registreerimisluku PIN-kood.\n\nSinu registreerimisluku PIN-kood erineb automaatsest kontrollkoodist, mis saadeti viimase sammu käigus sinu telefonile.";
@@ -1643,13 +1643,13 @@
 "RELAY_REGISTERED_ERROR_RECOVERY" = "Telefoninumber, mida soovid registreerida on juba registreeritud teise serverisse. Palun eemalda registreerimine sealt ja proovi uuesti.";
 
 /* Body text for when user is periodically prompted to enter their registration lock PIN */
-"REMINDER_2FA_BODY" = "Registreerimislukk on aktiveeritud Su numbrile. Bitcopal küsib registreerimisluku PIN-koodi perioodiliselt, et see Sul meeles püsiks.";
+"REMINDER_2FA_BODY" = "Registreerimislukk on aktiveeritud Su numbrile. Bitcostar küsib registreerimisluku PIN-koodi perioodiliselt, et see Sul meeles püsiks.";
 
 /* Body header for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_BODY_HEADER" = "Meeldetuletus:";
 
 /* Alert message explaining what happens if you forget your 'two-factor auth pin' */
-"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Registreerimislukk aitab kaitsta sinu telefoninumbrit lubamatute registreerimiskatsete eest. Seda funktsiooni on võimalik igal ajal keelata Bitcopali privaatsuse sätete all.";
+"REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE" = "Registreerimislukk aitab kaitsta sinu telefoninumbrit lubamatute registreerimiskatsete eest. Seda funktsiooni on võimalik igal ajal keelata Bitcostari privaatsuse sätete all.";
 
 /* Navbar title for when user is periodically prompted to enter their registration lock PIN */
 "REMINDER_2FA_NAV_TITLE" = "Sisesta registreerimisluku PIN-kood";
@@ -1679,7 +1679,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Saada ikkagi";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Meie Bitcopali turvanumber:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Meie Bitcostari turvanumber:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Sinu turvanumber kasutajaga %@ on muutunud. Soovitame seda kinnitada.";
@@ -1711,14 +1711,14 @@
 /* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET" = "Ekraaniluku kasutamiseks pead lubama iOSi sätetes ekraani lukustamise.";
 
-/* Description of how and why Bitcopal iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
-"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Bitcopali avamiseks pead autentima.";
+/* Description of how and why Bitcostar iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
+"SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK" = "Bitcostari avamiseks pead autentima.";
 
 /* Title for alert indicating that screen lock could not be unlocked. */
 "SCREEN_LOCK_UNLOCK_FAILED" = "Autentimine ei õnnestunud";
 
-/* Label for button on lock screen that lets users unlock Bitcopal. */
-"SCREEN_LOCK_UNLOCK_Bitcopal" = "Ava Bitcopal";
+/* Label for button on lock screen that lets users unlock Bitcostar. */
+"SCREEN_LOCK_UNLOCK_Bitcostar" = "Ava Bitcostar";
 
 /* No comment provided by engineer. */
 "SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "Otsi nime või numbri järgi";
@@ -1745,16 +1745,16 @@
 "SEND_INVITE_FAILURE" = "Kutse saatmine ei õnnestunud, palun proovi hiljem uuesti.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Sa kutsusid oma sõbra Bitcopalit kasutama!";
+"SEND_INVITE_SUCCESS" = "Sa kutsusid oma sõbra Bitcostarit kasutama!";
 
-/* Text for button to send a Bitcopal invite via SMS. %@ is placeholder for the recipient's phone number. */
+/* Text for button to send a Bitcostar invite via SMS. %@ is placeholder for the recipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Kutsu SMS abil: %@";
 
 /* No comment provided by engineer. */
 "SEND_SMS_CONFIRM_TITLE" = "Kas kutsuda sõber ebaturvalise SMS abil?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Kas sa soovid seda numbrit kutsuda Bitcopalit kasutama?";
+"SEND_SMS_INVITE_TITLE" = "Kas sa soovid seda numbrit kutsuda Bitcostarit kasutama?";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Teave";
@@ -1775,7 +1775,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Asukoht: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Kui on lubatud, siis püüab Bitcopal tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Bitcopal on tsenseeritud.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Kui on lubatud, siis püüab Bitcostar tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Bitcostar on tsenseeritud.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Tsenseerimisest möödahiilimine on aktiveeritud sinu konto telefoninumbri järgi.";
@@ -1783,8 +1783,8 @@
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Tsenseerimisest möödahiilimist saab aktiveerida ainult Internetis olles.";
 
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcopal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tsenseerimisest möödahiilimine pole vajalik, sa oled juba Bitcopali teenusega ühendatud.";
+/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Bitcostar service. */
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Tsenseerimisest möödahiilimine pole vajalik, sa oled juba Bitcostari teenusega ühendatud.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Tsenseerimisest möödahiilimine";
@@ -1837,8 +1837,8 @@
 /* A label for the 'add phone number' button in the block list table. */
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lisa...";
 
-/* A label that indicates the user has no Bitcopal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sul pole Bitcopalis kontakte.";
+/* A label that indicates the user has no Bitcostar contacts. */
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sul pole Bitcostaris kontakte.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Otsingu tulemusi pole";
@@ -1853,7 +1853,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Alati edastada kõned";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vahenda kõnesid Bitcopali serveri kaudu, et hoiduda oma IP-aadressi paljastamisest enda kontaktile. Selle lubamine vähendab kõne kvaliteeti.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vahenda kõnesid Bitcostari serveri kaudu, et hoiduda oma IP-aadressi paljastamisest enda kontaktile. Selle lubamine vähendab kõne kvaliteeti.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Tühjenda suhtluste ajalugu";
@@ -1883,7 +1883,7 @@
 "SETTINGS_INVITE_TITLE" = "Kutsu enda sõpru";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Võta minuga ühendust, kasutades rakendust @Bitcopalapp. Hangi siit: https://Bitcopal.org/download/";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Võta minuga ühendust, kasutades rakendust @Bitcostarapp. Hangi siit: https://Bitcostar.org/download/";
 
 /* Label for settings view that allows user to change the notification sound. */
 "SETTINGS_ITEM_NOTIFICATION_SOUND" = "Sõnumi heli";
@@ -1925,7 +1925,7 @@
 "SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT" = "Ekraaniluku aegumine";
 
 /* Footer for the 'screen lock' section of the privacy settings. */
-"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Ava Bitcopali ekraan, kasutades Touch ID-d, Face ID-d või oma iOS seadme salasõna. Kui ekraanilukk on lubatud, on sul võimalik vastata sissetulevatele kõnedele ja saada teavitusi sõnumite kohta. Bitcopali teavituste sätted võimaldavad kuvatavat teavet kohandada.";
+"SETTINGS_SCREEN_LOCK_SECTION_FOOTER" = "Ava Bitcostari ekraan, kasutades Touch ID-d, Face ID-d või oma iOS seadme salasõna. Kui ekraanilukk on lubatud, on sul võimalik vastata sissetulevatele kõnedele ja saada teavitusi sõnumite kohta. Bitcostari teavituste sätted võimaldavad kuvatavat teavet kohandada.";
 
 /* Title for the 'screen lock' section of the privacy settings. */
 "SETTINGS_SCREEN_LOCK_SECTION_TITLE" = "Ekraanilukk";
@@ -1937,10 +1937,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Luba ekraani turvalisus";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Enneta Bitcopali eelvaadete ilmumist rakenduste vahetajas";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Enneta Bitcostari eelvaadete ilmumist rakenduste vahetajas";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOSi kõnede integratsioon näitab Bitcopali kõnesid sinu lukustusekraanil ja süsteemi kõneajaloos. Lisaks on võimalik näidata kontakti nime ja numbrit. Kui iCloud on lubatud, siis jagatakse kõnede ajalugu Apple'iga.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOSi kõnede integratsioon näitab Bitcostari kõnesid sinu lukustusekraanil ja süsteemi kõneajaloos. Lisaks on võimalik näidata kontakti nime ja numbrit. Kui iCloud on lubatud, siis jagatakse kõnede ajalugu Apple'iga.";
 
 /* Label for the notifications section of conversation settings view. */
 "SETTINGS_SECTION_NOTIFICATIONS" = "Teavitused";
@@ -1988,13 +1988,13 @@
 "SHARE_EXTENSION_LOADING" = "Laadimine...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Registreerimiseks käivita Bitcopal rakendus.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Registreerimiseks käivita Bitcostar rakendus.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Pole registreeritud";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Uuendamiseks või registreerimiseks käivita rakendus Bitcopal.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Uuendamiseks või registreerimiseks käivita rakendus Bitcostar.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Pole valmis";
@@ -2005,11 +2005,11 @@
 /* Alert title */
 "SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE" = "Üleslaadimine...";
 
-/* Shown when trying to share content to a Bitcopal user for the share extension. Followed by failure details. */
+/* Shown when trying to share content to a Bitcostar user for the share extension. Followed by failure details. */
 "SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE" = "Manuse ettevalmistamine pole võimalik";
 
 /* Title for the 'share extension' view. */
-"SHARE_EXTENSION_VIEW_TITLE" = "Jaga Bitcopalis";
+"SHARE_EXTENSION_VIEW_TITLE" = "Jaga Bitcostaris";
 
 /* Action sheet item */
 "SHOW_SAFETY_NUMBER_ACTION" = "Näita uut turvanumbrit";
@@ -2017,8 +2017,8 @@
 /* notification action */
 "SHOW_THREAD_BUTTON_TITLE" = "Näita vestlust";
 
-/* body sent to contacts when inviting to Install Bitcopal */
-"SMS_INVITE_BODY" = "Kutsun sind Bitcopalit paigaldama. Siin on veebilink:";
+/* body sent to contacts when inviting to Install Bitcostar */
+"SMS_INVITE_BODY" = "Kutsun sind Bitcostarit paigaldama. Siin on veebilink:";
 
 /* Label for the 'no sound' option that allows users to disable sounds for notifications, etc. */
 "SOUNDS_NONE" = "Puudub";
@@ -2102,13 +2102,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Kas eemaldada ühendus \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Bitcopalil ei õnnestunud sinu seadme ühendust eemaldada.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Bitcostaril ei õnnestunud sinu seadme ühendust eemaldada.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nimetu seade";
 
 /* No comment provided by engineer. */
-"UNREGISTER_Bitcopal_FAIL" = "Bitcopalist registreerimise eemaldamine ei õnnestunud.";
+"UNREGISTER_Bitcostar_FAIL" = "Bitcostarist registreerimise eemaldamine ei õnnestunud.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Saabus mittetoetatud tüüpi manus.";
@@ -2144,7 +2144,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Seadista profiil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Nüüd saad Bitcopalis jagada profiili fotot ja nime oma sõpradega.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Nüüd saad Bitcostaris jagada profiili fotot ja nime oma sõpradega.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Kas oled foto tegemiseks valmis?";
@@ -2159,19 +2159,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Tutvustame lugemiskinnitusi";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Bitcopal toetab nüüd turvalist videokõnet. Alusta kõnet nagu tavaliselt, klõpsa kaameranuppu ja lehvita tervituseks.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Bitcostar toetab nüüd turvalist videokõnet. Alusta kõnet nagu tavaliselt, klõpsa kaameranuppu ja lehvita tervituseks.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Tere, turvalised videokõned!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Bitcopal nõuab iOS 9 või uuemat. Palun uuenda iOS, valides rakenduses Settings >> General >> Software Update.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Bitcostar nõuab iOS 9 või uuemat. Palun uuenda iOS, valides rakenduses Settings >> General >> Software Update.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Uuenda iOSi";
 
 /* No comment provided by engineer. */
-"Upgrading Bitcopal ..." = "Bitcopali uuendamine...";
+"Upgrading Bitcostar ..." = "Bitcostari uuendamine...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Tagasi";
@@ -2225,7 +2225,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Häälsõnum";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Lõpeta paigaldus Bitcopal Desktopis.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Lõpeta paigaldus Bitcostar Desktopis.";
 
 /* Info Message when you disable disappearing messages */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Sa keelasid kaduvad sõnumid.";

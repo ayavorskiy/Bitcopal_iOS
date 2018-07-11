@@ -17,7 +17,7 @@
 #import "Pastelog.h"
 #import "PushManager.h"
 #import "RegistrationViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalApp.h"
 #import "SignalsNavigationController.h"
 #import "ViewControllerUtils.h"
@@ -59,7 +59,7 @@
 NSString *const AppDelegateStoryboardMain = @"Main";
 
 static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
-static NSString *const kURLSchemeSGNLKey                = @"bitcopal";
+static NSString *const kURLSchemeSGNLKey                = @"bitcostar";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
 
 static NSTimeInterval launchStartedAt;

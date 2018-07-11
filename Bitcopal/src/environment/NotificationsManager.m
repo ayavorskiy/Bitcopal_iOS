@@ -4,7 +4,7 @@
 
 #import "NotificationsManager.h"
 #import "PushManager.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <AudioToolbox/AudioServices.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/NSString+OWS.h>

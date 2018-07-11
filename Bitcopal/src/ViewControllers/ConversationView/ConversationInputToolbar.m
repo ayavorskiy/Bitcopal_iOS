@@ -7,7 +7,7 @@
 #import "Environment.h"
 #import "OWSContactsManager.h"
 #import "OWSMath.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"

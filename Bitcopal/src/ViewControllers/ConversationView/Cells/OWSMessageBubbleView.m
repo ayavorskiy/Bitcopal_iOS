@@ -12,7 +12,7 @@
 #import "OWSGenericAttachmentView.h"
 #import "OWSMessageTextView.h"
 #import "OWSQuotedMessageView.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIColor+OWS.h"
 #import <SignalMessaging/UIView+OWS.h>
 

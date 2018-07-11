@@ -6,7 +6,7 @@
 #import "ConversationViewItem.h"
 #import "Environment.h"
 #import "OWSBubbleStrokeView.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <SignalMessaging/OWSContactsManager.h>
 #import <SignalMessaging/SignalMessaging-Swift.h>
 #import <SignalMessaging/UIColor+OWS.h>

@@ -8,7 +8,7 @@
 #import "OWSMessageCell.h"
 #import "OWSSystemMessageCell.h"
 #import "OWSUnreadIndicatorCell.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <SignalMessaging/NSString+OWS.h>
 #import <SignalServiceKit/OWSContact.h>

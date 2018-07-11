@@ -4,7 +4,7 @@
 
 #import "OWSContactShareView.h"
 #import "OWSContactAvatarBuilder.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIColor+JSQMessages.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"

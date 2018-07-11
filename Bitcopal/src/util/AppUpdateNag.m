@@ -4,7 +4,7 @@
 
 #import "AppUpdateNag.h"
 #import "RegistrationViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <ATAppUpdater/ATAppUpdater.h>
 #import <SignalServiceKit/NSDate+OWS.h>
 #import <SignalServiceKit/OWSPrimaryStorage.h>

@@ -4,7 +4,7 @@
 
 #import "OWS2FASettingsViewController.h"
 #import "OWSTableViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalMessaging.h"
 #import <SignalMessaging/NSString+OWS.h>
 #import <SignalMessaging/SignalMessaging-Swift.h>

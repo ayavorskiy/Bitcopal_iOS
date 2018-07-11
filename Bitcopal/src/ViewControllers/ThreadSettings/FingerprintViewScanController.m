@@ -4,7 +4,7 @@
 
 #import "FingerprintViewScanController.h"
 #import "OWSQRCodeScanningViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"

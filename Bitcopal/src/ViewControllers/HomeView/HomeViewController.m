@@ -11,7 +11,7 @@
 #import "OWSPrimaryStorage.h"
 #import "ProfileViewController.h"
 #import "PushManager.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalApp.h"
 #import "TSAccountManager.h"
 #import "TSDatabaseView.h"

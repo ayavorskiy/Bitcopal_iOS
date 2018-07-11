@@ -5,7 +5,7 @@
 #import "PushManager.h"
 #import "AppDelegate.h"
 #import "NotificationsManager.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "SignalApp.h"
 #import "ThreadUtil.h"
 #import <SignalMessaging/OWSContactsManager.h>

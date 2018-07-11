@@ -5,7 +5,7 @@
 #import "OWS2FARegistrationViewController.h"
 #import "PinEntryView.h"
 #import "ProfileViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <PromiseKit/AnyPromise.h>
 #import <SignalMessaging/SignalMessaging-Swift.h>
 #import <SignalMessaging/UIViewController+OWS.h>

@@ -4,7 +4,7 @@
 
 #import "DebugUIContacts.h"
 #import "OWSTableViewController.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import <Contacts/Contacts.h>
 
 NS_ASSUME_NONNULL_BEGIN

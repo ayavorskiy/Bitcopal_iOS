@@ -2,7 +2,7 @@
 //  Created by Ilya Kostyukevich. All rights reserved.
 //
 
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "UIViewController+Permissions.h"
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>

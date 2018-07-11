@@ -7,7 +7,7 @@
 #import "ConversationViewController.h"
 #import "ConversationViewItem.h"
 #import "OWSMessageCell.h"
-#import "Bitcopal-Swift.h"
+#import "Bitcostar-Swift.h"
 #import "TSAttachmentStream.h"
 #import "TSInteraction.h"
 #import "UIColor+OWS.h"
