@@ -435,10 +435,21 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
 - (void)showHomeView
 {
     HomeViewController *homeView = [HomeViewController new];
-    SignalsNavigationController *navigationController =
-        [[SignalsNavigationController alloc] initWithRootViewController:homeView];
+    SignalsNavigationController *navigationController = [[SignalsNavigationController alloc] initWithRootViewController:homeView];
+    navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Chat" image:[UIImage imageNamed:@"chat_tab_icon"] tag:0];
+    
+    UIViewController *wallet = [UIViewController new];
+    wallet.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Wallet" image:[UIImage imageNamed:@"wallet_tab_icon"] tag:1];
+    
+    UITabBarController *tabBarController = [UITabBarController new];
+    tabBarController.viewControllers = @[navigationController,wallet];
+    tabBarController.tabBar.tintColor = [UIColor whiteColor];
+    tabBarController.tabBar.barTintColor = [UIColor ows_signalBrandBlueColor];
+    tabBarController.tabBar.translucent = NO;
+    
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    appDelegate.window.rootViewController = navigationController;
+    appDelegate.window.rootViewController = tabBarController;
+    
     OWSAssert([navigationController.topViewController isKindOfClass:[HomeViewController class]]);
 }
 
