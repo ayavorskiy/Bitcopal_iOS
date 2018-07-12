@@ -427,9 +427,9 @@
 		B6DA6B071B8A2F9A00CA6F98 /* AppStoreRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA6B061B8A2F9A00CA6F98 /* AppStoreRating.m */; };
 		B6F509971AA53F760068F56A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6F509951AA53F760068F56A /* Localizable.strings */; };
 		B6FE7EB71ADD62FA00A6D22F /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FE7EB61ADD62FA00A6D22F /* PushKit.framework */; };
+		B858AE0E61C3E02A6C62350A /* Pods_Bitcostar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B59FB5685875F2878517C0 /* Pods_Bitcostar.framework */; };
 		B90418E6183E9DD40038554A /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B90418E5183E9DD40038554A /* DateUtil.m */; };
 		B9EB5ABD1884C002007CBB57 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EB5ABC1884C002007CBB57 /* MessageUI.framework */; };
-		BC5ED74F7CD46D8B0C81101D /* Pods_Bitcopal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557928FD86B6508BE6977D13 /* Pods_Bitcopal.framework */; };
 		BE215F96F62C8618A31984A4 /* Pods_SignalShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA98E82304E648E6230F6E62 /* Pods_SignalShareExtension.framework */; };
 		C428EC0120BAF98E008E3A83 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EC0020BAF98E008E3A83 /* GamesViewController.m */; };
 		C428EC0620BB13B9008E3A83 /* GameWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EC0520BB13B9008E3A83 /* GameWebViewController.m */; };
@@ -1030,6 +1030,7 @@
 		66A1799B767458BDC188D9C1 /* Pods-SignalMessaging.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalMessaging.test.xcconfig"; path = "Pods/Target Support Files/Pods-SignalMessaging/Pods-SignalMessaging.test.xcconfig"; sourceTree = "<group>"; };
 		6998FD65322CC0F1A8809207 /* Pods-SignalShareExtension.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalShareExtension.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-SignalShareExtension/Pods-SignalShareExtension.app store release.xcconfig"; sourceTree = "<group>"; };
 		70377AAA1918450100CAF501 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		73A734141140A9DA029C9CFB /* Pods-Bitcostar.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcostar.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcostar/Pods-Bitcostar.app store release.xcconfig"; sourceTree = "<group>"; };
 		768A1A2A17FC9CD300E00ED8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		76C87F18181EFCE600C4ACAB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		76EB03C218170B33006006FC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1046,6 +1047,7 @@
 		A1C32D4D17A0652C000A904E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		A1C32D4F17A06537000A904E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		A1FDCBEE16DAA6C300868894 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4B59FB5685875F2878517C0 /* Pods_Bitcostar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitcostar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5509EC91A69AB8B00ABA4BC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
 		AC818B898D379FA706A61754 /* Pods-SignalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignalTests/Pods-SignalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD83FF381A73426500B5C81A /* audio_pause_button_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_pause_button_blue.png; sourceTree = "<group>"; };
@@ -1179,6 +1181,7 @@
 		D2AEACDB16C426DA00C364C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D8D8D48645CAFC52307B61B7 /* Pods-Bitcopal.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcopal.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcopal/Pods-Bitcopal.app store release.xcconfig"; sourceTree = "<group>"; };
 		DA98E82304E648E6230F6E62 /* Pods_SignalShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E180C68D03D7167A096A759F /* Pods-Bitcostar.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcostar.test.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcostar/Pods-Bitcostar.test.xcconfig"; sourceTree = "<group>"; };
 		E1A0AD8B16E13FDD0071E604 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EE8770A3BC92C6C0014AE5A6 /* Pods-SignalTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-SignalTests/Pods-SignalTests.test.xcconfig"; sourceTree = "<group>"; };
 		EEE42ED26497E8A85CF81FA3 /* Pods-SignalShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignalShareExtension/Pods-SignalShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1187,6 +1190,7 @@
 		F04DE8F3C537FFD85CE3C691 /* Pods-Bitcopal.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcopal.test.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcopal/Pods-Bitcopal.test.xcconfig"; sourceTree = "<group>"; };
 		F38519D5317581694464ADC5 /* Pods-Bitcopal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcopal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcopal/Pods-Bitcopal.debug.xcconfig"; sourceTree = "<group>"; };
 		F63A51F5D8BE57E3BD6CB2EB /* Pods-SignalMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalMessaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignalMessaging/Pods-SignalMessaging.debug.xcconfig"; sourceTree = "<group>"; };
+		F65FF53D4C2792A64619AA0B /* Pods-Bitcostar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitcostar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bitcostar/Pods-Bitcostar.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3BD9871A30A790005B96BB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FC5CDF371A3393DD00B47253 /* error_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error_white@2x.png"; sourceTree = "<group>"; };
 		FC5CDF381A3393DD00B47253 /* warning_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_white@2x.png"; sourceTree = "<group>"; };
@@ -1248,7 +1252,7 @@
 				D221A090169C9E5E00537ABF /* Foundation.framework in Frameworks */,
 				D221A0E8169DFFC500537ABF /* AVFoundation.framework in Frameworks */,
 				D24B5BD5169F568C00681372 /* AudioToolbox.framework in Frameworks */,
-				BC5ED74F7CD46D8B0C81101D /* Pods_Bitcopal.framework in Frameworks */,
+				B858AE0E61C3E02A6C62350A /* Pods_Bitcostar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2004,6 +2008,9 @@
 				AC818B898D379FA706A61754 /* Pods-SignalTests.debug.xcconfig */,
 				EE8770A3BC92C6C0014AE5A6 /* Pods-SignalTests.test.xcconfig */,
 				024749C79DB324B89585332C /* Pods-SignalTests.app store release.xcconfig */,
+				F65FF53D4C2792A64619AA0B /* Pods-Bitcostar.debug.xcconfig */,
+				E180C68D03D7167A096A759F /* Pods-Bitcostar.test.xcconfig */,
+				73A734141140A9DA029C9CFB /* Pods-Bitcostar.app store release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2369,6 +2376,7 @@
 				7D73B8F42C82D4DBDD8545DA /* Pods_SignalMessaging.framework */,
 				DA98E82304E648E6230F6E62 /* Pods_SignalShareExtension.framework */,
 				7F5534503F58D1CDEE9F9F95 /* Pods_SignalTests.framework */,
+				A4B59FB5685875F2878517C0 /* Pods_Bitcostar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2912,7 +2920,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bitcopal-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Bitcostar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2925,7 +2933,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bitcopal/Pods-Bitcopal-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bitcostar/Pods-Bitcostar-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/ATAppUpdater/ATAppUpdater.framework",
 				"${BUILT_PRODUCTS_DIR}/AxolotlKit/AxolotlKit.framework",
@@ -2978,7 +2986,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bitcopal/Pods-Bitcopal-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bitcostar/Pods-Bitcostar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		451DE9EE1DC1546A00810E42 /* [Carthage] Copy Frameworks */ = {
@@ -3548,7 +3556,7 @@
 		};
 		451DA3CD1F152887008E2423 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F04DE8F3C537FFD85CE3C691 /* Pods-Bitcopal.test.xcconfig */;
+			baseConfigurationReference = E180C68D03D7167A096A759F /* Pods-Bitcostar.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4206,7 +4214,7 @@
 		};
 		D221A0BD169C9E5F00537ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F38519D5317581694464ADC5 /* Pods-Bitcopal.debug.xcconfig */;
+			baseConfigurationReference = F65FF53D4C2792A64619AA0B /* Pods-Bitcostar.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4267,7 +4275,7 @@
 		};
 		D221A0BE169C9E5F00537ABF /* App Store Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8D8D48645CAFC52307B61B7 /* Pods-Bitcopal.app store release.xcconfig */;
+			baseConfigurationReference = 73A734141140A9DA029C9CFB /* Pods-Bitcostar.app store release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
