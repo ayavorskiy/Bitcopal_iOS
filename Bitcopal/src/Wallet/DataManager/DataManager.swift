@@ -42,11 +42,19 @@ class DataManager {
     func sendTransaction(fromAddress: Address, toAddress: String, amount: Decimal, fee: Decimal, completion: @escaping (_ success: Bool) -> ()) {
         
         apiManager.fetchUnspentOutputs(address: fromAddress) { [unowned self](unspentOutputs, error) in
-            guard error != nil else { completion(false); print(error); return }
-            guard let unspentOutputs = unspentOutputs else { completion(false); return }
+            if let error = error {
+                print(error)
+                completion(false)
+                return
+            }
+            
+            guard let unspentOutputs = unspentOutputs else {
+                completion(false)
+                return
+            }
             
             self.coreManager.generateTransaction(fromAddress: fromAddress, toAddress: toAddress, amount: amount, fee: fee, unspentOutputs: unspentOutputs, completion: { (rawTx, error) in
-                guard error != nil else { completion(false); print(error); return }
+                guard error != nil else { completion(false); print(error!); return }
                 guard let rawTx = rawTx else { completion(false); return }
                 
                 self.apiManager.broadcastTransaction(rawTx: rawTx, completion: { (success) in

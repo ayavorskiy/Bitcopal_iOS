@@ -11,7 +11,7 @@ import UIKit
 class TransactionsCollectionViewSection: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var transactions = [RepresentationTransaction]() {
+    var transactions = [Transaction]() {
         didSet {
             collectionView.reloadData()
         }
@@ -45,18 +45,18 @@ class TransactionsCollectionViewSection: UICollectionViewCell, UICollectionViewD
 
         let transaction = transactions[indexPath.row]
         
-        cell.imageView.image = UIImage(named: "arrow_down")
+        let resultBalance = Double(transaction.result as NSNumber)
+        
+        cell.imageView.image = transaction.type == .receipt ? UIImage(named: "arrow_down") : UIImage(named: "arrow_up")
         cell.addressLabel.text = transaction.address
-        cell.amauntLabel.text =  "+ \(Double(transaction.value)/100000000.0) BTC"
-        cell.amaountUSDLabel.text = String(format: "~ %.2f USD", (Double(transaction.value)/100000000.0) * bitcoinExchangeRate)
-        
-        let date = Date(timeIntervalSince1970: Double(transaction.time))
-        var dateFormatter = DateFormatter()
+        cell.amauntLabel.text =  (transaction.type == .receipt ? "+" : "-") + " \(resultBalance) BTC"
+        cell.amaountUSDLabel.text = String(format: "~ %.2f USD", resultBalance * bitcoinExchangeRate)
+
+        let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd.MM.yyyy"
-        let dateString = dateFormatter.string(from: date)
-        
+        let dateString = dateFormatter.string(from: transaction.date)
+
         cell.dateLabel.text = dateString
-        
         
         return cell
     }

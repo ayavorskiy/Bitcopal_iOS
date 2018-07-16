@@ -155,6 +155,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="sendButtonPressed:" destination="MOB-na-ckF" eventType="touchUpInside" id="BY2-b9-p5B"/>
+                                                        <segue destination="iba-H5-Nsf" kind="presentation" animates="NO" modalPresentationStyle="overCurrentContext" id="SwA-9q-lox"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvv-lJ-X9K">
@@ -437,6 +438,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqH-31-QVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="657" y="126"/>
+        </scene>
+        <!--SendViewController-->
+        <scene sceneID="meZ-p3-v2V">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Send" referencedIdentifier="SendViewController" id="iba-H5-Nsf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yWd-1N-mhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="651" y="167"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="pAW-xc-gFf">

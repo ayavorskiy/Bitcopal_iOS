@@ -22,7 +22,7 @@ extension MainViewController {
                 fatalError()
             }
     
-            cell.currencies = blockChainService.getCurrenies()
+            cell.currencies = getCurrenies()
             
             return cell
             
@@ -31,18 +31,17 @@ extension MainViewController {
                 fatalError()
             }
             
-            blockChainService.checkBalance { (balance) in
-                DispatchQueue.main.async {
-                    if #available(iOS 10.0, *) {
-                        collectionView.refreshControl?.endRefreshing()
-                    }
-                    cell.balanceLabel.text = "\(balance)"
-                    cell.exchangeRateLabel.text = String(format: "~ %.1f USD", balance * bitcoinExchangeRate)
-                }
+            guard let balance = data?.balance.value else { return cell}
+            
+            if #available(iOS 10.0, *) {
+                collectionView.refreshControl?.endRefreshing()
             }
             
-//            cell.balanceLabel.text = "\(blockChainService.getBalance())"
-            cell.currencyLabel.text = blockChainService.getCurrenies().first(where: {$0.isSelected == true})?.title
+            let doubleBalance = Double(balance as NSNumber)
+          
+            cell.balanceLabel.text = "\( doubleBalance)"
+            cell.exchangeRateLabel.text = String(format: "~ %.2f USD", doubleBalance * bitcoinExchangeRate)
+            cell.currencyLabel.text = getCurrenies().first(where: {$0.isSelected == true})?.title
             
             return cell
         case 2:
@@ -50,14 +49,13 @@ extension MainViewController {
                 fatalError()
             }
             
-            blockChainService.checkTransactions { (transactions) in
-                DispatchQueue.main.async {
-                    if #available(iOS 10.0, *) {
-                        collectionView.refreshControl?.endRefreshing()
-                    }
-                    cell.transactions = transactions
-                }
+            guard let transactions = data?.transactions else { return cell}
+            
+            if #available(iOS 10.0, *) {
+                collectionView.refreshControl?.endRefreshing()
             }
+            
+            cell.transactions = transactions
             
             return cell
         default:
@@ -76,7 +74,7 @@ extension MainViewController {
         case 1:
             return CGSize(width: collectionView.bounds.size.width, height: 197)
         case 2:
-            let height = UIScreen.main.bounds.height - 64 - 104 - 197
+            let height = UIScreen.main.bounds.height - 64 - 104 - 197 - 49
             
             return CGSize(width: collectionView.bounds.size.width, height: height)
         default:
@@ -88,7 +86,8 @@ extension MainViewController {
 class MainViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, PeerGroupDelegate {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    let blockChainService = BlockChainService()
+    var data: SingleAddressInfo? = nil
+    var address: Address?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -109,7 +108,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        collectionView.reloadData()
+        userRefreshData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -117,7 +116,14 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     @objc func userRefreshData() {
-        collectionView.reloadData()
+        guard let address = self.address else { return }
+        
+        DataManager.shared.apiManager.getSingleAddressInfo(address: address) { (info, error) in
+            DispatchQueue.main.async {
+                self.data = info
+                self.reloadData()
+            }
+        }
     }
     
     func reloadData() {
@@ -129,9 +135,20 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func checkUser() {
-        if DataManager.shared.getWalletAddress(type: .bitcoin) == nil {
+        if let address = DataManager.shared.getWalletAddress(type: .bitcoin) {
+            self.address = address
+        } else {
             guard let viewController = UIStoryboard(name: "Create", bundle: nil).instantiateInitialViewController() else { return }
             present(viewController, animated: false, completion: nil)
         }
+    }
+    
+    func getCurrenies() -> [Currency] {
+        let array = [Currency(with: UIImage(named: "im_bitcoin")!, title: "BTС", type: .bitcoin, isSelected: true),
+                     Currency(with: UIImage(named: "im_ephir")!, title: "Etherium", type: .etherium),
+                     Currency(with: UIImage(named: "im_l")!, title: "Litecoin", type: .litecoin),
+                     Currency(with: UIImage(named: "im_bitcostar")!, title: "Bitcostar", type: .bitcostar)]
+        
+        return array
     }
 }

@@ -37,7 +37,10 @@ class BitCoinAPI {
                     var transactions = [Transaction]()
                     
                     self.latestBlockHeight(completion: { (latestBlockHeight, error) in
-                        guard error != nil else { completion(nil, error); return }
+                        if error != nil {
+                            completion(nil, error)
+                            return
+                        }
                         
                         for rawTransaction in rawTransactions {
                             
@@ -177,7 +180,6 @@ class BitCoinAPI {
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
                 do {
-                    
                     guard let data = data else { completion(nil, "data is nill"); return}
                     
                     let unspentOutputsBlockchainInfoResponse = try JSONDecoder().decode(UnspentOutputsBlockchainInfoResponse.self, from: data)

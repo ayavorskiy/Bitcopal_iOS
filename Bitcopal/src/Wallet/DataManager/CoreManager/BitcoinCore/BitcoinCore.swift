@@ -49,12 +49,9 @@ class BitCoinCore {
         guard let c = fromAddress.count else {completion(nil, "count is nill"); return}
         let balance = NSDecimalNumber(decimal:     c * 100000000).int64Value
         let fee = NSDecimalNumber(decimal:       fee * 100000000).int64Value
-        
-        
-        
+   
         let sending = TransactionOutput(value: amount, scriptLength: VarInt(lockingScript1.count), lockingScript: lockingScript1)
-        
-        
+  
         var outputMinValue = amount + fee
         var uOutputs = unspentOutputs.sorted(by: { $0.value < $1.value })
         var inputs = [UnspentOutputBlockchainInfoResponse]()

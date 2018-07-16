@@ -23,8 +23,7 @@ struct Constants {
         }
         
         struct Blockcypher {
-            //FIXME: -- write your token
-            static let broadcast = "https://api.blockcypher.com/v1/btc/main/txs/push?token=YOURTOKEN"
+            static let broadcast = "https://api.blockcypher.com/v1/btc/main/txs/push?token=fd834448a60b429395bf993fd9fc5dd2"
         }
     }
 }

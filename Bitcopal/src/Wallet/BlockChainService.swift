@@ -8,7 +8,7 @@
 
 import UIKit
 
-let bitcoinExchangeRate: Double = 5934.97
+let bitcoinExchangeRate: Double = 6599.63
 
 final class BlockChainService: NSObject {
    
