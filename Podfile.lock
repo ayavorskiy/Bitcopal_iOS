@@ -20,18 +20,21 @@ PODS:
     - Curve25519Kit (~> 2.1.0)
     - HKDFKit (~> 0.0.3)
     - ProtocolBuffers (~> 1.9.8)
+  - BitcoinKit (0.1.2)
   - CocoaLumberjack (3.4.2):
     - CocoaLumberjack/Default (= 3.4.2)
     - CocoaLumberjack/Extensions (= 3.4.2)
   - CocoaLumberjack/Default (3.4.2)
   - CocoaLumberjack/Extensions (3.4.2):
     - CocoaLumberjack/Default
+  - CryptoSwift (0.10.0)
   - Curve25519Kit (2.1.0)
   - GRKOpenSSLFramework (1.0.2.12)
   - HKDFKit (0.0.4)
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - KeychainAccess (3.1.1)
   - libPhoneNumber-iOS (0.9.13)
   - Mantle (2.1.0):
     - Mantle/extobjc (= 2.1.0)
@@ -130,10 +133,13 @@ DEPENDENCIES:
   - AFNetworking
   - ATAppUpdater
   - AxolotlKit (from `https://github.com/signalapp/SignalProtocolKit.git`)
+  - BitcoinKit (from `https://github.com/OleksiiShulzhenko/BitcoinKit.git`)
+  - CryptoSwift
   - Curve25519Kit (from `https://github.com/signalapp/Curve25519Kit`, branch `mkirk/framework-friendly`)
   - GRKOpenSSLFramework (from `https://github.com/signalapp/GRKOpenSSLFramework`)
   - HKDFKit (from `https://github.com/signalapp/HKDFKit.git`, branch `mkirk/framework-friendly`)
   - JSQMessagesViewController (from `https://github.com/signalapp/JSQMessagesViewController.git`, branch `mkirk/share-compatible`)
+  - KeychainAccess
   - Mantle
   - PureLayout
   - Reachability
@@ -145,11 +151,13 @@ DEPENDENCIES:
   - YYImage
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - ATAppUpdater
     - CocoaLumberjack
+    - CryptoSwift
     - JSQSystemSoundPlayer
+    - KeychainAccess
     - libPhoneNumber-iOS
     - Mantle
     - ProtocolBuffers
@@ -164,6 +172,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   AxolotlKit:
     :git: https://github.com/signalapp/SignalProtocolKit.git
+  BitcoinKit:
+    :git: https://github.com/OleksiiShulzhenko/BitcoinKit.git
   Curve25519Kit:
     :branch: mkirk/framework-friendly
     :git: https://github.com/signalapp/Curve25519Kit
@@ -190,6 +200,9 @@ CHECKOUT OPTIONS:
   AxolotlKit:
     :commit: b523c0b82e76295726ded8afec2715328d63213c
     :git: https://github.com/signalapp/SignalProtocolKit.git
+  BitcoinKit:
+    :commit: 3a1f0d09cec538e49abb9e0b3fa726ea5997ea82
+    :git: https://github.com/OleksiiShulzhenko/BitcoinKit.git
   Curve25519Kit:
     :commit: 03a19c80aafc10a3464f0c086b1eb38239c507ac
     :git: https://github.com/signalapp/Curve25519Kit
@@ -216,12 +229,15 @@ SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   ATAppUpdater: a9f7027060959d47e58733d3b48f6b9a28cb8de1
   AxolotlKit: 7cfd2e71329b8dc398734e95b936450a2081fd60
+  BitcoinKit: c24789a6eca87d3b7fe92137c549703be37a901e
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
   Curve25519Kit: 76d0859ecb34704f7732847812363f83b23a6a59
   GRKOpenSSLFramework: 8a3735ad41e7dc1daff460467bccd32ca5d6ae3e
   HKDFKit: 3fb424060aaf69795bc8ab34c4c233b98dc6303b
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
@@ -237,6 +253,6 @@ SPEC CHECKSUMS:
   YapDatabase: 299a32de9d350d37a9ac5b0532609d87d5d2a5de
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 8de43d35382e0ef623278a3a9bac974603e82380
+PODFILE CHECKSUM: 22382651472bf5a3f3dbb77351a6f6916ff28b8d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0

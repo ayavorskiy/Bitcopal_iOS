@@ -1150,11 +1150,11 @@ static NSTimeInterval launchStartedAt;
         SignalsNavigationController *navigationController = [[SignalsNavigationController alloc] initWithRootViewController:homeView];
         navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Chat" image:[UIImage imageNamed:@"chat_tab_icon"] tag:0];
         
-        UIViewController *wallet = [UIViewController new];
-        wallet.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Wallet" image:[UIImage imageNamed:@"wallet_tab_icon"] tag:1];
+        MainNavigationController *navBar = [[UIStoryboard storyboardWithName:@"Wallet" bundle:nil] instantiateViewControllerWithIdentifier:@"MainNavigationController"];
+        navBar.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Wallet" image:[UIImage imageNamed:@"wallet_tab_icon"] tag:1];
             
         UITabBarController *tabBarController = [UITabBarController new];
-        tabBarController.viewControllers = @[navigationController,wallet];
+        tabBarController.viewControllers = @[navigationController, navBar];
         tabBarController.tabBar.tintColor = [UIColor whiteColor];
         tabBarController.tabBar.barTintColor = [UIColor ows_signalBrandBlueColor];
         tabBarController.tabBar.translucent = NO;
