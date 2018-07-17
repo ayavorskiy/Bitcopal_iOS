@@ -151,6 +151,9 @@
                                                     <segment title="Standart fee"/>
                                                     <segment title="Econom fee"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="segmentedControlChangeValue:" destination="pHm-BT-eQY" eventType="valueChanged" id="jLK-aq-mVq"/>
+                                                </connections>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Processing speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gED-Tp-fli">
                                                 <rect key="frame" x="8" y="0.0" width="304" height="13.5"/>

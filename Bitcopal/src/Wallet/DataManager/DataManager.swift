@@ -32,7 +32,7 @@ class DataManager {
     
     func getWalletAddress(type: CurrencyType) -> Address? {
         let keychain = Keychain()
-        
+
         guard let address = keychain[string: "\(type.rawValue)address"] else { return nil }
         guard let privateKey = keychain[string: "\(type.rawValue)privateKey"] else { return nil }
         
@@ -54,7 +54,12 @@ class DataManager {
             }
             
             self.coreManager.generateTransaction(fromAddress: fromAddress, toAddress: toAddress, amount: amount, fee: fee, unspentOutputs: unspentOutputs, completion: { (rawTx, error) in
-                guard error != nil else { completion(false); print(error!); return }
+                if let error = error {
+                    print(error)
+                    completion(false)
+                    return
+                }
+                
                 guard let rawTx = rawTx else { completion(false); return }
                 
                 self.apiManager.broadcastTransaction(rawTx: rawTx, completion: { (success) in

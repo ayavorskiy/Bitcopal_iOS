@@ -99,18 +99,64 @@ class SendViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func sendButtonPressed(_ sender: Any) {
-        if let address = DataManager.shared.getWalletAddress(type: .bitcoin) {
-            DataManager.shared.sendTransaction(fromAddress: address,
-                                               toAddress: addressTextField.text!,
-                                               amount: Decimal(calculateAmount(text: amoundTextField.text!)),
-                                               fee: Decimal(calculateFee(text: amoundTextField.text!))) { (send) in
-                                             
+        if var address = DataManager.shared.getWalletAddress(type: .bitcoin) {
+            guard let toAdress = self.addressTextField.text, !toAdress.isEmpty else {
+                self.showAlert(title: "Validation error", message: "Address can't be empty!")
+                return
             }
+            
+            guard let amount = self.calculateAmount(text: self.amoundTextField.text) else {
+                self.showAlert(title: "Validation error", message: "Amount can't be empty!")
+                return
+            }
+            
+            guard let fee = self.calculateFee(text: self.amoundTextField.text) else {
+                self.showAlert(title: "Validation error", message: "Fee can't be empty!")
+                return
+            }
+            
+            DataManager.shared.apiManager.getSingleAddressInfo(address: address) { (info, error) in
+                if let balance = info?.balance.value {
+                    address.count = balance
+                    
+                    guard let balance = address.count else {
+                        self.showAlert(title: "Validation error", message: "You don't have enough coins")
+                        return
+                    }
+                    
+                    if (fee + amount + 0.00000547) > balance {
+                        self.showAlert(title: "Validation error", message: "You don't have enough coins")
+                    }
+                    
+                    DataManager.shared.sendTransaction(fromAddress: address, toAddress: toAdress, amount: amount, fee: fee) { (send) in
+                        DispatchQueue.main.async {
+                            if send {
+                                self.dismiss()
+                            } else {
+                                self.showAlert(title: "Sending error", message: "Something going wrong")
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            self.showAlert(title: "Validation error", message: "Address can't be empty!")
         }
+    }
+    
+    func showAlert(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let ok = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        alert.addAction(ok)
         
+        present(alert, animated: true, completion: nil)
     }
     
     @IBAction func closeButtonPressed(_ sender: Any) {
+        dismiss()
+    }
+    
+    func dismiss() {
         dismiss(animated: false, completion: nil)
     }
     
@@ -118,27 +164,43 @@ class SendViewController: UIViewController, UITextFieldDelegate {
         setFeeView(hidden: !feeView.isHidden)
     }
     
-    @objc func textFieldDidChange(_ textField: UITextField) {
-        if let text = textField.text {
-            let fee = calculateFee(text: text)
-            feeButton.setTitle("Fee: \(fee) BTC", for: .normal)
+    @IBAction func segmentedControlChangeValue(_ sender: UISegmentedControl) {
+        if let text = amoundTextField.text {
+            setupFeeButtonTitle(text: text)
         }
     }
     
-    func calculateFee(text: String) -> Double {
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        if let text = textField.text {
+            setupFeeButtonTitle(text: text)
+        }
+    }
+    
+    func setupFeeButtonTitle(text: String) {
+        if let fee = calculateFee(text: text) {
+            feeButton.setTitle("Fee: \(fee) BTC", for: .normal)
+        } else {
+            feeButton.setTitle("Fee: \(0) BTC", for: .normal)
+        }
+    }
+    
+    func calculateFee(text: String?) -> Decimal? {
+        guard let text = text, !text.isEmpty else { return nil }
+        
         guard let fee = Double(text.replacingOccurrences(of: ",", with: ".")) else { return 0}
         
         if feeSegmentedControl.selectedSegmentIndex == 1 {
             return 10/100000000
         }
 
-        return 20*fee/100
+        return Decimal(20*fee/100)
     }
     
-    func calculateAmount(text: String) -> Double {
+    func calculateAmount(text: String?) -> Decimal? {
+        guard let text = text, !text.isEmpty else { return nil }
         guard let amount = Double(text.replacingOccurrences(of: ",", with: ".")) else { return 0}
         
-        return amount
+        return Decimal(amount)
     }
     
     func setFeeView(hidden: Bool) {
