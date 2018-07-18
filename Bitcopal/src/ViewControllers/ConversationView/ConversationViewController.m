@@ -266,6 +266,11 @@ typedef enum : NSUInteger {
     return self;
 }
 
+- (BOOL)hidesBottomBarWhenPushed
+{
+    return YES;
+}
+
 - (void)commonInit
 {
     _contactsManager = [Environment current].contactsManager;
