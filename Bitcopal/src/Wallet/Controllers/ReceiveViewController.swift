@@ -9,10 +9,10 @@
 import UIKit
 import IQKeyboardManager
 
-class ReceiveViewController: UIViewController, UITextFieldDelegate {
+class ReceiveViewController: UIViewController {
     @IBOutlet weak var qrCodeImageView: UIImageView!
     @IBOutlet weak var shareButton: UIButton!
-    @IBOutlet weak var walletAddressTextField: UITextField!
+    @IBOutlet weak var walletAddressLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,24 +74,13 @@ class ReceiveViewController: UIViewController, UITextFieldDelegate {
 
     private func updateUI() {
         qrCodeImageView.image = generateVisualCode(address: receiveAddress())
-        walletAddressTextField.delegate = self
-        walletAddressTextField.text = receiveAddress()
-        walletAddressTextField.inputView = UIView()
-        walletAddressTextField.tintColor = .clear
-
+        walletAddressLabel.text = receiveAddress()
+        
         shareButton.dropShadow(color: UIColor.Common.navBarShadow,
                               opacity: 1,
                               offSet: CGSize(width: 3.0, height: 3.0),
                               radius: 4)
 
-    }
-
-//    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-//        return false
-//    }
-    
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        return false
     }
     
     func setTabBar(hidden: Bool) {

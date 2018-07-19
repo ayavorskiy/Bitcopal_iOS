@@ -78,32 +78,32 @@
                                             <action selector="shareButtonPressed:" destination="r2x-MO-9Xq" eventType="touchUpInside" id="za2-AE-U1f"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1CVS2aqKYYL7HUTVvnyLCZ7qjoEXd3LHwV" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8rU-Sg-G1x">
-                                        <rect key="frame" x="16" y="277" width="343" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1CVS2aqKYYL7HUTVvnyLCZ7qjoEXd3LHwV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koh-7p-enh" customClass="CopyableLabel" customModule="Bitcostar" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="279" width="343" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="J91-QH-EFY"/>
+                                            <constraint firstAttribute="height" constant="21" id="Qej-TI-h44"/>
                                         </constraints>
-                                        <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                        <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="5a1-Yp-pjh" firstAttribute="top" secondItem="Arz-Md-oCL" secondAttribute="top" id="5WO-sy-M9X"/>
-                                    <constraint firstItem="8rU-Sg-G1x" firstAttribute="top" secondItem="9gv-MX-hBq" secondAttribute="bottom" constant="16" id="6XY-Ur-XLI"/>
+                                    <constraint firstAttribute="trailing" secondItem="Koh-7p-enh" secondAttribute="trailing" constant="16" id="8yV-8r-cXZ"/>
                                     <constraint firstItem="9gv-MX-hBq" firstAttribute="centerX" secondItem="Arz-Md-oCL" secondAttribute="centerX" id="Heq-te-5br"/>
                                     <constraint firstItem="5a1-Yp-pjh" firstAttribute="leading" secondItem="Arz-Md-oCL" secondAttribute="leading" id="Jqr-B8-OL7"/>
-                                    <constraint firstItem="8rU-Sg-G1x" firstAttribute="leading" secondItem="Arz-Md-oCL" secondAttribute="leading" constant="16" id="Klx-Jx-GEN"/>
                                     <constraint firstItem="KAf-lf-sr4" firstAttribute="top" secondItem="Arz-Md-oCL" secondAttribute="top" constant="44" id="LZD-CN-1wJ"/>
-                                    <constraint firstItem="Y7i-zy-11w" firstAttribute="top" secondItem="8rU-Sg-G1x" secondAttribute="bottom" constant="16" id="TGD-Mj-Wuc"/>
+                                    <constraint firstItem="Koh-7p-enh" firstAttribute="top" secondItem="9gv-MX-hBq" secondAttribute="bottom" constant="18" id="MdD-FP-a3U"/>
                                     <constraint firstItem="KAf-lf-sr4" firstAttribute="leading" secondItem="Arz-Md-oCL" secondAttribute="leading" id="Uq2-sz-r3M"/>
-                                    <constraint firstAttribute="trailing" secondItem="8rU-Sg-G1x" secondAttribute="trailing" constant="16" id="W2j-gG-91l"/>
                                     <constraint firstItem="KAf-lf-sr4" firstAttribute="top" secondItem="5a1-Yp-pjh" secondAttribute="bottom" id="XYW-yZ-nMz"/>
                                     <constraint firstAttribute="height" constant="368" id="cpz-jY-2BW"/>
                                     <constraint firstAttribute="trailing" secondItem="Y7i-zy-11w" secondAttribute="trailing" constant="16" id="iEU-f9-qbE"/>
                                     <constraint firstAttribute="trailing" secondItem="KAf-lf-sr4" secondAttribute="trailing" id="ifN-bH-3rc"/>
                                     <constraint firstItem="9gv-MX-hBq" firstAttribute="top" secondItem="KAf-lf-sr4" secondAttribute="bottom" constant="16" id="jF7-26-1xj"/>
+                                    <constraint firstItem="Y7i-zy-11w" firstAttribute="top" secondItem="Koh-7p-enh" secondAttribute="bottom" constant="14" id="jFj-ku-gCf"/>
+                                    <constraint firstItem="Koh-7p-enh" firstAttribute="leading" secondItem="Arz-Md-oCL" secondAttribute="leading" constant="16" id="lce-46-RUp"/>
                                     <constraint firstAttribute="bottom" secondItem="Y7i-zy-11w" secondAttribute="bottom" constant="16" id="nUS-c3-e8u"/>
                                     <constraint firstItem="XuB-MV-TCH" firstAttribute="top" secondItem="Arz-Md-oCL" secondAttribute="top" constant="12" id="uzr-9p-Jeb"/>
                                     <constraint firstItem="Y7i-zy-11w" firstAttribute="leading" secondItem="Arz-Md-oCL" secondAttribute="leading" constant="16" id="x3q-Sx-Bzj"/>
@@ -128,7 +128,7 @@
                     <connections>
                         <outlet property="qrCodeImageView" destination="9gv-MX-hBq" id="JvL-wS-ogC"/>
                         <outlet property="shareButton" destination="Y7i-zy-11w" id="Mhz-mY-klt"/>
-                        <outlet property="walletAddressTextField" destination="8rU-Sg-G1x" id="ccQ-pE-BwF"/>
+                        <outlet property="walletAddressLabel" destination="Koh-7p-enh" id="q5b-km-klh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kkf-dV-X1j" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -380,6 +380,7 @@
 		76EB063A18170B33006006FC /* FunctionalUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB04EB18170B33006006FC /* FunctionalUtil.m */; };
 		80BC7047671E4B37F3A0E566 /* Pods_SignalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5534503F58D1CDEE9F9F95 /* Pods_SignalTests.framework */; };
 		954AEE6A1DF33E01002E5410 /* ContactsPickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AEE681DF33D32002E5410 /* ContactsPickerTest.swift */; };
+		959112B82100F262000FD372 /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959112B72100F262000FD372 /* CopyableLabel.swift */; };
 		95A6E45D20FC9FDD0033EE9F /* Receive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E42F20FC9FDD0033EE9F /* Receive.storyboard */; };
 		95A6E45E20FC9FDD0033EE9F /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E43020FC9FDD0033EE9F /* Wallet.storyboard */; };
 		95A6E45F20FC9FDD0033EE9F /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E43120FC9FDD0033EE9F /* Create.storyboard */; };
@@ -1079,6 +1080,7 @@
 		7D73B8F42C82D4DBDD8545DA /* Pods_SignalMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5534503F58D1CDEE9F9F95 /* Pods_SignalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		954AEE681DF33D32002E5410 /* ContactsPickerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerTest.swift; sourceTree = "<group>"; };
+		959112B72100F262000FD372 /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 		95A6E42F20FC9FDD0033EE9F /* Receive.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Receive.storyboard; sourceTree = "<group>"; };
 		95A6E43020FC9FDD0033EE9F /* Wallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wallet.storyboard; sourceTree = "<group>"; };
 		95A6E43120FC9FDD0033EE9F /* Create.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
@@ -2312,6 +2314,7 @@
 				95A6E44620FC9FDD0033EE9F /* UIApplicationExtention.swift */,
 				95A6E44720FC9FDD0033EE9F /* UIColorExtention.swift */,
 				95A6E44820FC9FDD0033EE9F /* UInt32 + [Uint8].swift */,
+				959112B72100F262000FD372 /* CopyableLabel.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -3569,6 +3572,7 @@
 				345BC30C2047030700257B7C /* OWS2FASettingsViewController.m in Sources */,
 				340FC8CA20517B84007AEB0F /* OWSBackupImportJob.m in Sources */,
 				340FC8B7204DAC8D007AEB0F /* OWSConversationSettingsViewController.m in Sources */,
+				959112B82100F262000FD372 /* CopyableLabel.swift in Sources */,
 				95A6E47920FC9FDE0033EE9F /* CurrenciesCollectionViewSection.swift in Sources */,
 				34BECE2E1F7ABCE000D7438D /* GifPickerViewController.swift in Sources */,
 				34D1F0C01F8EC1760066283D /* MessageRecipientStatusUtils.swift in Sources */,
