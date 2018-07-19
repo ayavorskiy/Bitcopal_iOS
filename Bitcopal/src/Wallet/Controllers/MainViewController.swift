@@ -39,7 +39,7 @@ extension MainViewController {
             
             let doubleBalance = Double(balance as NSNumber)
           
-            cell.balanceLabel.text = "\( doubleBalance)"
+            cell.balanceLabel.text = String(format: "%.8f", doubleBalance)
             cell.exchangeRateLabel.text = String(format: "~ %.2f USD", doubleBalance * bitcoinExchangeRate)
             cell.currencyLabel.text = getCurrenies().first(where: {$0.isSelected == true})?.title
             

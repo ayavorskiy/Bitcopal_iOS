@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tyr-mn-85h">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <color key="backgroundColor" red="0.14117647059999999" green="0.80784313730000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.78039215689999997" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="VBR-bF-cJ0">
                                     <size key="itemSize" width="375" height="117"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -176,17 +176,17 @@
                                                         <segue destination="EzG-7Q-DM9" kind="presentation" identifier="" animates="NO" modalPresentationStyle="overCurrentContext" id="nG8-Mr-CjL"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5T-mt-SMb">
-                                                    <rect key="frame" x="150.5" y="24" width="72.5" height="58"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="U5T-mt-SMb">
+                                                    <rect key="frame" x="53.5" y="24" width="267" height="58"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="58" id="XgY-3O-gd4"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="48"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="45"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BTС" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAT-FV-Una">
-                                                    <rect key="frame" x="226" y="15" width="46.5" height="29"/>
+                                                    <rect key="frame" x="323.5" y="15" width="47.5" height="29"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -212,12 +212,14 @@
                                             <constraint firstItem="dAT-FV-Una" firstAttribute="top" secondItem="MOB-na-ckF" secondAttribute="top" constant="15" id="RI9-Xp-nvB"/>
                                             <constraint firstAttribute="bottom" secondItem="Jvv-lJ-X9K" secondAttribute="bottom" constant="16" id="cSI-uH-WqS"/>
                                             <constraint firstItem="Jvv-lJ-X9K" firstAttribute="height" secondItem="LFN-OF-duj" secondAttribute="height" id="dIy-Cp-kZM"/>
+                                            <constraint firstAttribute="trailing" secondItem="dAT-FV-Una" secondAttribute="trailing" constant="2" id="hSD-BV-u5O"/>
                                             <constraint firstItem="U5T-mt-SMb" firstAttribute="top" secondItem="MOB-na-ckF" secondAttribute="top" constant="24" id="iwk-tN-Hma"/>
                                             <constraint firstAttribute="trailing" secondItem="JLi-aT-y0i" secondAttribute="trailing" id="k14-bO-RB9"/>
                                             <constraint firstAttribute="trailing" secondItem="Jvv-lJ-X9K" secondAttribute="trailing" constant="25" id="kAi-wr-oqF"/>
                                             <constraint firstItem="LFN-OF-duj" firstAttribute="leading" secondItem="MOB-na-ckF" secondAttribute="leading" constant="25" id="kJp-c3-k05"/>
                                             <constraint firstItem="Ai2-La-9Ss" firstAttribute="centerX" secondItem="MOB-na-ckF" secondAttribute="centerX" id="kWU-2g-f5g"/>
                                             <constraint firstAttribute="bottom" secondItem="JLi-aT-y0i" secondAttribute="bottom" id="oLr-Qf-sTh"/>
+                                            <constraint firstItem="dAT-FV-Una" firstAttribute="leading" secondItem="U5T-mt-SMb" secondAttribute="trailing" constant="3" id="poF-Be-Kkb"/>
                                             <constraint firstItem="JLi-aT-y0i" firstAttribute="leading" secondItem="MOB-na-ckF" secondAttribute="leading" id="xJN-od-0xr"/>
                                             <constraint firstItem="Jvv-lJ-X9K" firstAttribute="leading" secondItem="LFN-OF-duj" secondAttribute="trailing" constant="26" id="zsc-wM-GWt"/>
                                         </constraints>
@@ -411,7 +413,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="0.14117647059999999" green="0.80784313730000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.78039215689999997" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Tyr-mn-85h" firstAttribute="bottom" secondItem="KfS-7U-lSX" secondAttribute="bottom" id="4dS-c1-8Jp"/>
                             <constraint firstItem="Tyr-mn-85h" firstAttribute="trailing" secondItem="KfS-7U-lSX" secondAttribute="trailing" id="5AG-KO-b1o"/>
@@ -437,7 +439,7 @@
                 <viewControllerPlaceholder storyboardName="Receive" referencedIdentifier="ReceiveViewController" id="EzG-7Q-DM9" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqH-31-QVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="126"/>
+            <point key="canvasLocation" x="689" y="104"/>
         </scene>
         <!--SendViewController-->
         <scene sceneID="meZ-p3-v2V">
@@ -445,7 +447,7 @@
                 <viewControllerPlaceholder storyboardName="Send" referencedIdentifier="SendViewController" id="iba-H5-Nsf" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWd-1N-mhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="651" y="167"/>
+            <point key="canvasLocation" x="676" y="149"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="pAW-xc-gFf">
@@ -456,7 +458,7 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.14117647058823529" green="0.80784313725490198" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.94901960780000005" green="0.78039215689999997" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
