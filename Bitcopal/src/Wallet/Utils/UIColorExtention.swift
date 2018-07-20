@@ -12,7 +12,7 @@ import UIKit
 extension UIColor {
     
     struct Common {
-        static let main = UIColor(rgbColorCodeRed: 36, green: 206, blue: 100, alpha: 1)
+        static let main = UIColor(rgbColorCodeRed: 242, green: 199, blue: 102, alpha: 1)
         static let navBarShadow = UIColor(rgbColorCodeRed: 24, green: 152, blue: 111, alpha: 0.9)
     }
 
