@@ -193,7 +193,7 @@ class BitCoinAPI {
             }.resume()
     }
     
-    func broadcastTransaction(rawTx: String, completion: @escaping (_ success: Bool) -> ()) {
+    func broadcastTransaction(rawTx: String, completion: @escaping (_ success: Bool, _ hash: String?) -> ()) {
         let url = URL(string: Constants.BitCoinAPI.Blockcypher.broadcast)!
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -210,12 +210,31 @@ class BitCoinAPI {
             if let httpResponse = response as? HTTPURLResponse {
                 print("statusCode: \(httpResponse.statusCode)")
                 if httpResponse.statusCode == 201 {
-                    completion(true)
+                    if let data = data {
+                        do {
+                            let json = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? Dictionary<String, Any>
+                            
+                            if let tx = json!["tx"] as? Dictionary<String, Any> {
+                                
+                                if let hash = tx["hash"] as? String {
+                                    print(hash)
+                                    completion(true, hash)
+                                    return
+                                }
+                            }
+                        } catch let error as NSError {
+                            print(error.localizedDescription)
+                            completion(true, nil)
+                            return
+                        }
+                    }
+
+                    completion(true, nil)
                     return
                 }
             }
             
-            completion(false)
+            completion(false, nil)
             }.resume()
     }
 }
