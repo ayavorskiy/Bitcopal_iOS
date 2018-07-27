@@ -129,14 +129,10 @@ class SendViewController: UIViewController, UITextFieldDelegate {
                         self.showAlert(title: "Validation error", message: "You don't have enough coins")
                     }
                     
-                    DataManager.shared.sendTransaction(fromAddress: address, toAddress: toAdress, amount: amount, fee: fee) { (send, hash) in
+                    DataManager.shared.sendTransaction(fromAddress: address, toAddress: toAdress, amount: amount, fee: fee) { (send) in
                         DispatchQueue.main.async {
                             if send {
-                                if let hash = hash {
-                                    self.showTransactionAlert(title: nil, message: "Your transaction was sent to Blockchain and now in unconfirmed status till Bitcoin miners entered this transaction into a block of transaction on the Blockchain. \n You can check status of transaction following link", hash: hash)
-                                } else {
-                                    self.showAlert(title: nil, message: "Your transaction was sent to Blockchain and now in unconfirmed status till Bitcoin miners entered this transaction into a block of transaction on the Blockchain.")
-                                }
+                                self.showAlert(title: nil, message: "Your transaction was sent to Blockchain and now in unconfirmed status till Bitcoin miners entered this transaction into a block of transaction on the Blockchain.")
                             } else {
                                 self.showAlert(title: "Sending error", message: "Something went wrong")
                             }
@@ -155,28 +151,6 @@ class SendViewController: UIViewController, UITextFieldDelegate {
         alert.addAction(ok)
         
         present(alert, animated: true, completion: nil)
-    }
-    
-    func showTransactionAlert(title: String?, message: String, hash: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let close = UIAlertAction(title: "Close", style: .cancel, handler: nil)
-        
-        let open = UIAlertAction(title: "Show", style: .default) { _ in
-            self.openTransaction(hash: hash)
-        }
-        
-        alert.addAction(close)
-        alert.addAction(open)
-        
-        present(alert, animated: true, completion: nil)
-    }
-    
-    func openTransaction(hash: String) {
-
-        if let url = URL(string: "https://www.blockchain.com/btc/tx/" + hash) {
-            let safariVC = SFSafariViewController(url: url)
-            present(safariVC, animated: true)
-        }
     }
     
     @IBAction func closeButtonPressed(_ sender: Any) {

@@ -39,31 +39,31 @@ class DataManager {
         return Address(address: address, currency: type, privateKey: privateKey, seed: keychain[data: "\(type.rawValue)seed"])
     }
     
-    func sendTransaction(fromAddress: Address, toAddress: String, amount: Decimal, fee: Decimal, completion: @escaping (_ success: Bool, _ hash: String?) -> ()) {
+    func sendTransaction(fromAddress: Address, toAddress: String, amount: Decimal, fee: Decimal, completion: @escaping (_ success: Bool) -> ()) {
         
         apiManager.fetchUnspentOutputs(address: fromAddress) { [unowned self](unspentOutputs, error) in
             if let error = error {
                 print(error)
-                completion(false, nil)
+                completion(false)
                 return
             }
             
             guard let unspentOutputs = unspentOutputs else {
-                completion(false, nil)
+                completion(false)
                 return
             }
             
             self.coreManager.generateTransaction(fromAddress: fromAddress, toAddress: toAddress, amount: amount, fee: fee, unspentOutputs: unspentOutputs, completion: { (rawTx, error) in
                 if let error = error {
                     print(error)
-                    completion(false, nil)
+                    completion(false)
                     return
                 }
                 
-                guard let rawTx = rawTx else { completion(false, nil); return }
+                guard let rawTx = rawTx else { completion(false); return }
                 
-                self.apiManager.broadcastTransaction(rawTx: rawTx, completion: { (success, hash) in
-                    completion(success, hash)
+                self.apiManager.broadcastTransaction(rawTx: rawTx, completion: { (success) in
+                    completion(success)
                 })
             })
         }

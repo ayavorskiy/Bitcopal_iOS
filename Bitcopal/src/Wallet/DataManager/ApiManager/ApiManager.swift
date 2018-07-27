@@ -28,7 +28,7 @@ class ApiManager {
         }
     }
     
-    func broadcastTransaction(rawTx: String, completion: @escaping (_ success: Bool, _ hash: String?) -> ()) {
+    func broadcastTransaction(rawTx: String, completion: @escaping (_ success: Bool) -> ()) {
         return bitCoinAPI.broadcastTransaction(rawTx: rawTx, completion: completion)
     }
 }

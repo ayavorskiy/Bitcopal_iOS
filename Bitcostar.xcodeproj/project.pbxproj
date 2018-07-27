@@ -380,20 +380,22 @@
 		76EB063A18170B33006006FC /* FunctionalUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB04EB18170B33006006FC /* FunctionalUtil.m */; };
 		80BC7047671E4B37F3A0E566 /* Pods_SignalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5534503F58D1CDEE9F9F95 /* Pods_SignalTests.framework */; };
 		954AEE6A1DF33E01002E5410 /* ContactsPickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AEE681DF33D32002E5410 /* ContactsPickerTest.swift */; };
+		95804515210B04730072971C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804503210B04720072971C /* DataManager.swift */; };
+		95804516210B04730072971C /* DMApiExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804505210B04720072971C /* DMApiExtension.swift */; };
+		95804517210B04730072971C /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804507210B04720072971C /* CoreManager.swift */; };
+		95804518210B04730072971C /* BitcoinCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804509210B04720072971C /* BitcoinCore.swift */; };
+		95804519210B04730072971C /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580450B210B04720072971C /* ApiManager.swift */; };
+		9580451A210B04730072971C /* SingleAddressBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580450E210B04720072971C /* SingleAddressBlockchainInfoResponse.swift */; };
+		9580451B210B04730072971C /* BlockExplorerAddressInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580450F210B04720072971C /* BlockExplorerAddressInfo.swift */; };
+		9580451C210B04730072971C /* MultipleAddressBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804510210B04720072971C /* MultipleAddressBlockchainInfoResponse.swift */; };
+		9580451D210B04730072971C /* UnspentOutputsBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804511210B04720072971C /* UnspentOutputsBlockchainInfoResponse.swift */; };
+		9580451E210B04730072971C /* LatestBlockBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804512210B04720072971C /* LatestBlockBlockchainInfoResponse.swift */; };
+		9580451F210B04730072971C /* BlockExplorerTransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804513210B04720072971C /* BlockExplorerTransactionHistory.swift */; };
+		95804520210B04730072971C /* BitCoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95804514210B04720072971C /* BitCoinAPI.swift */; };
 		959112B82100F262000FD372 /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959112B72100F262000FD372 /* CopyableLabel.swift */; };
 		95A6E45D20FC9FDD0033EE9F /* Receive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E42F20FC9FDD0033EE9F /* Receive.storyboard */; };
 		95A6E45E20FC9FDD0033EE9F /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E43020FC9FDD0033EE9F /* Wallet.storyboard */; };
 		95A6E45F20FC9FDD0033EE9F /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6E43120FC9FDD0033EE9F /* Create.storyboard */; };
-		95A6E46020FC9FDD0033EE9F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43320FC9FDD0033EE9F /* DataManager.swift */; };
-		95A6E46120FC9FDD0033EE9F /* DMApiExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43520FC9FDD0033EE9F /* DMApiExtension.swift */; };
-		95A6E46220FC9FDD0033EE9F /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43720FC9FDD0033EE9F /* CoreManager.swift */; };
-		95A6E46320FC9FDD0033EE9F /* BitcoinCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43920FC9FDD0033EE9F /* BitcoinCore.swift */; };
-		95A6E46420FC9FDD0033EE9F /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43B20FC9FDD0033EE9F /* ApiManager.swift */; };
-		95A6E46520FC9FDD0033EE9F /* SingleAddressBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43E20FC9FDD0033EE9F /* SingleAddressBlockchainInfoResponse.swift */; };
-		95A6E46620FC9FDD0033EE9F /* MultipleAddressBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E43F20FC9FDD0033EE9F /* MultipleAddressBlockchainInfoResponse.swift */; };
-		95A6E46720FC9FDD0033EE9F /* UnspentOutputsBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44020FC9FDD0033EE9F /* UnspentOutputsBlockchainInfoResponse.swift */; };
-		95A6E46820FC9FDD0033EE9F /* LatestBlockBlockchainInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44120FC9FDD0033EE9F /* LatestBlockBlockchainInfoResponse.swift */; };
-		95A6E46920FC9FDD0033EE9F /* BitCoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44220FC9FDD0033EE9F /* BitCoinAPI.swift */; };
 		95A6E46A20FC9FDE0033EE9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44420FC9FDD0033EE9F /* Constants.swift */; };
 		95A6E46B20FC9FDE0033EE9F /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44520FC9FDD0033EE9F /* UIViewExtention.swift */; };
 		95A6E46C20FC9FDE0033EE9F /* UIApplicationExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6E44620FC9FDD0033EE9F /* UIApplicationExtention.swift */; };
@@ -1080,20 +1082,22 @@
 		7D73B8F42C82D4DBDD8545DA /* Pods_SignalMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5534503F58D1CDEE9F9F95 /* Pods_SignalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		954AEE681DF33D32002E5410 /* ContactsPickerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerTest.swift; sourceTree = "<group>"; };
+		95804503210B04720072971C /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		95804505210B04720072971C /* DMApiExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMApiExtension.swift; sourceTree = "<group>"; };
+		95804507210B04720072971C /* CoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
+		95804509210B04720072971C /* BitcoinCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinCore.swift; sourceTree = "<group>"; };
+		9580450B210B04720072971C /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9580450E210B04720072971C /* SingleAddressBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleAddressBlockchainInfoResponse.swift; sourceTree = "<group>"; };
+		9580450F210B04720072971C /* BlockExplorerAddressInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockExplorerAddressInfo.swift; sourceTree = "<group>"; };
+		95804510210B04720072971C /* MultipleAddressBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleAddressBlockchainInfoResponse.swift; sourceTree = "<group>"; };
+		95804511210B04720072971C /* UnspentOutputsBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnspentOutputsBlockchainInfoResponse.swift; sourceTree = "<group>"; };
+		95804512210B04720072971C /* LatestBlockBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestBlockBlockchainInfoResponse.swift; sourceTree = "<group>"; };
+		95804513210B04720072971C /* BlockExplorerTransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockExplorerTransactionHistory.swift; sourceTree = "<group>"; };
+		95804514210B04720072971C /* BitCoinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitCoinAPI.swift; sourceTree = "<group>"; };
 		959112B72100F262000FD372 /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 		95A6E42F20FC9FDD0033EE9F /* Receive.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Receive.storyboard; sourceTree = "<group>"; };
 		95A6E43020FC9FDD0033EE9F /* Wallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wallet.storyboard; sourceTree = "<group>"; };
 		95A6E43120FC9FDD0033EE9F /* Create.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
-		95A6E43320FC9FDD0033EE9F /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		95A6E43520FC9FDD0033EE9F /* DMApiExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMApiExtension.swift; sourceTree = "<group>"; };
-		95A6E43720FC9FDD0033EE9F /* CoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
-		95A6E43920FC9FDD0033EE9F /* BitcoinCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinCore.swift; sourceTree = "<group>"; };
-		95A6E43B20FC9FDD0033EE9F /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		95A6E43E20FC9FDD0033EE9F /* SingleAddressBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleAddressBlockchainInfoResponse.swift; sourceTree = "<group>"; };
-		95A6E43F20FC9FDD0033EE9F /* MultipleAddressBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleAddressBlockchainInfoResponse.swift; sourceTree = "<group>"; };
-		95A6E44020FC9FDD0033EE9F /* UnspentOutputsBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnspentOutputsBlockchainInfoResponse.swift; sourceTree = "<group>"; };
-		95A6E44120FC9FDD0033EE9F /* LatestBlockBlockchainInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestBlockBlockchainInfoResponse.swift; sourceTree = "<group>"; };
-		95A6E44220FC9FDD0033EE9F /* BitCoinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitCoinAPI.swift; sourceTree = "<group>"; };
 		95A6E44420FC9FDD0033EE9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		95A6E44520FC9FDD0033EE9F /* UIViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
 		95A6E44620FC9FDD0033EE9F /* UIApplicationExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtention.swift; sourceTree = "<group>"; };
@@ -2217,12 +2221,79 @@
 			path = views;
 			sourceTree = "<group>";
 		};
+		95804502210B04720072971C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				95804503210B04720072971C /* DataManager.swift */,
+				95804504210B04720072971C /* DataManagerExtensions */,
+				95804506210B04720072971C /* CoreManager */,
+				9580450A210B04720072971C /* ApiManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		95804504210B04720072971C /* DataManagerExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				95804505210B04720072971C /* DMApiExtension.swift */,
+			);
+			path = DataManagerExtensions;
+			sourceTree = "<group>";
+		};
+		95804506210B04720072971C /* CoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				95804507210B04720072971C /* CoreManager.swift */,
+				95804508210B04720072971C /* BitcoinCore */,
+			);
+			path = CoreManager;
+			sourceTree = "<group>";
+		};
+		95804508210B04720072971C /* BitcoinCore */ = {
+			isa = PBXGroup;
+			children = (
+				95804509210B04720072971C /* BitcoinCore.swift */,
+			);
+			path = BitcoinCore;
+			sourceTree = "<group>";
+		};
+		9580450A210B04720072971C /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				9580450B210B04720072971C /* ApiManager.swift */,
+				9580450C210B04720072971C /* BitCoinAPI */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		9580450C210B04720072971C /* BitCoinAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9580450D210B04720072971C /* Models */,
+				95804514210B04720072971C /* BitCoinAPI.swift */,
+			);
+			path = BitCoinAPI;
+			sourceTree = "<group>";
+		};
+		9580450D210B04720072971C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9580450E210B04720072971C /* SingleAddressBlockchainInfoResponse.swift */,
+				9580450F210B04720072971C /* BlockExplorerAddressInfo.swift */,
+				95804510210B04720072971C /* MultipleAddressBlockchainInfoResponse.swift */,
+				95804511210B04720072971C /* UnspentOutputsBlockchainInfoResponse.swift */,
+				95804512210B04720072971C /* LatestBlockBlockchainInfoResponse.swift */,
+				95804513210B04720072971C /* BlockExplorerTransactionHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		95A6E42D20FC9FDD0033EE9F /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				95804502210B04720072971C /* DataManager */,
 				95A6E47F20FCA0820033EE9F /* BlockChainService.swift */,
 				95A6E42E20FC9FDD0033EE9F /* Storyboards */,
-				95A6E43220FC9FDD0033EE9F /* DataManager */,
 				95A6E44320FC9FDD0033EE9F /* Utils */,
 				95A6E44920FC9FDD0033EE9F /* Models */,
 				95A6E45120FC9FDD0033EE9F /* Controllers */,
@@ -2239,71 +2310,6 @@
 				95A6E43120FC9FDD0033EE9F /* Create.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		95A6E43220FC9FDD0033EE9F /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43320FC9FDD0033EE9F /* DataManager.swift */,
-				95A6E43420FC9FDD0033EE9F /* DataManagerExtensions */,
-				95A6E43620FC9FDD0033EE9F /* CoreManager */,
-				95A6E43A20FC9FDD0033EE9F /* ApiManager */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		95A6E43420FC9FDD0033EE9F /* DataManagerExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43520FC9FDD0033EE9F /* DMApiExtension.swift */,
-			);
-			path = DataManagerExtensions;
-			sourceTree = "<group>";
-		};
-		95A6E43620FC9FDD0033EE9F /* CoreManager */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43720FC9FDD0033EE9F /* CoreManager.swift */,
-				95A6E43820FC9FDD0033EE9F /* BitcoinCore */,
-			);
-			path = CoreManager;
-			sourceTree = "<group>";
-		};
-		95A6E43820FC9FDD0033EE9F /* BitcoinCore */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43920FC9FDD0033EE9F /* BitcoinCore.swift */,
-			);
-			path = BitcoinCore;
-			sourceTree = "<group>";
-		};
-		95A6E43A20FC9FDD0033EE9F /* ApiManager */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43B20FC9FDD0033EE9F /* ApiManager.swift */,
-				95A6E43C20FC9FDD0033EE9F /* BitCoinAPI */,
-			);
-			path = ApiManager;
-			sourceTree = "<group>";
-		};
-		95A6E43C20FC9FDD0033EE9F /* BitCoinAPI */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43D20FC9FDD0033EE9F /* Models */,
-				95A6E44220FC9FDD0033EE9F /* BitCoinAPI.swift */,
-			);
-			path = BitCoinAPI;
-			sourceTree = "<group>";
-		};
-		95A6E43D20FC9FDD0033EE9F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				95A6E43E20FC9FDD0033EE9F /* SingleAddressBlockchainInfoResponse.swift */,
-				95A6E43F20FC9FDD0033EE9F /* MultipleAddressBlockchainInfoResponse.swift */,
-				95A6E44020FC9FDD0033EE9F /* UnspentOutputsBlockchainInfoResponse.swift */,
-				95A6E44120FC9FDD0033EE9F /* LatestBlockBlockchainInfoResponse.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		95A6E44320FC9FDD0033EE9F /* Utils */ = {
@@ -3434,6 +3440,7 @@
 				45C9DEB81DF4E35A0065CA84 /* WebRTCCallMessageHandler.swift in Sources */,
 				34D1F0501F7D45A60066283D /* GifPickerCell.swift in Sources */,
 				95A6E47220FC9FDE0033EE9F /* MainScreenDTO.swift in Sources */,
+				95804518210B04730072971C /* BitcoinCore.swift in Sources */,
 				34D99C931F2937CC00D284D6 /* OWSAnalytics.swift in Sources */,
 				340FC8B8204DAC8D007AEB0F /* AddToGroupViewController.m in Sources */,
 				4542DF52208B82E9007B4E76 /* ThreadViewModel.swift in Sources */,
@@ -3457,6 +3464,7 @@
 				4505C2BF1E648EA300CEBF41 /* ExperienceUpgrade.swift in Sources */,
 				34CCAF381F0C0599004084F4 /* AppUpdateNag.m in Sources */,
 				EF764C351DB67CC5000D9A87 /* UIViewController+Permissions.m in Sources */,
+				95804519210B04730072971C /* ApiManager.swift in Sources */,
 				45CD81EF1DC030E7004C9430 /* SyncPushTokensJob.swift in Sources */,
 				34D2CCE0206939B400CB1A14 /* DebugUIMessagesAssetLoader.m in Sources */,
 				45794E861E00620000066731 /* CallUIAdapter.swift in Sources */,
@@ -3475,20 +3483,17 @@
 				340FC8AD204DAC8D007AEB0F /* OWSLinkedDevicesTableViewController.m in Sources */,
 				340FC8AA204DAC8D007AEB0F /* NotificationSettingsViewController.m in Sources */,
 				3496744F2076ACD000080B5F /* LongTextViewController.swift in Sources */,
-				95A6E46120FC9FDD0033EE9F /* DMApiExtension.swift in Sources */,
 				34FD93701E3BD43A00109093 /* OWSAnyTouchGestureRecognizer.m in Sources */,
 				95A6E46A20FC9FDE0033EE9F /* Constants.swift in Sources */,
 				34B3F8931E8DF1710035BE1A /* SignalsNavigationController.m in Sources */,
 				34D1F0AC1F867BFC0066283D /* OWSExpirationTimerView.m in Sources */,
 				76EB063A18170B33006006FC /* FunctionalUtil.m in Sources */,
 				34F308A21ECB469700BB7697 /* OWSBezierPathView.m in Sources */,
-				95A6E46020FC9FDD0033EE9F /* DataManager.swift in Sources */,
 				45B27B862037FFB400A539DF /* DebugUIFileBrowser.swift in Sources */,
 				34CE88E71F2FB9A10098030F /* ProfileViewController.m in Sources */,
 				34B0796D1FCF46B100E248C2 /* MainAppContext.m in Sources */,
 				34E3EF101EFC2684007F6822 /* DebugUIPage.m in Sources */,
 				340FC8CD20518C77007AEB0F /* OWSBackupJob.m in Sources */,
-				95A6E46320FC9FDD0033EE9F /* BitcoinCore.swift in Sources */,
 				34D1F0AE1F867BFC0066283D /* OWSMessageCell.m in Sources */,
 				451686AB1F520CDA00AC3D4B /* MultiDeviceProfileKeyUpdateJob.swift in Sources */,
 				45D231771DC7E8F10034FA89 /* SessionResetJob.swift in Sources */,
@@ -3497,16 +3502,20 @@
 				452037D11EE84975004E4CDF /* DebugUISessionState.m in Sources */,
 				D221A09A169C9E5E00537ABF /* main.m in Sources */,
 				34B3F87B1E8DF1700035BE1A /* ExperienceUpgradesPageViewController.swift in Sources */,
+				9580451B210B04730072971C /* BlockExplorerAddressInfo.swift in Sources */,
 				452EA09E1EA7ABE00078744B /* AttachmentPointerView.swift in Sources */,
 				95A6E48020FCA0830033EE9F /* BlockChainService.swift in Sources */,
 				95A6E47820FC9FDE0033EE9F /* TransactionCollectionViewCell.swift in Sources */,
 				45638BDC1F3DD0D400128435 /* DebugUICalling.swift in Sources */,
 				45464DBC1DFA041F001D3FD6 /* DataChannelMessage.swift in Sources */,
+				95804515210B04730072971C /* DataManager.swift in Sources */,
 				34E3E5681EC4B19400495BAC /* AudioProgressView.swift in Sources */,
 				95F536FD20FD07F3008AC36D /* BarCodeReaderViewController.swift in Sources */,
 				34D1F0521F7E8EA30066283D /* GiphyDownloader.swift in Sources */,
+				9580451E210B04730072971C /* LatestBlockBlockchainInfoResponse.swift in Sources */,
 				340FC8BC204DAC8D007AEB0F /* FingerprintViewController.m in Sources */,
 				450DF2051E0D74AC003D14BE /* Platform.swift in Sources */,
+				9580451F210B04730072971C /* BlockExplorerTransactionHistory.swift in Sources */,
 				340FC8B2204DAC8D007AEB0F /* AdvancedSettingsTableViewController.m in Sources */,
 				452B999020A34B6B006F2F9E /* AddContactShareToExistingContactViewController.swift in Sources */,
 				95A6E47B20FC9FDE0033EE9F /* ReceiveViewController.swift in Sources */,
@@ -3521,7 +3530,6 @@
 				452314A01F7E9E18003A428C /* DirectionalPanGestureRecognizer.swift in Sources */,
 				34330AA31E79686200DF2FB9 /* OWSProgressView.m in Sources */,
 				45D2AC02204885170033C692 /* OWS2FAReminderViewController.swift in Sources */,
-				95A6E46420FC9FDD0033EE9F /* ApiManager.swift in Sources */,
 				4542DF54208D40AC007B4E76 /* LoadingViewController.swift in Sources */,
 				C428EC0620BB13B9008E3A83 /* GameWebViewController.m in Sources */,
 				34D5CCA91EAE3D30005515DB /* AvatarViewHelper.m in Sources */,
@@ -3533,15 +3541,13 @@
 				458E38371D668EBF0094BD24 /* OWSDeviceProvisioningURLParser.m in Sources */,
 				4517642B1DE939FD00EDB8B9 /* ContactCell.swift in Sources */,
 				340FC8AB204DAC8D007AEB0F /* DomainFrontingCountryViewController.m in Sources */,
-				95A6E46220FC9FDD0033EE9F /* CoreManager.swift in Sources */,
+				9580451A210B04730072971C /* SingleAddressBlockchainInfoResponse.swift in Sources */,
 				3496744D2076768700080B5F /* OWSMessageBubbleView.m in Sources */,
-				95A6E46520FC9FDD0033EE9F /* SingleAddressBlockchainInfoResponse.swift in Sources */,
 				34B3F8751E8DF1700035BE1A /* CallViewController.swift in Sources */,
 				34D8C0281ED3673300188D7C /* DebugUITableViewController.m in Sources */,
 				95A6E47420FC9FDE0033EE9F /* Transaction.swift in Sources */,
 				45F32C222057297A00A300D5 /* MediaDetailViewController.m in Sources */,
 				34B3F8851E8DF1700035BE1A /* NewGroupViewController.m in Sources */,
-				95A6E46620FC9FDD0033EE9F /* MultipleAddressBlockchainInfoResponse.swift in Sources */,
 				34D8C0271ED3673300188D7C /* DebugUIMessages.m in Sources */,
 				95A6E47A20FC9FDE0033EE9F /* TransactionsCollectionViewSection.swift in Sources */,
 				34DBF003206BD5A500025978 /* OWSMessageTextView.m in Sources */,
@@ -3556,6 +3562,7 @@
 				45AE48511E0732D6004D96C2 /* TurnServerInfo.swift in Sources */,
 				34B3F8771E8DF1700035BE1A /* ContactsPicker.swift in Sources */,
 				45C0DC1B1E68FE9000E04C47 /* UIApplication+OWS.swift in Sources */,
+				9580451D210B04730072971C /* UnspentOutputsBlockchainInfoResponse.swift in Sources */,
 				45638BDF1F3DDB2200128435 /* MessageSender+Promise.swift in Sources */,
 				45FBC5C81DF8575700E9B410 /* CallKitCallManager.swift in Sources */,
 				4539B5861F79348F007141FF /* PushRegistrationManager.swift in Sources */,
@@ -3568,6 +3575,7 @@
 				452C468F1E427E200087B011 /* OutboundCallInitiator.swift in Sources */,
 				95A6E47720FC9FDE0033EE9F /* CurrencyCollectionViewCell.swift in Sources */,
 				34D2CCDA2062E7D000CB1A14 /* OWSScreenLockUI.m in Sources */,
+				9580451C210B04730072971C /* MultipleAddressBlockchainInfoResponse.swift in Sources */,
 				45F170BB1E2FC5D3003FC1F2 /* CallAudioService.swift in Sources */,
 				345BC30C2047030700257B7C /* OWS2FASettingsViewController.m in Sources */,
 				340FC8CA20517B84007AEB0F /* OWSBackupImportJob.m in Sources */,
@@ -3580,7 +3588,6 @@
 				45BB93381E688E14001E3939 /* UIDevice+featureSupport.swift in Sources */,
 				34277A5E20751BDC006049F2 /* OWSQuotedMessageView.m in Sources */,
 				458DE9D61DEE3FD00071BB03 /* PeerConnectionClient.swift in Sources */,
-				95A6E46820FC9FDD0033EE9F /* LatestBlockBlockchainInfoResponse.swift in Sources */,
 				45DDA6242090CEB500DE97F8 /* ConversationHeaderView.swift in Sources */,
 				95A6E47020FC9FDE0033EE9F /* SingleAddressInfo.swift in Sources */,
 				45F32C242057297A00A300D5 /* MessageDetailViewController.swift in Sources */,
@@ -3591,9 +3598,10 @@
 				34E88D262098C5AE00A608F4 /* ContactViewController.swift in Sources */,
 				FCC81A981A44558300DFEC7D /* UIDevice+TSHardwareVersion.m in Sources */,
 				76EB054018170B33006006FC /* AppDelegate.m in Sources */,
+				95804520210B04730072971C /* BitCoinAPI.swift in Sources */,
 				95A6E48620FCAEC30033EE9F /* SendViewController.swift in Sources */,
 				34D1F0831F8678AA0066283D /* ConversationInputTextView.m in Sources */,
-				95A6E46720FC9FDD0033EE9F /* UnspentOutputsBlockchainInfoResponse.swift in Sources */,
+				95804516210B04730072971C /* DMApiExtension.swift in Sources */,
 				340FC8B6204DAC8D007AEB0F /* OWSQRCodeScanningViewController.m in Sources */,
 				34D1F0B11F867BFC0066283D /* OWSUnreadIndicatorCell.m in Sources */,
 				340FC8B5204DAC8D007AEB0F /* AboutTableViewController.m in Sources */,
@@ -3606,8 +3614,8 @@
 				4574A5D61DD6704700C6B692 /* CallService.swift in Sources */,
 				340FC8A8204DAC8D007AEB0F /* CodeVerificationViewController.m in Sources */,
 				3461299C1FD1EA9E00532771 /* NotificationsManager.m in Sources */,
+				95804517210B04730072971C /* CoreManager.swift in Sources */,
 				95A6E46D20FC9FDE0033EE9F /* UIColorExtention.swift in Sources */,
-				95A6E46920FC9FDD0033EE9F /* BitCoinAPI.swift in Sources */,
 				4521C3C01F59F3BA00B4C582 /* TextFieldHelper.swift in Sources */,
 				34D2CCDF206939B400CB1A14 /* DebugUIMessagesAction.m in Sources */,
 				340FC8AC204DAC8D007AEB0F /* PrivacySettingsTableViewController.m in Sources */,
