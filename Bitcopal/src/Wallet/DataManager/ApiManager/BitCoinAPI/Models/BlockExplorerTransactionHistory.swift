@@ -124,7 +124,7 @@ struct Vin : Codable {
     let n : Int?
     let addr : String?
     let valueSat : Decimal?
-    let value : Double?
+    let value : Decimal?
     let doubleSpentTxID : String?
     
     enum CodingKeys: String, CodingKey {
@@ -149,7 +149,7 @@ struct Vin : Codable {
         n = try values.decodeIfPresent(Int.self, forKey: .n)
         addr = try values.decodeIfPresent(String.self, forKey: .addr)
         valueSat = try values.decodeIfPresent(Decimal.self, forKey: .valueSat)
-        value = try values.decodeIfPresent(Double.self, forKey: .value)
+        value = try values.decodeIfPresent(Decimal.self, forKey: .value)
         doubleSpentTxID = try values.decodeIfPresent(String.self, forKey: .doubleSpentTxID)
     }
     
@@ -160,8 +160,8 @@ struct Vout : Codable {
     let n : Int?
     let scriptPubKey : ScriptPubKey?
     let spentTxId : String?
-    let spentIndex : String?
-    let spentHeight : String?
+    let spentIndex : Decimal?
+    let spentHeight : Decimal?
     
     enum CodingKeys: String, CodingKey {
         
@@ -179,8 +179,8 @@ struct Vout : Codable {
         n = try values.decodeIfPresent(Int.self, forKey: .n)
         scriptPubKey = try values.decodeIfPresent(ScriptPubKey.self, forKey: .scriptPubKey)
         spentTxId = try values.decodeIfPresent(String.self, forKey: .spentTxId)
-        spentIndex = try values.decodeIfPresent(String.self, forKey: .spentIndex)
-        spentHeight = try values.decodeIfPresent(String.self, forKey: .spentHeight)
+        spentIndex = try values.decodeIfPresent(Decimal.self, forKey: .spentIndex)
+        spentHeight = try values.decodeIfPresent(Decimal.self, forKey: .spentHeight)
     }
     
 }

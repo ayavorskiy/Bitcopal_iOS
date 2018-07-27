@@ -227,7 +227,7 @@ class BitCoinAPI {
     }
     
     private func fetchTransactionHistory(address: Address, completion: @escaping (_ transactions: [Transaction]?, _ error: String?) -> ()) {
-        
+
         guard let endpoint = URL(string: Constants.BitCoinAPI.BlockExplorer.historyTransactions + address.address) else {
             completion(nil, "Error creating endpoint")
             return
@@ -252,9 +252,7 @@ class BitCoinAPI {
                     
                     guard let confirmations = t.confirmations else { completion(nil, "txs confirmations is nill"); return}
                     
-                    guard let idString = t.txid else { completion(nil, "txs idString is nill"); return}
-                    
-                    guard let id = Decimal(string: idString) else { completion(nil, "txs id is nill"); return}
+                    guard let id = t.txid else { completion(nil, "txs id is nill"); return}
                     
                     guard let inputs = t.vin else {
                         continue

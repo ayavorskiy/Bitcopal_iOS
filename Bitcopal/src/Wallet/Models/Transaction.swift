@@ -18,7 +18,7 @@ struct Transaction {
     let address: String
     let fee: Decimal
     let confirmations: Decimal
-    let id: Decimal
+    let id: String
 
 }
 
