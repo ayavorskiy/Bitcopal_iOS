@@ -213,9 +213,9 @@ class BitCoinAPI {
                 
                 let addressInfo = try JSONDecoder().decode(BlockExplorerAddressInfo.self, from: data)
                 
-                guard let confirmedBalance = addressInfo.balanceSat else { completion(nil, "confirmedBalance is nill"); return}
+                guard let confirmedBalance = addressInfo.balance else { completion(nil, "confirmedBalance is nill"); return}
                 
-                guard let unconfirmedBalance = addressInfo.unconfirmedBalanceSat else { completion(nil, "unconfirmedBalance is nill"); return}
+                guard let unconfirmedBalance = addressInfo.unconfirmedBalance else { completion(nil, "unconfirmedBalance is nill"); return}
                 
                 completion(confirmedBalance + unconfirmedBalance, nil)
                 
