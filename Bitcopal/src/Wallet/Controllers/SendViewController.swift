@@ -181,7 +181,7 @@ class SendViewController: UIViewController, UITextFieldDelegate {
     
     func setupFeeButtonTitle(text: String) {
         if let fee = calculateFee(text: text) {
-            feeButton.setTitle("Fee: \(fee) BTC", for: .normal)
+            feeButton.setTitle("Fee: \(String(format: "%.8f", Double(fee as NSNumber))) BTC", for: .normal)
         } else {
             feeButton.setTitle("Fee: \(0) BTC", for: .normal)
         }

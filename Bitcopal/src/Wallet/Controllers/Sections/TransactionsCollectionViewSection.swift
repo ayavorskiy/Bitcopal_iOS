@@ -11,6 +11,8 @@ import UIKit
 class TransactionsCollectionViewSection: UICollectionViewCell, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var selectionHandler: ((_ transaction: Transaction) -> Void)?
+    
     var transactions = [Transaction]() {
         didSet {
             collectionView.reloadData()
@@ -49,7 +51,7 @@ class TransactionsCollectionViewSection: UICollectionViewCell, UICollectionViewD
         
         cell.imageView.image = transaction.type == .receipt ? UIImage(named: "arrow_down") : UIImage(named: "arrow_up")
         cell.addressLabel.text = transaction.address
-        cell.amauntLabel.text =  (transaction.type == .receipt ? "+" : "-") + " \(resultBalance) BTC"
+        cell.amauntLabel.text = (transaction.type == .receipt ? "+" : "-") + String(format: "%.8f", resultBalance) + " BTC"
         cell.amaountUSDLabel.text = String(format: "~ %.2f USD", resultBalance * bitcoinExchangeRate)
 
         let dateFormatter = DateFormatter()
@@ -63,5 +65,9 @@ class TransactionsCollectionViewSection: UICollectionViewCell, UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.bounds.size.width, height: 78)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        selectionHandler?(transactions[indexPath.row])
     }
 }

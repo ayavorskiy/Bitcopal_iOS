@@ -8,6 +8,7 @@
 
 import UIKit
 import BitcoinKit
+import SafariServices
 
 extension MainViewController {
     // MARK: UICollectionViewDataSource
@@ -56,6 +57,9 @@ extension MainViewController {
             }
             
             cell.transactions = transactions
+            cell.selectionHandler = { (transaction) in
+                self.presentTransactionDetails(transaction.id)
+            }
             
             return cell
         default:
@@ -150,5 +154,12 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
                      Currency(with: UIImage(named: "im_bitcostar")!, title: "Bitcostar", type: .bitcostar)]
         
         return array
+    }
+    
+    func presentTransactionDetails(_ transactionId: String) {
+        guard let url = URL(string: Constants.BitCoinAPI.Blockchain.transactionDetails + transactionId) else { return }
+        
+        let controller = SFSafariViewController(url: url)
+        present(controller, animated: true, completion: nil)
     }
 }

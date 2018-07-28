@@ -22,6 +22,11 @@ struct Constants {
             static let broadcast = {return baseUrl + "/blockchain/broadcast"}()
         }
         
+        struct Blockchain {
+            private static let baseUrl = "https://blockchain.com"
+            static let transactionDetails = {return baseUrl + "/btc/tx/"}()
+        }
+        
         struct BlockExplorer {
             
             private static let baseUrl = "https://blockexplorer.com/api"
@@ -31,7 +36,7 @@ struct Constants {
         
         struct Blockcypher {
             //FIXME: -- write your token
-            static let broadcast = "https://api.blockcypher.com/v1/btc/main/txs/push?token=YOURTOKEN"
+            static let broadcast = "https://api.blockcypher.com/v1/btc/main/txs/push?token=fd834448a60b429395bf993fd9fc5dd2"
         }
     }
 }
