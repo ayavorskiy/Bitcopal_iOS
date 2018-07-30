@@ -32,11 +32,11 @@ extension MainViewController {
                 fatalError()
             }
             
-            guard let balance = data?.balance.value else { return cell}
-            
             if #available(iOS 10.0, *) {
                 collectionView.refreshControl?.endRefreshing()
             }
+            
+            guard let balance = data?.balance.value else { return cell}
             
             let doubleBalance = Double(balance as NSNumber)
           
@@ -50,12 +50,12 @@ extension MainViewController {
                 fatalError()
             }
             
-            guard let transactions = data?.transactions else { return cell}
-            
             if #available(iOS 10.0, *) {
                 collectionView.refreshControl?.endRefreshing()
             }
             
+            guard let transactions = data?.transactions else { return cell}
+           
             cell.transactions = transactions
             cell.selectionHandler = { (transaction) in
                 self.presentTransactionDetails(transaction.id)
@@ -112,6 +112,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        checkUser()
         userRefreshData()
     }
 

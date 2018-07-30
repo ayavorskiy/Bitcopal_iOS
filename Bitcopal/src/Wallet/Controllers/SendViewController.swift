@@ -132,7 +132,11 @@ class SendViewController: UIViewController, UITextFieldDelegate {
                     DataManager.shared.sendTransaction(fromAddress: address, toAddress: toAdress, amount: amount, fee: fee) { (send) in
                         DispatchQueue.main.async {
                             if send {
-                                self.showAlert(title: nil, message: "Your transaction was sent to Blockchain and now in unconfirmed status till Bitcoin miners entered this transaction into a block of transaction on the Blockchain.")
+                                let ok = UIAlertAction(title: "Ok", style: .cancel) { _ in
+                                    self.dismiss(nil)
+                                }
+                                
+                                self.showAlert(title: nil, message: "Your transaction was sent to Blockchain and now in unconfirmed status till Bitcoin miners entered this transaction into a block of transaction on the Blockchain.", action: ok)
                             } else {
                                 self.showAlert(title: "Sending error", message: "Something went wrong")
                             }
@@ -145,10 +149,9 @@ class SendViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    func showAlert(title: String?, message: String) {
+    func showAlert(title: String?, message: String, action: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let ok = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-        alert.addAction(ok)
+        alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
     }
