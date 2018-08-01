@@ -127,6 +127,7 @@ class SendViewController: UIViewController, UITextFieldDelegate {
                     
                     if (fee + amount + 0.00000547) > balance {
                         self.showAlert(title: "Validation error", message: "You don't have enough coins")
+                        return
                     }
                     
                     DataManager.shared.sendTransaction(fromAddress: address, toAddress: toAdress, amount: amount, fee: fee) { (send) in
@@ -180,6 +181,12 @@ class SendViewController: UIViewController, UITextFieldDelegate {
         if let text = textField.text {
             setupFeeButtonTitle(text: text)
         }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        
+        return false
     }
     
     func setupFeeButtonTitle(text: String) {
